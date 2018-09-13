@@ -1,0 +1,59 @@
+/**
+ * partials/header
+ * ---
+ */
+
+
+// Header container
+header {
+  flex: none;
+  background: $black;
+  height: $headerHeight;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+  & > div#header{
+    max-width: $wrapper-width;
+    width:100%;
+    margin: 0 auto 0 auto;
+    height: 100px;
+    display: table;
+    overflow: hidden;
+    & .logo {
+      display: table-cell;
+      vertical-align: middle;
+      & a {
+        & svg {
+          float:left;
+          max-width:300px;
+          width:100%;
+          & path {
+            fill:rgba(255,255,255,1.0);
+          }
+          &:hover {
+            path {
+              fill:rgba(255,255,255,.8);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* 30px @ 1400px increasing to 50px @ 2500px */
+@media (min-width: 1400px) {
+  h1 {
+    font-size: calc(1.875rem + ((1vw - 14px) * 1.8182));
+    /* Where: * 1.8182 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 2500px) {
+  h1 {
+    font-size: 50px;
+  }
+}

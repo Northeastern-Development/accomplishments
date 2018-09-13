@@ -1,0 +1,1556 @@
+ /**
+ * partials/learning page
+ * ---
+ */
+
+ $text-color: #444;
+ $body-bg: #fff;
+ $selection-bg: #04A4CC;
+ $black:rgba(0, 0, 0, 1.0);
+ $white:rgba(255, 255, 255, 1.0);
+ $hover: rgba(204, 0, 0, 1.0);
+ $red: rgba(204, 0, 0, 1.0);
+
+ $headerHeight: 100px;
+ $wrapper-width: 1280px;
+ $full-width: 100vw;
+
+ $lato: 'Lato', sans-serif;
+ $light: 300;
+ $reg: 400;
+ $bld: 700;
+ $blk: 900;
+
+ @mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ @mixin wrapper {
+ 	margin:0 auto;
+ 	max-width:1280px;
+ 	width:100%;
+ }
+
+ @mixin reset-box {
+  padding: 0;
+  margin: 0;
+ }
+
+ @mixin micro-clearfix {
+ 	 & {
+ 		 *zoom: 1;
+ 	 }
+ 	 &:before,
+ 	 &:after {
+ 		 content: "";
+ 		 display: table;
+ 	 }
+ 	 &:after {
+ 		 clear: both;
+ 	 }
+ }
+
+
+section.hero {
+  border-bottom:10px solid $red;
+  background-color: rgba(255,255,255,1.0);
+  background: url(../../img/research/research_hero.jpg); background-size: cover; background-position: center center;
+  & .wrapper {
+    & h2 {
+      color: rgba(0,0,0,1.0);
+      margin: 30px auto 30px auto;
+      width: 60%;
+      // & > span{
+      //   font-weight: bolder;
+      // }
+    }
+  }
+}
+
+.section-header {
+	font-size:5.6rem;
+	text-align:center;
+	color:$black;
+  // max-width:850px;
+  // width:100%;
+  margin:0 auto;
+  font-weight:300;
+  //letter-spacing: 2px;
+  line-height: 7.2rem;
+}
+
+body.js > .parent {
+  height:0;
+}
+
+section.nu__facultypartnerships {
+  // border-bottom:10px solid $red;
+  background-color: rgba(237, 230, 212, 1.0);
+  & .wrapper {
+    & h2 {
+      color: rgba(0,0,0,1.0);
+      margin: 30px auto 30px auto;
+      width: 70%;
+      // & > span{
+      //   font-weight: bolder;
+      // }
+    }
+
+    & > ul{
+      position: absolute;
+      background: rgba(52, 52, 52, 1.0);
+      list-style: none;
+      list-style-type: none;
+      width: 350px;
+      margin: 50px 0 0 0;
+      display: table;
+      border: solid rgba(89, 89, 89, 1.0) 1px;
+      & > li{
+        display: table-row;
+
+        & > a{
+          display: table-cell;
+          vertical-align: middle;
+          font-size: 2rem;
+          line-height: 3rem;
+          font-weight: 700;
+          height: 9rem;
+          border-bottom: solid rgba(89, 89, 89, 1.0) 1px;
+          color: rgba(255,255,255,1.0);
+          padding: 0 20px 0 20px;
+          text-decoration: none;
+          position: relative;
+          &.activeoption{
+            background: $red;
+            &:after,
+            &:before {
+            	left: 100%;
+            	top: 50%;
+            	border: solid transparent;
+            	content: " ";
+            	height: 0;
+            	width: 0;
+            	position: absolute;
+            	pointer-events: none;
+            }
+
+            &:after {
+            	border-color: rgba(136, 183, 213, 0);
+            	border-left-color: $red;
+            	border-width: 12px;
+            	margin-top: -12px;
+            }
+            &:before {
+            	border-color: rgba(194, 225, 245, 0);
+            	border-left-color: $red;
+            	border-width: 12px;
+            	margin-top: -12px;
+            }
+          }
+        }
+        &:last-child > a{
+          border-bottom: none;
+        }
+        &:hover{
+          background: $red;
+        }
+
+      }
+    }
+
+    & > div.content{
+      margin: 0 0 50px 0;
+      overflow: hidden;
+      clear: both;
+      & > img{
+        // display: none;
+        width: 700px;
+        margin: 0 0 0 200px;
+        float: left;
+        // &#img-1{
+        //   display: block;
+        // }
+      }
+
+      & > p{
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 2.75rem;
+        display: none;
+        float: left;
+        width: 300px;
+        margin: 50px 0 0 20px;
+        &#p-1{
+          display: block;
+        }
+      }
+    }
+
+  }
+}
+
+section.nu__researchstrategy {
+  border-bottom:10px solid $red;
+  background: rgba(0,0,0,1.0);
+  & .wrapper {
+    & > h2{
+      margin: 50px 0 50px 0;
+      color: rgba(255,255,255,1.0);
+    }
+    & > img.left{
+      float: left;
+      width: 30%;
+      margin: 0 0 50px 0;
+    }
+    & > img.right{
+      float: left;
+      width: 70%;
+      margin: 0 0 50px 0;
+    }
+  }
+}
+
+
+section.nu__earlycareer {
+  background-color: rgba(0,0,0, 1.0);
+  background: url(../../img/research/early_career_bg.jpg); background-size: cover; background-position: center center;
+  & .wrapper {
+    & > h2{
+      margin: 50px 0 20px 0;
+      color: rgba(255,255,255,1.0);
+      // & > span{
+      //   font-weight: bolder;
+      // }
+    }
+    & p{
+      width: 80%;
+      margin: 0 auto 100px auto;
+      text-align: center;
+      color: rgba(255,255,255, 1.0);
+      font-size: 2rem;
+      line-height:3.2rem;
+      font-weight: 300;
+      // & > span{
+      //   font-weight: bolder;
+      //   color: rgba(225, 225, 225, 1.0);
+      // }
+    }
+
+    & > div.content{
+      clear: both;
+      overflow: hidden;
+      margin: 0 0 50px 0;
+      & > div{
+        width: 50%;
+        float: left;
+        &:nth-of-type(1){
+          width: 35%;
+          margin: 0 5% 0 0;
+          & > p{
+            text-align: left;
+            padding: 0 0 0 0;
+            margin: 0 0 20px 0;
+            width: 100%;
+          }
+          & > ul{
+            list-style: none;
+            list-style-type: none;
+            & > li{
+              font-size: 1.6rem;
+              line-height:2.8rem;
+              font-weight: 300;
+              color: rgba(255,255,255, 1.0);
+              margin: 0 0 10px 0;
+              // & > span{
+              //   font-weight: bolder;
+              //   color: rgba(225, 225, 225, 1.0);
+              // }
+            }
+          }
+        }
+        &:nth-of-type(2){
+          width: 60%;
+          // background: green;
+          & > div{
+            display: table;
+            margin: 0 0 50px 0;
+            & > img,
+            p{
+              display: table-cell;
+            }
+            & > img{
+              border-left: solid $red 3px;
+              &.nu__desktop {
+                display:block;
+              }
+              &.nu__mobile {
+                display:none;
+              }
+            }
+            & > p{
+              text-align: left;
+              padding: 0 0 0 20px;
+              vertical-align: top;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+
+
+section.slider {
+  height: 850px;
+  position: relative;
+  div.title{
+    height: 200px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    max-width: 1280px;
+    width: 100%;
+    & > h3{
+      width: 50%;
+      margin: 50px 0 0 0;
+      font-size: 5.6rem;
+      color: $black;
+      letter-spacing: 2px;
+      line-height: 7.2rem;
+      font-weight:300;
+    }
+  }
+  div.wrapper{
+    height: 500px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    // & > h3{
+    //   width: 50%;
+    //   margin: 50px 0 0 0;
+    //   font-size: 5.6rem;
+    //   color: $black;
+    //   letter-spacing: 2px;
+    //   line-height: 72px;
+    //   font-weight:300;
+    // }
+    & > p{
+      display: none;
+      width: 55%;
+      margin: 30px 0 0 100px;
+      font-size: 2rem;
+      line-height: 3.2rem;
+      font-weight: 300;
+      color: $black;
+      &:nth-of-type(1){
+        display: block;
+      }
+    }
+  }
+  div.background{
+    position: absolute;
+    z-index: -1;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    top: 0;
+    & > div{
+      width: 50%;
+      height: 100%;
+      float: left;
+      position: relative;
+      &:nth-of-type(1){
+        background: rgba(236, 230, 213, 1.0);
+      }
+      &:nth-of-type(2){
+        background: rgba(0,0,0,1.0);
+      }
+    }
+  }
+  div.choices{
+    background: rgba(51, 51, 51, 1.0);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    border: solid rgba(88, 88, 90, 1.0) 1px;
+    & > div{
+      flex: 1;
+      flex-basis: 0;
+      border-right: solid rgba(88, 88, 90, 1.0) 1px;
+      padding: 20px;
+      position: relative;
+      & > h3 {
+        font-size:1.6rem;
+        line-height:2.8rem;
+        text-transform:uppercase;
+        font-weight:700;
+        color: rgba(255,255,255,1.0);
+
+      }
+      & > p {
+        font-size:1.6rem;
+        font-weight:300;
+        line-height: 2.8rem;
+        margin:0 0 0 0;
+        color: rgba(255,255,255,1.0);
+      }
+      &:hover{
+        background: $red;
+        cursor: pointer;
+      }
+      &.active{
+        background: $red;
+        &:after,
+        &:before {
+        	bottom: 100%;
+        	left: 50%;
+        	border: solid transparent;
+        	content: " ";
+        	height: 0;
+        	width: 0;
+        	position: absolute;
+        	pointer-events: none;
+        }
+
+        &:after {
+        	border-color: none;
+        	border-bottom-color: $red;
+        	border-width: 12px;
+        	margin-left: -12px;
+        }
+        &:before {
+        	border-color: none;
+        	border-bottom-color: $red;
+        	border-width: 12px;
+        	margin-left: -12px;
+        }
+      }
+    }
+    &:last-child{
+      border-right: none;
+    }
+  }
+}
+
+
+
+
+section.nu__newinstitutes {
+  background: rgba(0,0,0, 1.0);
+  position: relative;
+  div.nu__randomredbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    height: 60%;
+    background: rgba(221, 0, 0, 1.0);
+  }
+  & .wrapper {
+    margin: 50px auto 30px auto;
+
+    & > div.content{
+      clear: both;
+      overflow: hidden;
+      margin: 0 0 50px 0;
+      & > div{
+        width: 50%;
+        float: left;
+        &:nth-of-type(1){
+          width: 25%;
+          margin: 0 5% 0 0;
+          & > h3{
+            font-size: 5rem;
+            margin: 0 0 50px 0;
+            font-weight: 300;
+            color: rgba(225, 225, 225, 1.0);
+          }
+          & > p{
+            text-align: left;
+            padding: 0 0 0 0;
+            margin: 0 0 20px 0;
+            width: 100%;
+            color: rgba(255,255,255, 1.0);
+            font-size: 1.6rem;
+            font-weight: 300;
+            line-height:2.8rem;
+          }
+        }
+        &:nth-of-type(2){
+          width: 70%;
+          & > a{
+            display: block;
+            position: relative;
+            float: left;
+            width: 48.5%;
+            height: 300px;
+            margin: 0 20px 20px 0;
+            overflow: hidden;
+            & > div{
+              display: block;
+              width: 100%;
+              height: 100%;
+
+              & > svg{
+                display: block;
+                position: absolute;
+                width: 70px;
+                height: 70px;
+                margin: calc(150px - 35px) auto 0 calc(50% - 35px);
+              }
+              & > div{
+                position: absolute;
+                bottom: 0;
+                margin: 20px 20px 20px 20px;
+                color: rgba(255,255,255, 1.0);
+                & > h4{
+                  font-size: 1.6rem;
+                  color: rgba(225, 225, 225, 1.0);
+                  font-weight: 300;
+                }
+                & > p{
+                  font-size: 1.6rem;
+                  line-height:2.8rem;
+                  font-weight: 300;
+                }
+              }
+            }
+            &:nth-child(2n+2){
+              margin: 0 0 20px 0;
+            }
+            &:hover{
+              & div {
+                opacity:.8;
+              }
+              & svg{
+                circle {
+                  stroke:rgba(255,255,255,.8);
+                }
+                path {
+                  stroke:rgba(255,255,255,.8);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+section.nu__facultyinnovation{
+  background-color: rgba(0,0,0,1.0);
+  background: url(../../img/research/network_faculty_bg.jpg); background-size: cover; background-position: center center;
+  overflow: hidden;
+  & .wrapper {
+    & > h2{
+      margin: 50px 0 20px 0;
+      color: rgba(255,255,255,1.0);
+    }
+    & > div.content{
+      clear: both;
+      margin: 0 0 0 0;
+      & > div.facstats{
+        margin: 30px 0 0 0;
+        clear: both;
+        overflow: hidden;
+        & > div{
+          width: 50%;
+          float: left;
+          text-align: center;
+          min-height: 300px;
+          & > h2{
+            font-size: 7.2rem;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 1.0);
+          }
+          & > p{
+            font-size: 2rem;
+            line-height:3.2rem;
+            width: 50%;
+            margin: 0 auto 0 auto;
+            color: rgba(255,255,255, 1.0);
+            font-weight: 300;
+          }
+        }
+
+      }
+        & > div.talkingheads{
+        min-height: 400px;
+        clear: both;
+        margin: 150px 0 0 0;
+        border-top: solid rgba(255,255,255,1.0) 4px;
+        background: rgba(0,0,0,0.9);
+        & > div.theheads{
+          width: 70vw;
+          margin: (-1 * (((70vw - 12vw) / 7) / 2)) 15vw 0 15vw;
+          height: auto;
+          overflow: hidden;
+          & > div{
+            height: 150px;
+            float: left;
+            width: ((70vw - 15.5vw) / 7);
+            height: ((70vw - 15.5vw) / 7);
+            margin: 0 2vw 50px 0;
+            border-radius: 50%;
+            background: rgba(255,255,255,1.0);
+            border: solid rgba(255,255,255,1.0) 0.15vw;
+            overflow: hidden;
+            & > span{
+              background: rgba(0,0,0,0.7);
+              display: block;
+              width: 100%;
+              height: 100%;
+            }
+            &:last-child{
+              margin: 0 0 50px 0;
+            }
+            &.talkinghead{
+              border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+              & > span{
+                background: rgba(0,0,0,0.0);
+              }
+            }
+            &:hover{
+              border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+              cursor: pointer;
+              & > span{
+                background: rgba(0,0,0,0.0);
+              }
+            }
+          }
+        }
+        & > div.chooseatalkinghead{
+          clear: both;
+          display: table;
+          height: 200px;
+          width: 60%;
+          margin: 0 20% 0 20%;
+          & > div{
+            display: table-cell;
+            &:nth-of-type(1),
+            &:nth-of-type(3){
+              width: 150px;
+              vertical-align: middle;
+              text-align: center;
+              font-size: 8rem;
+              color: rgba(255,255,255,1.0);
+              &:hover{
+                cursor: pointer;
+                color: rgba(204, 0, 0, 1.0);
+              }
+            }
+            &:nth-of-type(2){
+              & > div{
+                display: none;
+                color: rgba(255,255,255, 1.0);
+                & > h4{
+                  color: rgba(204, 0, 0, 1.0);
+                  font-size: 1.6rem;
+                  line-height:2.8rem;
+                  font-weight: 700;
+                }
+                & > h5{
+                  font-size: 1.6rem;
+                  margin: 0 0 20px 0;
+                  font-weight: 300;
+                }
+                & > p{
+                  font-size: 2rem;
+                  line-height:3.2rem;
+                  font-weight: 300;
+                }
+                &:first-child{
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+section.collage {
+  & .nu__full-container{
+    & .nu__row {
+      display: flex;
+      justify-content: space-around;
+      align-items: stretch;
+      & h2 {
+        font-size:3.4rem;
+        color:$white;
+        font-weight:300;
+        line-height:4.8rem;
+        width:80%;
+        //letter-spacing: 2px;
+        text-align:center;
+        margin: 50px auto 0 auto;
+      }
+      & .nu__stat-block {
+        width:50%;
+        margin: 0 auto 0 auto;
+        margin-bottom:15px;
+        &:first-of-type {
+          margin-top:17px;
+        }
+        & h2 {
+          color:$white;
+          font-size:5.6rem;
+          text-align:center;
+          font-weight:300;
+          margin: 70px auto 20px auto;
+        }
+        & p {
+          color: rgba(255,255,255, 1.0);
+          font-size:2rem;
+          line-height:3.2rem;
+          text-align:center;
+          font-weight:300;
+          //letter-spacing: 1px;
+        }
+        & > button,
+        & > a{
+          background: rgba(255, 255, 255, 1.0);
+          display: block;
+          width: 80%;
+          line-height: 2rem;
+          padding: 10px 20px 10px 20px;
+          margin: 30px auto 50px auto;
+          text-align: center;
+          font-size:1.75rem;
+          text-transform: uppercase;
+          color: rgba(0,0,0,1.0);
+          &:hover{
+            color:$black;
+            background:rgba(255, 255, 255, .8);
+          }
+        }
+      }
+
+      & .column.left {
+          width: 28.5%;
+          flex-shrink: 0;
+          background: url(../../img/research/creative_ecosystem_left.jpg); background-size: cover; background-position: center center;
+      }
+
+      & .column.right {
+          width: 28.5%;
+          flex-shrink: 0;
+          background: url(../../img/research/creative_ecosystem_right.jpg); background-size: cover; background-position: center center;
+
+      }
+
+      & .column.center {
+          background:$red;
+          width:45%;
+      }
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1350px){
+
+  section.hero{
+    & .wrapper{
+      & h2{
+        width: 100%;
+      }
+    }
+  }
+
+
+
+  section.nu__facultypartnerships {
+    & .wrapper {
+      & h2 {
+        width: 100%;
+      }
+
+      & > ul{
+        position: relative;
+        width: 100%;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        & > li{
+          flex: 1;
+          display: block;
+          flex-basis: 0;
+          margin: 0 0 0 0;
+          & > a{
+            display: block;
+            font-size: 1.5rem;
+            line-height: 5rem;
+            width: 100%;
+            text-align: center;
+            height: auto;
+            border-bottom: none;
+            border-right: solid rgba(89, 89, 89, 1.0) 1px;
+            padding: 0 0 0 0;
+            &.activeoption{
+              background: $red;
+              &:after,
+              &:before {
+                top: 100%;
+              	left: 50%;
+              	border: solid transparent;
+              	content: " ";
+              	height: 0;
+              	width: 0;
+              	position: absolute;
+              	pointer-events: none;
+              }
+
+              &:after {
+                border-color: rgba(136, 183, 213, 0);
+              	border-top-color: $red;
+              	border-width: 25px;
+              	margin-left: -25px;
+              }
+              &:before {
+                border-color: rgba(194, 225, 245, 0);
+              	border-top-color: $red;
+              	border-width: 25px;
+              	margin-left: -25px;
+              }
+            }
+          }
+          &:last-child > a{
+            border-bottom: none;
+            border-right: none;
+          }
+        }
+      }
+
+      & > div.content{
+        margin: 0 0 50px 0;
+        overflow: hidden;
+        clear: both;
+        & > img{
+          width: 70%;
+          margin: 0 auto 0 auto;
+          float: left;
+        }
+        & > p{
+          font-size: 2rem;
+          font-weight: 300;
+          line-height: 2.75rem;
+          display: none;
+          float: left;
+          width: 28%;
+          margin: 20px 0 0 2%;
+          &#p-1{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  section.slider {
+    height: 850px;
+    position: relative;
+    div.title{
+      max-width:80%;
+      width:80%;
+    }
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+  section.nu__newinstitutes {
+    div.nu__randomredbar{
+      display: none;
+    }
+    & .wrapper {
+      & > div.content{
+        & > div{
+          width: 50%;
+          float: left;
+          &:nth-of-type(1){
+            float: none;
+            width: 100%;
+            margin: 0 0 0 0;
+          }
+          &:nth-of-type(2){
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  section.nu__facultyinnovation{
+    & .wrapper {
+      & > div.content{
+          & > div.talkingheads{
+          & > div.theheads{
+            width: 80vw;
+            margin: (-1 * (((80vw - 12vw) / 7) / 2)) 10vw 0 10vw;
+            & > div{
+              width: ((80vw - 15.5vw) / 7);
+              height: ((80vw - 15.5vw) / 7);
+            }
+          }
+          & > div.chooseatalkinghead{
+            clear: both;
+            display: table;
+            height: 200px;
+            width: 80%;
+            margin: 0 10% 0 10%;
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+  section.slider {
+    height: 850px;
+    div.title{
+      height: 270px;
+    }
+    div.wrapper{
+      height: 430px;
+      margin: 0 auto 0 auto;
+      overflow: hidden;
+      & > h3{
+        width: 60%;
+        margin: 40px 0 0 0;
+        line-height: 6.5rem;
+      }
+      & > p{
+        width: 65%;
+      }
+    }
+    div.background{
+      & > div{
+        &:nth-of-type(1){
+          width: 60%;
+        }
+        &:nth-of-type(2){
+          width: 40%;
+        }
+      }
+    }
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1150px){
+
+
+
+  section.nu__facultypartnerships {
+    & .wrapper {
+      & > ul{
+        position: relative;
+        flex-wrap: wrap;
+        & > li{
+          flex: 1;
+          display: block;
+          flex-basis: 0;
+          margin: 0 0 0 0;
+          & > a{
+            display: block;
+            font-size: 1.25rem;
+            line-height: 4rem;
+          }
+        }
+      }
+      & > div.content{
+        & > p{
+          font-size: 1.5rem;
+          line-height: 2.5rem;
+        }
+      }
+    }
+  }
+
+
+
+
+  section.collage {
+    & .nu__full-container{
+      & .nu__row {
+        & .column.left {
+            display: none;
+        }
+        & .column.right {
+            display: none;
+        }
+        & .column.center {
+            width:100%;
+        }
+      }
+    }
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 900px){
+
+    h2,
+    h3{
+      font-size: 4.5rem !important;
+      line-height: 5.5rem !important;
+    }
+
+
+
+    section.nu__facultypartnerships {
+      & .wrapper {
+        & > ul{
+          flex-wrap: wrap;
+          border: none;
+          border-top: solid rgba(89, 89, 89, 1.0) 1px;
+          border-right: solid rgba(89, 89, 89, 1.0) 1px;
+          border-left: solid rgba(89, 89, 89, 1.0) 1px;
+          & > li{
+            flex: 1;
+            display: block;
+            flex-basis: 50%;
+            margin: 0 0 0 0;
+            border-bottom: solid rgba(89, 89, 89, 1.0) 1px;
+            & > a{
+              display: block;
+              font-size: 1.25rem;
+              line-height: 4rem;
+              &.activeoption{
+                background: $red;
+                &:after,
+                &:before {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+        & > div.content{
+          & > p{
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+          }
+        }
+      }
+    }
+
+
+
+    section.nu__newinstitutes {
+      & .wrapper {
+        & > div.content{
+          & > div{
+            width: 100%;
+            float: none;
+            &:nth-of-type(2){
+              width: 100%;
+              & > a{
+                float: none;
+                width: 100%;
+                height: 350px;
+                margin: 0 0 20px 0;
+                & > div{
+                  & > svg{
+                    margin: calc(175px - 35px) auto 0 calc(50% - 35px);
+                  }
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+
+
+
+    section.nu__facultyinnovation{
+      & .wrapper {
+        & > div.content{
+          & > div.facstats{
+            & > div{
+              min-height: 200px;
+              & > p{
+                width: 80%;
+              }
+            }
+          }
+            & > div.talkingheads{
+            & > div.chooseatalkinghead{
+              clear: both;
+              display: table;
+              height: 200px;
+              width: 90%;
+              margin: 0 5% 0 5%;
+            }
+          }
+        }
+      }
+    }
+
+
+
+
+
+    section.slider {
+      height: 850px;
+      div.title{
+        height: 220px;
+        width: 100%;
+        & > h3{
+          width: 60%;
+        }
+      }
+      div.wrapper{
+        height: 480px;
+        margin: 0 auto 0 auto;
+        overflow: hidden;
+        & > h3{
+          font-size: 4.5rem;
+          line-height: 5.5rem;
+        }
+        & > p{
+          width: 60%;
+          margin: 30px 0 0 0;
+          line-height: 2.5rem;
+        }
+      }
+      div.background{
+        & > div{
+          &:nth-of-type(1){
+            width: 60%;
+          }
+          &:nth-of-type(2){
+            width: 40%;
+          }
+        }
+      }
+      div.choices{
+        & > div{
+          padding: 20px;
+          & > h3 {
+            font-size:1.5rem !important;
+            line-height:2.5rem !important;
+          }
+          & > p {
+            font-size:1.25rem;
+            line-height: 2.25rem;
+          }
+        }
+      }
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 800px){
+
+
+  section.nu__facultypartnerships {
+    & .wrapper {
+      overflow: hidden;
+      & > div.content{
+        & > img{
+          width: 100%;
+          margin: 0 0 0 0;
+          float: none;
+        }
+        & > p{
+          font-size: 2rem;
+          line-height: 3.5rem;
+          width: 98%;
+          float: none;
+        }
+      }
+    }
+  }
+
+
+  section.nu__researchstrategy {
+    & .wrapper {
+      & > h2{
+        margin: 50px 0 0 0;
+      }
+      & > img.left{
+        float: none;
+        width: 60%;
+        display: block;
+        margin: 0 auto 0 auto;
+      }
+      & > img.right{
+        float: none;
+        width: 100%;
+        margin: -100px 0 50px 0;
+      }
+    }
+  }
+
+
+
+  section.nu__earlycareer {
+    background: none;
+    background-color: rgba(0,0,0,1.0);
+    & .wrapper {
+      & p{
+        width: 100%;
+        margin: 0 auto 50px auto;
+      }
+      & > div.content{
+        & > div{
+          width: 100%;
+          float: none;
+          &:nth-of-type(1){
+            width: 100%;
+            margin: 0 0 0 0;
+          }
+          &:nth-of-type(2){
+            width: 100%;
+            margin: 50px 0 0 0;
+            & > div{
+              & > img{
+                min-width: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+  section.nu__facultyinnovation{
+    background: none;
+    background-color: rgba(77, 77, 77, 1.0);
+    & .wrapper {
+      & > div.content{
+        & > div.facstats{
+          & > div{
+            min-height: 100px;
+            & > p{
+              width: 80%;
+            }
+          }
+        }
+          & > div.talkingheads{
+          margin: 100px 0 0 0;
+          border-top: none;
+          & > div.theheads{
+            padding: 50px 0 0 0;
+            & > div{
+              float: none;
+              display: none;
+              width: ((50vw - 0) / 1);
+              height: ((50vw - 0) / 1);
+              margin: 0 15vw 0 15vw;
+              &:last-child{
+                margin: 0 15vw 0 15vw;
+              }
+              &:first-child{
+                display: block;
+              }
+            }
+
+          }
+          & > div.chooseatalkinghead{
+            margin: 50px 0 0 0;
+            height: 200px;
+            width: 100%;
+            & > div{
+              &:nth-of-type(1),
+              &:nth-of-type(3){
+                width: 100px;
+                font-size: 7rem;
+              }
+              &:nth-of-type(2){
+                & > div{
+                  display: none;
+                  &:first-child{
+                    display: block;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
+  section.collage {
+    & .nu__full-container{
+      & .nu__row {
+        & .nu__stat-block {
+          width: 80%;
+          & h2 {
+            margin: 70px auto 10px auto;
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
+  section.slider {
+    height: auto;
+    div.title{
+      height: auto;
+      width: 100%;
+      & > h3{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+    }
+    div.wrapper{
+      height: auto;
+      width: 100%;
+      max-width: 100%;
+      margin: 0 0 0 0;
+      padding: 0 0 50px 0;
+      background: rgba(236, 230, 213, 1.0);
+      & > p{
+        width: 90%;
+        margin: 20px 5% 0 5%;
+      }
+    }
+    div.background{
+      position: relative;
+      height: 350px;
+      & > div{
+        width: 100%;
+        float: none;
+        position: relative;
+
+        &:nth-of-type(1){
+          display: none;
+        }
+        &:nth-of-type(2){
+          width: 100%;
+        }
+      }
+    }
+    div.choices{
+      height: auto;
+      flex: none;
+      display: block;
+      & > div{
+        padding: 10px 0 10px 0;
+        text-align: center;
+        width: 100%;
+        border-bottom: solid rgba(88, 88, 90, 1.0) 1px;
+        &.active{
+          &:after,
+          &:before {
+            display: none;
+          }
+        }
+        & > h3 {
+          font-size:1.5rem !important;
+          line-height:2.5rem !important;
+        }
+        & > p {
+          font-size:1.25rem;
+          line-height: 2.25rem;
+        }
+      }
+    }
+  }
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+
+  h2,
+  h3{
+    font-size: 3rem !important;
+    line-height: 4rem !important;
+  }
+
+
+
+  section.hero {
+    background: none;
+  }
+
+
+
+  section.nu__facultypartnerships {
+    & .wrapper {
+      & > ul{
+        display: block;
+      }
+    }
+  }
+
+
+
+  section.nu__earlycareer {
+    & .wrapper {
+      & > div.content{
+        margin: 0 0 0 0;
+        & > div{
+          &:nth-of-type(2){
+            & > div{
+              display: block;
+              & > img,
+              p{
+                display: block;
+              }
+              & > img{
+                min-width: 100px;
+                margin: 0 0 20px 0;
+                &.nu__desktop {
+                  display:none;
+                }
+                &.nu__mobile {
+                  display:block;
+                }
+              }
+              & > p{
+                padding: 0 0 0 0;
+                margin: 0 0 100px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+  section.nu__facultyinnovation{
+    & .wrapper{
+      & > div.content{
+        & > div.talkingheads{
+          & > div.chooseatalkinghead{
+            & > div{
+              &:nth-of-type(1),
+              &:nth-of-type(3){
+                width: 50px;
+                font-size: 6rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+  section.slider{
+    height: auto;
+    div.title{
+      height: auto;
+      width: 100%;
+      & > h3{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+    }
+    div.wrapper{
+      height: auto;
+      padding: 0 0 20px 0;
+    }
+    div.background{
+      position: relative;
+      height: 250px;
+      & > div{
+        width: 100%;
+        float: none;
+        position: relative;
+
+        &:nth-of-type(1){
+          display: none;
+        }
+        &:nth-of-type(2){
+          width: 100%;
+        }
+      }
+    }
+  }
+
+
+
+
+}

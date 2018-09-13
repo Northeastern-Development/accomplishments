@@ -1,0 +1,919 @@
+/**
+ * partials/learning page
+ * ---
+ */
+section.hero {
+  border-bottom: 10px solid #cc0000;
+  background-color: white;
+  background: url(../../img/research/research_hero.jpg);
+  background-size: cover;
+  background-position: center center; }
+  section.hero .wrapper h2 {
+    color: black;
+    margin: 30px auto 30px auto;
+    width: 60%; }
+
+.section-header {
+  font-size: 5.6rem;
+  text-align: center;
+  color: black;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 7.2rem; }
+
+body.js > .parent {
+  height: 0; }
+
+section.nu__facultypartnerships {
+  background-color: #ede6d4; }
+  section.nu__facultypartnerships .wrapper h2 {
+    color: black;
+    margin: 30px auto 30px auto;
+    width: 70%; }
+  section.nu__facultypartnerships .wrapper > ul {
+    position: absolute;
+    background: #343434;
+    list-style: none;
+    list-style-type: none;
+    width: 350px;
+    margin: 50px 0 0 0;
+    display: table;
+    border: solid #595959 1px; }
+    section.nu__facultypartnerships .wrapper > ul > li {
+      display: table-row; }
+      section.nu__facultypartnerships .wrapper > ul > li > a {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 2rem;
+        line-height: 3rem;
+        font-weight: 700;
+        height: 9rem;
+        border-bottom: solid #595959 1px;
+        color: white;
+        padding: 0 20px 0 20px;
+        text-decoration: none;
+        position: relative; }
+        section.nu__facultypartnerships .wrapper > ul > li > a.activeoption {
+          background: #cc0000; }
+          section.nu__facultypartnerships .wrapper > ul > li > a.activeoption:after, section.nu__facultypartnerships .wrapper > ul > li > a.activeoption:before {
+            left: 100%;
+            top: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none; }
+          section.nu__facultypartnerships .wrapper > ul > li > a.activeoption:after {
+            border-color: rgba(136, 183, 213, 0);
+            border-left-color: #cc0000;
+            border-width: 12px;
+            margin-top: -12px; }
+          section.nu__facultypartnerships .wrapper > ul > li > a.activeoption:before {
+            border-color: rgba(194, 225, 245, 0);
+            border-left-color: #cc0000;
+            border-width: 12px;
+            margin-top: -12px; }
+      section.nu__facultypartnerships .wrapper > ul > li:last-child > a {
+        border-bottom: none; }
+      section.nu__facultypartnerships .wrapper > ul > li:hover {
+        background: #cc0000; }
+  section.nu__facultypartnerships .wrapper > div.content {
+    margin: 0 0 50px 0;
+    overflow: hidden;
+    clear: both; }
+    section.nu__facultypartnerships .wrapper > div.content > img {
+      width: 700px;
+      margin: 0 0 0 200px;
+      float: left; }
+    section.nu__facultypartnerships .wrapper > div.content > p {
+      font-size: 2rem;
+      font-weight: 300;
+      line-height: 2.75rem;
+      display: none;
+      float: left;
+      width: 300px;
+      margin: 50px 0 0 20px; }
+      section.nu__facultypartnerships .wrapper > div.content > p#p-1 {
+        display: block; }
+
+section.nu__researchstrategy {
+  border-bottom: 10px solid #cc0000;
+  background: black; }
+  section.nu__researchstrategy .wrapper > h2 {
+    margin: 50px 0 50px 0;
+    color: white; }
+  section.nu__researchstrategy .wrapper > img.left {
+    float: left;
+    width: 30%;
+    margin: 0 0 50px 0; }
+  section.nu__researchstrategy .wrapper > img.right {
+    float: left;
+    width: 70%;
+    margin: 0 0 50px 0; }
+
+section.nu__earlycareer {
+  background-color: black;
+  background: url(../../img/research/early_career_bg.jpg);
+  background-size: cover;
+  background-position: center center; }
+  section.nu__earlycareer .wrapper > h2 {
+    margin: 50px 0 20px 0;
+    color: white; }
+  section.nu__earlycareer .wrapper p {
+    width: 80%;
+    margin: 0 auto 100px auto;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    font-weight: 300; }
+  section.nu__earlycareer .wrapper > div.content {
+    clear: both;
+    overflow: hidden;
+    margin: 0 0 50px 0; }
+    section.nu__earlycareer .wrapper > div.content > div {
+      width: 50%;
+      float: left; }
+      section.nu__earlycareer .wrapper > div.content > div:nth-of-type(1) {
+        width: 35%;
+        margin: 0 5% 0 0; }
+        section.nu__earlycareer .wrapper > div.content > div:nth-of-type(1) > p {
+          text-align: left;
+          padding: 0 0 0 0;
+          margin: 0 0 20px 0;
+          width: 100%; }
+        section.nu__earlycareer .wrapper > div.content > div:nth-of-type(1) > ul {
+          list-style: none;
+          list-style-type: none; }
+          section.nu__earlycareer .wrapper > div.content > div:nth-of-type(1) > ul > li {
+            font-size: 1.6rem;
+            line-height: 2.8rem;
+            font-weight: 300;
+            color: white;
+            margin: 0 0 10px 0; }
+      section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) {
+        width: 60%; }
+        section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div {
+          display: table;
+          margin: 0 0 50px 0; }
+          section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > img,
+          section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div p {
+            display: table-cell; }
+          section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > img {
+            border-left: solid #cc0000 3px; }
+            section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > img.nu__desktop {
+              display: block; }
+            section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > img.nu__mobile {
+              display: none; }
+          section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > p {
+            text-align: left;
+            padding: 0 0 0 20px;
+            vertical-align: top;
+            font-weight: 300; }
+
+section.slider {
+  height: 850px;
+  position: relative; }
+  section.slider div.title {
+    height: 200px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    max-width: 1280px;
+    width: 100%; }
+    section.slider div.title > h3 {
+      width: 50%;
+      margin: 50px 0 0 0;
+      font-size: 5.6rem;
+      color: black;
+      letter-spacing: 2px;
+      line-height: 7.2rem;
+      font-weight: 300; }
+  section.slider div.wrapper {
+    height: 500px;
+    margin: 0 auto 0 auto;
+    overflow: hidden; }
+    section.slider div.wrapper > p {
+      display: none;
+      width: 55%;
+      margin: 30px 0 0 100px;
+      font-size: 2rem;
+      line-height: 3.2rem;
+      font-weight: 300;
+      color: black; }
+      section.slider div.wrapper > p:nth-of-type(1) {
+        display: block; }
+  section.slider div.background {
+    position: absolute;
+    z-index: -1;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    top: 0; }
+    section.slider div.background > div {
+      width: 50%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      section.slider div.background > div:nth-of-type(1) {
+        background: #ece6d5; }
+      section.slider div.background > div:nth-of-type(2) {
+        background: black; }
+  section.slider div.choices {
+    background: #333333;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    border: solid #58585a 1px; }
+    section.slider div.choices > div {
+      flex: 1;
+      flex-basis: 0;
+      border-right: solid #58585a 1px;
+      padding: 20px;
+      position: relative; }
+      section.slider div.choices > div > h3 {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white; }
+      section.slider div.choices > div > p {
+        font-size: 1.6rem;
+        font-weight: 300;
+        line-height: 2.8rem;
+        margin: 0 0 0 0;
+        color: white; }
+      section.slider div.choices > div:hover {
+        background: #cc0000;
+        cursor: pointer; }
+      section.slider div.choices > div.active {
+        background: #cc0000; }
+        section.slider div.choices > div.active:after, section.slider div.choices > div.active:before {
+          bottom: 100%;
+          left: 50%;
+          border: solid transparent;
+          content: " ";
+          height: 0;
+          width: 0;
+          position: absolute;
+          pointer-events: none; }
+        section.slider div.choices > div.active:after {
+          border-color: none;
+          border-bottom-color: #cc0000;
+          border-width: 12px;
+          margin-left: -12px; }
+        section.slider div.choices > div.active:before {
+          border-color: none;
+          border-bottom-color: #cc0000;
+          border-width: 12px;
+          margin-left: -12px; }
+    section.slider div.choices:last-child {
+      border-right: none; }
+
+section.nu__newinstitutes {
+  background: black;
+  position: relative; }
+  section.nu__newinstitutes div.nu__randomredbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    height: 60%;
+    background: #dd0000; }
+  section.nu__newinstitutes .wrapper {
+    margin: 50px auto 30px auto; }
+    section.nu__newinstitutes .wrapper > div.content {
+      clear: both;
+      overflow: hidden;
+      margin: 0 0 50px 0; }
+      section.nu__newinstitutes .wrapper > div.content > div {
+        width: 50%;
+        float: left; }
+        section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(1) {
+          width: 25%;
+          margin: 0 5% 0 0; }
+          section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(1) > h3 {
+            font-size: 5rem;
+            margin: 0 0 50px 0;
+            font-weight: 300;
+            color: #e1e1e1; }
+          section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(1) > p {
+            text-align: left;
+            padding: 0 0 0 0;
+            margin: 0 0 20px 0;
+            width: 100%;
+            color: white;
+            font-size: 1.6rem;
+            font-weight: 300;
+            line-height: 2.8rem; }
+        section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) {
+          width: 70%; }
+          section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a {
+            display: block;
+            position: relative;
+            float: left;
+            width: 48.5%;
+            height: 300px;
+            margin: 0 20px 20px 0;
+            overflow: hidden; }
+            section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a > div {
+              display: block;
+              width: 100%;
+              height: 100%; }
+              section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a > div > svg {
+                display: block;
+                position: absolute;
+                width: 70px;
+                height: 70px;
+                margin: calc(150px - 35px) auto 0 calc(50% - 35px); }
+              section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a > div > div {
+                position: absolute;
+                bottom: 0;
+                margin: 20px 20px 20px 20px;
+                color: white; }
+                section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a > div > div > h4 {
+                  font-size: 1.6rem;
+                  color: #e1e1e1;
+                  font-weight: 300; }
+                section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a > div > div > p {
+                  font-size: 1.6rem;
+                  line-height: 2.8rem;
+                  font-weight: 300; }
+            section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a:nth-child(2n+2) {
+              margin: 0 0 20px 0; }
+            section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a:hover div {
+              opacity: .8; }
+            section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a:hover svg circle {
+              stroke: rgba(255, 255, 255, 0.8); }
+            section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a:hover svg path {
+              stroke: rgba(255, 255, 255, 0.8); }
+
+section.nu__facultyinnovation {
+  background-color: black;
+  background: url(../../img/research/network_faculty_bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden; }
+  section.nu__facultyinnovation .wrapper > h2 {
+    margin: 50px 0 20px 0;
+    color: white; }
+  section.nu__facultyinnovation .wrapper > div.content {
+    clear: both;
+    margin: 0 0 0 0; }
+    section.nu__facultyinnovation .wrapper > div.content > div.facstats {
+      margin: 30px 0 0 0;
+      clear: both;
+      overflow: hidden; }
+      section.nu__facultyinnovation .wrapper > div.content > div.facstats > div {
+        width: 50%;
+        float: left;
+        text-align: center;
+        min-height: 300px; }
+        section.nu__facultyinnovation .wrapper > div.content > div.facstats > div > h2 {
+          font-size: 7.2rem;
+          font-weight: 300;
+          color: white; }
+        section.nu__facultyinnovation .wrapper > div.content > div.facstats > div > p {
+          font-size: 2rem;
+          line-height: 3.2rem;
+          width: 50%;
+          margin: 0 auto 0 auto;
+          color: white;
+          font-weight: 300; }
+    section.nu__facultyinnovation .wrapper > div.content > div.talkingheads {
+      min-height: 400px;
+      clear: both;
+      margin: 150px 0 0 0;
+      border-top: solid white 4px;
+      background: rgba(0, 0, 0, 0.9); }
+      section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads {
+        width: 70vw;
+        margin: -4.1428571429vw 15vw 0 15vw;
+        height: auto;
+        overflow: hidden; }
+        section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div {
+          height: 150px;
+          float: left;
+          width: 7.7857142857vw;
+          height: 7.7857142857vw;
+          margin: 0 2vw 50px 0;
+          border-radius: 50%;
+          background: white;
+          border: solid white 0.15vw;
+          overflow: hidden; }
+          section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div > span {
+            background: rgba(0, 0, 0, 0.7);
+            display: block;
+            width: 100%;
+            height: 100%; }
+          section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div:last-child {
+            margin: 0 0 50px 0; }
+          section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div.talkinghead {
+            border: solid #cc0000 0.15vw; }
+            section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div.talkinghead > span {
+              background: transparent; }
+          section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div:hover {
+            border: solid #cc0000 0.15vw;
+            cursor: pointer; }
+            section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div:hover > span {
+              background: transparent; }
+      section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead {
+        clear: both;
+        display: table;
+        height: 200px;
+        width: 60%;
+        margin: 0 20% 0 20%; }
+        section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div {
+          display: table-cell; }
+          section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(1), section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(3) {
+            width: 150px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 8rem;
+            color: white; }
+            section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(1):hover, section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(3):hover {
+              cursor: pointer;
+              color: #cc0000; }
+          section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(2) > div {
+            display: none;
+            color: white; }
+            section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(2) > div > h4 {
+              color: #cc0000;
+              font-size: 1.6rem;
+              line-height: 2.8rem;
+              font-weight: 700; }
+            section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(2) > div > h5 {
+              font-size: 1.6rem;
+              margin: 0 0 20px 0;
+              font-weight: 300; }
+            section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(2) > div > p {
+              font-size: 2rem;
+              line-height: 3.2rem;
+              font-weight: 300; }
+            section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(2) > div:first-child {
+              display: block; }
+
+section.collage .nu__full-container .nu__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch; }
+  section.collage .nu__full-container .nu__row h2 {
+    font-size: 3.4rem;
+    color: white;
+    font-weight: 300;
+    line-height: 4.8rem;
+    width: 80%;
+    text-align: center;
+    margin: 50px auto 0 auto; }
+  section.collage .nu__full-container .nu__row .nu__stat-block {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    margin-bottom: 15px; }
+    section.collage .nu__full-container .nu__row .nu__stat-block:first-of-type {
+      margin-top: 17px; }
+    section.collage .nu__full-container .nu__row .nu__stat-block h2 {
+      color: white;
+      font-size: 5.6rem;
+      text-align: center;
+      font-weight: 300;
+      margin: 70px auto 20px auto; }
+    section.collage .nu__full-container .nu__row .nu__stat-block p {
+      color: white;
+      font-size: 2rem;
+      line-height: 3.2rem;
+      text-align: center;
+      font-weight: 300; }
+    section.collage .nu__full-container .nu__row .nu__stat-block > button,
+    section.collage .nu__full-container .nu__row .nu__stat-block > a {
+      background: white;
+      display: block;
+      width: 80%;
+      line-height: 2rem;
+      padding: 10px 20px 10px 20px;
+      margin: 30px auto 50px auto;
+      text-align: center;
+      font-size: 1.75rem;
+      text-transform: uppercase;
+      color: black; }
+      section.collage .nu__full-container .nu__row .nu__stat-block > button:hover,
+      section.collage .nu__full-container .nu__row .nu__stat-block > a:hover {
+        color: black;
+        background: rgba(255, 255, 255, 0.8); }
+  section.collage .nu__full-container .nu__row .column.left {
+    width: 28.5%;
+    flex-shrink: 0;
+    background: url(../../img/research/creative_ecosystem_left.jpg);
+    background-size: cover;
+    background-position: center center; }
+  section.collage .nu__full-container .nu__row .column.right {
+    width: 28.5%;
+    flex-shrink: 0;
+    background: url(../../img/research/creative_ecosystem_right.jpg);
+    background-size: cover;
+    background-position: center center; }
+  section.collage .nu__full-container .nu__row .column.center {
+    background: #cc0000;
+    width: 45%; }
+
+@media only screen and (max-width: 1350px) {
+  section.hero .wrapper h2 {
+    width: 100%; }
+  section.nu__facultypartnerships .wrapper h2 {
+    width: 100%; }
+  section.nu__facultypartnerships .wrapper > ul {
+    position: relative;
+    width: 100%;
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+    section.nu__facultypartnerships .wrapper > ul > li {
+      flex: 1;
+      display: block;
+      flex-basis: 0;
+      margin: 0 0 0 0; }
+      section.nu__facultypartnerships .wrapper > ul > li > a {
+        display: block;
+        font-size: 1.5rem;
+        line-height: 5rem;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        border-bottom: none;
+        border-right: solid #595959 1px;
+        padding: 0 0 0 0; }
+        section.nu__facultypartnerships .wrapper > ul > li > a.activeoption {
+          background: #cc0000; }
+          section.nu__facultypartnerships .wrapper > ul > li > a.activeoption:after, section.nu__facultypartnerships .wrapper > ul > li > a.activeoption:before {
+            top: 100%;
+            left: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none; }
+          section.nu__facultypartnerships .wrapper > ul > li > a.activeoption:after {
+            border-color: rgba(136, 183, 213, 0);
+            border-top-color: #cc0000;
+            border-width: 25px;
+            margin-left: -25px; }
+          section.nu__facultypartnerships .wrapper > ul > li > a.activeoption:before {
+            border-color: rgba(194, 225, 245, 0);
+            border-top-color: #cc0000;
+            border-width: 25px;
+            margin-left: -25px; }
+      section.nu__facultypartnerships .wrapper > ul > li:last-child > a {
+        border-bottom: none;
+        border-right: none; }
+  section.nu__facultypartnerships .wrapper > div.content {
+    margin: 0 0 50px 0;
+    overflow: hidden;
+    clear: both; }
+    section.nu__facultypartnerships .wrapper > div.content > img {
+      width: 70%;
+      margin: 0 auto 0 auto;
+      float: left; }
+    section.nu__facultypartnerships .wrapper > div.content > p {
+      font-size: 2rem;
+      font-weight: 300;
+      line-height: 2.75rem;
+      display: none;
+      float: left;
+      width: 28%;
+      margin: 20px 0 0 2%; }
+      section.nu__facultypartnerships .wrapper > div.content > p#p-1 {
+        display: block; }
+  section.slider {
+    height: 850px;
+    position: relative; }
+    section.slider div.title {
+      max-width: 80%;
+      width: 80%; } }
+
+@media only screen and (max-width: 1200px) {
+  section.nu__newinstitutes div.nu__randomredbar {
+    display: none; }
+  section.nu__newinstitutes .wrapper > div.content > div {
+    width: 50%;
+    float: left; }
+    section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(1) {
+      float: none;
+      width: 100%;
+      margin: 0 0 0 0; }
+    section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) {
+      width: 100%; }
+  section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads {
+    width: 80vw;
+    margin: -4.8571428571vw 10vw 0 10vw; }
+    section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div {
+      width: 9.2142857143vw;
+      height: 9.2142857143vw; }
+  section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead {
+    clear: both;
+    display: table;
+    height: 200px;
+    width: 80%;
+    margin: 0 10% 0 10%; }
+  section.slider {
+    height: 850px; }
+    section.slider div.title {
+      height: 270px; }
+    section.slider div.wrapper {
+      height: 430px;
+      margin: 0 auto 0 auto;
+      overflow: hidden; }
+      section.slider div.wrapper > h3 {
+        width: 60%;
+        margin: 40px 0 0 0;
+        line-height: 6.5rem; }
+      section.slider div.wrapper > p {
+        width: 65%; }
+    section.slider div.background > div:nth-of-type(1) {
+      width: 60%; }
+    section.slider div.background > div:nth-of-type(2) {
+      width: 40%; } }
+
+@media only screen and (max-width: 1150px) {
+  section.nu__facultypartnerships .wrapper > ul {
+    position: relative;
+    flex-wrap: wrap; }
+    section.nu__facultypartnerships .wrapper > ul > li {
+      flex: 1;
+      display: block;
+      flex-basis: 0;
+      margin: 0 0 0 0; }
+      section.nu__facultypartnerships .wrapper > ul > li > a {
+        display: block;
+        font-size: 1.25rem;
+        line-height: 4rem; }
+  section.nu__facultypartnerships .wrapper > div.content > p {
+    font-size: 1.5rem;
+    line-height: 2.5rem; }
+  section.collage .nu__full-container .nu__row .column.left {
+    display: none; }
+  section.collage .nu__full-container .nu__row .column.right {
+    display: none; }
+  section.collage .nu__full-container .nu__row .column.center {
+    width: 100%; } }
+
+@media only screen and (max-width: 900px) {
+  h2,
+  h3 {
+    font-size: 4.5rem !important;
+    line-height: 5.5rem !important; }
+  section.nu__facultypartnerships .wrapper > ul {
+    flex-wrap: wrap;
+    border: none;
+    border-top: solid #595959 1px;
+    border-right: solid #595959 1px;
+    border-left: solid #595959 1px; }
+    section.nu__facultypartnerships .wrapper > ul > li {
+      flex: 1;
+      display: block;
+      flex-basis: 50%;
+      margin: 0 0 0 0;
+      border-bottom: solid #595959 1px; }
+      section.nu__facultypartnerships .wrapper > ul > li > a {
+        display: block;
+        font-size: 1.25rem;
+        line-height: 4rem; }
+        section.nu__facultypartnerships .wrapper > ul > li > a.activeoption {
+          background: #cc0000; }
+          section.nu__facultypartnerships .wrapper > ul > li > a.activeoption:after, section.nu__facultypartnerships .wrapper > ul > li > a.activeoption:before {
+            display: none; }
+  section.nu__facultypartnerships .wrapper > div.content > p {
+    font-size: 1.5rem;
+    line-height: 2.5rem; }
+  section.nu__newinstitutes .wrapper > div.content > div {
+    width: 100%;
+    float: none; }
+    section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) {
+      width: 100%; }
+      section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a {
+        float: none;
+        width: 100%;
+        height: 350px;
+        margin: 0 0 20px 0; }
+        section.nu__newinstitutes .wrapper > div.content > div:nth-of-type(2) > a > div > svg {
+          margin: calc(175px - 35px) auto 0 calc(50% - 35px); }
+  section.nu__facultyinnovation .wrapper > div.content > div.facstats > div {
+    min-height: 200px; }
+    section.nu__facultyinnovation .wrapper > div.content > div.facstats > div > p {
+      width: 80%; }
+  section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead {
+    clear: both;
+    display: table;
+    height: 200px;
+    width: 90%;
+    margin: 0 5% 0 5%; }
+  section.slider {
+    height: 850px; }
+    section.slider div.title {
+      height: 220px;
+      width: 100%; }
+      section.slider div.title > h3 {
+        width: 60%; }
+    section.slider div.wrapper {
+      height: 480px;
+      margin: 0 auto 0 auto;
+      overflow: hidden; }
+      section.slider div.wrapper > h3 {
+        font-size: 4.5rem;
+        line-height: 5.5rem; }
+      section.slider div.wrapper > p {
+        width: 60%;
+        margin: 30px 0 0 0;
+        line-height: 2.5rem; }
+    section.slider div.background > div:nth-of-type(1) {
+      width: 60%; }
+    section.slider div.background > div:nth-of-type(2) {
+      width: 40%; }
+    section.slider div.choices > div {
+      padding: 20px; }
+      section.slider div.choices > div > h3 {
+        font-size: 1.5rem !important;
+        line-height: 2.5rem !important; }
+      section.slider div.choices > div > p {
+        font-size: 1.25rem;
+        line-height: 2.25rem; } }
+
+@media only screen and (max-width: 800px) {
+  section.nu__facultypartnerships .wrapper {
+    overflow: hidden; }
+    section.nu__facultypartnerships .wrapper > div.content > img {
+      width: 100%;
+      margin: 0 0 0 0;
+      float: none; }
+    section.nu__facultypartnerships .wrapper > div.content > p {
+      font-size: 2rem;
+      line-height: 3.5rem;
+      width: 98%;
+      float: none; }
+  section.nu__researchstrategy .wrapper > h2 {
+    margin: 50px 0 0 0; }
+  section.nu__researchstrategy .wrapper > img.left {
+    float: none;
+    width: 60%;
+    display: block;
+    margin: 0 auto 0 auto; }
+  section.nu__researchstrategy .wrapper > img.right {
+    float: none;
+    width: 100%;
+    margin: -100px 0 50px 0; }
+  section.nu__earlycareer {
+    background: none;
+    background-color: black; }
+    section.nu__earlycareer .wrapper p {
+      width: 100%;
+      margin: 0 auto 50px auto; }
+    section.nu__earlycareer .wrapper > div.content > div {
+      width: 100%;
+      float: none; }
+      section.nu__earlycareer .wrapper > div.content > div:nth-of-type(1) {
+        width: 100%;
+        margin: 0 0 0 0; }
+      section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) {
+        width: 100%;
+        margin: 50px 0 0 0; }
+        section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > img {
+          min-width: 100px; }
+  section.nu__facultyinnovation {
+    background: none;
+    background-color: #4d4d4d; }
+    section.nu__facultyinnovation .wrapper > div.content > div.facstats > div {
+      min-height: 100px; }
+      section.nu__facultyinnovation .wrapper > div.content > div.facstats > div > p {
+        width: 80%; }
+    section.nu__facultyinnovation .wrapper > div.content > div.talkingheads {
+      margin: 100px 0 0 0;
+      border-top: none; }
+      section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads {
+        padding: 50px 0 0 0; }
+        section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div {
+          float: none;
+          display: none;
+          width: 50vw;
+          height: 50vw;
+          margin: 0 15vw 0 15vw; }
+          section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div:last-child {
+            margin: 0 15vw 0 15vw; }
+          section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.theheads > div:first-child {
+            display: block; }
+      section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead {
+        margin: 50px 0 0 0;
+        height: 200px;
+        width: 100%; }
+        section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(1), section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(3) {
+          width: 100px;
+          font-size: 7rem; }
+        section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(2) > div {
+          display: none; }
+          section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(2) > div:first-child {
+            display: block; }
+  section.collage .nu__full-container .nu__row .nu__stat-block {
+    width: 80%; }
+    section.collage .nu__full-container .nu__row .nu__stat-block h2 {
+      margin: 70px auto 10px auto; }
+  section.slider {
+    height: auto; }
+    section.slider div.title {
+      height: auto;
+      width: 100%; }
+      section.slider div.title > h3 {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 20px 0; }
+    section.slider div.wrapper {
+      height: auto;
+      width: 100%;
+      max-width: 100%;
+      margin: 0 0 0 0;
+      padding: 0 0 50px 0;
+      background: #ece6d5; }
+      section.slider div.wrapper > p {
+        width: 90%;
+        margin: 20px 5% 0 5%; }
+    section.slider div.background {
+      position: relative;
+      height: 350px; }
+      section.slider div.background > div {
+        width: 100%;
+        float: none;
+        position: relative; }
+        section.slider div.background > div:nth-of-type(1) {
+          display: none; }
+        section.slider div.background > div:nth-of-type(2) {
+          width: 100%; }
+    section.slider div.choices {
+      height: auto;
+      flex: none;
+      display: block; }
+      section.slider div.choices > div {
+        padding: 10px 0 10px 0;
+        text-align: center;
+        width: 100%;
+        border-bottom: solid #58585a 1px; }
+        section.slider div.choices > div.active:after, section.slider div.choices > div.active:before {
+          display: none; }
+        section.slider div.choices > div > h3 {
+          font-size: 1.5rem !important;
+          line-height: 2.5rem !important; }
+        section.slider div.choices > div > p {
+          font-size: 1.25rem;
+          line-height: 2.25rem; } }
+
+@media only screen and (max-width: 600px) {
+  h2,
+  h3 {
+    font-size: 3rem !important;
+    line-height: 4rem !important; }
+  section.hero {
+    background: none; }
+  section.nu__facultypartnerships .wrapper > ul {
+    display: block; }
+  section.nu__earlycareer .wrapper > div.content {
+    margin: 0 0 0 0; }
+    section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div {
+      display: block; }
+      section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > img,
+      section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div p {
+        display: block; }
+      section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > img {
+        min-width: 100px;
+        margin: 0 0 20px 0; }
+        section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > img.nu__desktop {
+          display: none; }
+        section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > img.nu__mobile {
+          display: block; }
+      section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > div > p {
+        padding: 0 0 0 0;
+        margin: 0 0 100px 0; }
+  section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(1), section.nu__facultyinnovation .wrapper > div.content > div.talkingheads > div.chooseatalkinghead > div:nth-of-type(3) {
+    width: 50px;
+    font-size: 6rem; }
+  section.slider {
+    height: auto; }
+    section.slider div.title {
+      height: auto;
+      width: 100%; }
+      section.slider div.title > h3 {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 20px 0; }
+    section.slider div.wrapper {
+      height: auto;
+      padding: 0 0 20px 0; }
+    section.slider div.background {
+      position: relative;
+      height: 250px; }
+      section.slider div.background > div {
+        width: 100%;
+        float: none;
+        position: relative; }
+        section.slider div.background > div:nth-of-type(1) {
+          display: none; }
+        section.slider div.background > div:nth-of-type(2) {
+          width: 100%; } }

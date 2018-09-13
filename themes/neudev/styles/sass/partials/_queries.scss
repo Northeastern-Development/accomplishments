@@ -1,0 +1,168 @@
+@media only screen and (max-width: 1350px) {
+  header {
+    & > div#header {
+      width:80%;
+    }
+  }
+  #nav-btn {
+    right:10%;
+  }
+  #nav-btn + span {
+    right:10%;
+  }
+
+  #nav-btn, #nav-btn + span {
+    display:block;
+  }
+
+  #nav-btn{
+      height: 56px;
+      width: 44px;
+
+
+  }
+  #nav-btn + label{
+      height: 56px;
+      left: 18px;
+      position: absolute;
+      right: 18px;
+      top: 44px;
+      width: 44px;
+  }
+  #nav-btn + span{
+      background-color: #ccc;
+      cursor: pointer;
+      display: block;
+      height: 2px;
+      position: absolute;
+
+      top: 51px;
+      width: 44px;
+      z-index: 99;
+
+  }
+  #nav-btn + span::before,
+  #nav-btn + span::after{
+      background-color: #ccc;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 0;
+      position: absolute;
+      width: 44px;
+  }
+  #nav-btn + span::before{
+      top: -13px;
+  }
+  #nav-btn + span::after{
+      bottom: -13px;
+  }
+
+  nav.nu__main-nav {
+    display:none;
+  }
+
+  nav.nu__mobile-nav {
+    display:block;
+  }
+
+
+  .nv_university-footer {
+    & .nv__wrapper {
+      width:80%;
+    }
+  }
+
+
+}
+
+@media only screen and (max-width: 1050px) {
+  .fw_right {
+    float:left;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  // Header container
+  header {
+    height:80px;
+    & > div#header{
+      height:80px;
+      & .logo {
+
+        & a {
+          & svg {
+            width:60%;
+            & path {
+
+            }
+            &:hover {
+              path {
+
+              }
+            }
+          }
+        }
+      }
+    }
+    #nav-btn + span {
+      top:41px;
+    }
+
+    
+  }
+
+  // #nav-btn{
+  //     height: 56px;
+  //     width: 44px;
+  //
+  //
+  // }
+  // #nav-btn + label{
+  //     height: 56px;
+  //     left: 18px;
+  //     position: absolute;
+  //     right: 18px;
+  //     top: 44px;
+  //     width: 44px;
+  // }
+  // #nav-btn + span{
+  //     background-color: #ccc;
+  //     cursor: pointer;
+  //     display: block;
+  //     height: 2px;
+  //     position: absolute;
+  //
+  //     top: 51px;
+  //     width: 44px;
+  //     z-index: 99;
+  //
+  // }
+  // #nav-btn + span::before,
+  // #nav-btn + span::after{
+  //     background-color: #ccc;
+  //     content: "";
+  //     display: block;
+  //     height: 2px;
+  //     left: 0;
+  //     position: absolute;
+  //     width: 44px;
+  // }
+  // #nav-btn + span::before{
+  //     top: -13px;
+  // }
+  // #nav-btn + span::after{
+  //     bottom: -13px;
+  // }
+
+  nav.nu__mobile-nav {
+    & ul {
+      & li {
+        padding-bottom:25px;
+      }
+    }
+  }
+
+
+
+}

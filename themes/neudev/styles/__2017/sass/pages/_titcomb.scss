@@ -1,0 +1,242 @@
+/**
+ * pages/mclarney
+ * ---
+ */
+
+ $text-color: #444;
+ $body-bg: #fff;
+ $selection-bg: #04A4CC;
+ $black:rgba(0, 0, 0, 1.0);
+ $white:rgba(255, 255, 255, 1.0);
+ $hover: rgba(204, 0, 0, 1.0);
+ $red: rgba(204, 0, 0, 1.0);
+
+ $headerHeight: 100px;
+ $wrapper-width: 1280px;
+ $full-width: 100vw;
+
+ $lato: 'Lato', sans-serif;
+ $light: 100;
+ $reg: 400;
+ $bld: 700;
+ $blk: 900;
+
+ @mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ @mixin wrapper {
+ 	margin:0 auto;
+ 	max-width:1280px;
+ 	width:100%;
+ }
+
+ @mixin reset-box {
+  padding: 0;
+  margin: 0;
+ }
+
+ @mixin micro-clearfix {
+ 	 & {
+ 		 *zoom: 1;
+ 	 }
+ 	 &:before,
+ 	 &:after {
+ 		 content: "";
+ 		 display: table;
+ 	 }
+ 	 &:after {
+ 		 clear: both;
+ 	 }
+ }
+
+ body.page-id-48 {
+   header, footer {
+     display:none;
+   }
+
+   main {
+     margin-top:0;
+   }
+ }
+#nu__dash-wrapper {
+  position:fixed;
+  right:0;
+  width:10px;
+  & .nu__vertical-dash {
+     height:640px;
+     background:$red;
+   }
+ }
+
+ .nu__fixed-column {
+   width:46%;
+   position:fixed;
+   height:100%;
+   float:left;
+   background: $black;
+   & div {
+     float:right;
+     max-width:540px;
+     width:85%;
+     position:absolute;
+     right:43px;
+     & p {
+       margin-top:32px;
+       & a {
+         color:$white;
+         font-size:2.4rem;
+         text-transform:uppercase;
+         &:hover {
+           color:rgba(255, 255, 255, .8);
+         }
+       }
+     }
+     & h2 {
+      font-weight:300;
+      font-size: 5.6rem;
+      color: $white;
+      //letter-spacing: 2px;
+      line-height: 7.2rem;
+      margin-top:14px;
+      width:95%;
+     }
+     & img {
+       margin-top:150px;
+       width:auto;
+     }
+   }
+ }
+
+ .nu__scroll-column {
+    width:54%;
+    position:relative;
+    float:right;
+    color: $black;
+    font-weight:300;
+    & > div {
+
+      max-width:628px;
+      width:83%;
+      margin-left:68px;
+      margin-top:83px;
+      & h3 {
+       font-weight:300;
+       font-size: 3.4rem;
+       line-height:4.8rem;
+       margin-top:14px;
+       &:nth-of-type(2){
+         margin-top:50px;
+         font-size:2.4rem;
+         line-height:3.2rem;
+       }
+      }
+      & > article {
+        margin-bottom:67px;
+        & > div.nu__accord-item {
+          width:100%;
+          position:relative;
+          @include micro-clearfix;
+          margin-bottom:32px;
+          & div.nu__item-wrap {
+            position:relative;
+            & > span {
+              bottom: 20px;
+              color: #c00;
+              cursor: pointer;
+              font-size: 2em;
+              position: absolute;
+              right: 0;
+              z-index: 100;
+            }
+
+            & > img {
+              display:inline-block;
+              width:106px;
+              height:106px;
+              &#nu__lea {
+                margin-left:10px;
+              }
+            }
+            & > div.nu__accord-copy {
+              margin-left:15px;
+              display:inline-block;
+              //position:relative;
+              &#nu__lea-copy {
+                width:auto;
+              }
+              & > small {
+                text-transform:uppercase;
+                font-size:1.6rem;
+                line-height: 2.8rem;
+              }
+              & > p {
+                margin-top:0;
+                font-size:1.6rem;
+                line-height: 2.8rem;
+
+              }
+
+
+            }
+            & hr {
+              background:$red;
+              height:1px;
+              width:100%;
+              margin-top:20px;
+              clear:both;
+              border-width:0;
+            }
+          }
+          & .nu__accord-hidden {
+            width:100%;
+            clear:both;
+            margin-top:15px;
+            display:none;
+            & > p {
+              margin-top:0;
+            }
+            // &:nth-of-type(2) {
+            //   display:block;
+            // }
+          }
+
+
+
+
+        }
+        & img {
+          margin-top:20px;
+          width:auto;
+        }
+        & small {
+          font-size:1.6rem;
+          line-height: 2.8rem;
+          font-weight:400;
+          color: rgba(88, 88, 90, 1.0);
+
+        }
+        & p {
+          font-size:1.6rem;
+          line-height: 2.8rem;
+          margin-top:20px;
+        }
+        & ul {
+           list-style-position: inside;
+           margin-left:25px;
+           margin-top:20px;
+          & li {
+            font-size:1.6rem;
+            line-height: 2.8rem;
+            list-style-position: outside;
+            //padding-left: 1em;
+          }
+        }
+      }
+    }
+ }
+
+@import "../partials/longscrollqueries";

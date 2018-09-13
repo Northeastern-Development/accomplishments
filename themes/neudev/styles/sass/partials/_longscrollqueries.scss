@@ -1,0 +1,595 @@
+
+.nu__scroll-column {
+  z-index:0;
+  & > div {
+    & > {
+      & article {
+        & > div.nu__accord-item {
+          & > span {
+            position:absolute;
+            right:0;
+            bottom:20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+
+body.profiles {
+  header, footer {
+
+  }
+
+  main {
+
+  }
+}
+#nu__dash-wrapper {
+
+ & .nu__vertical-dash {
+
+  }
+}
+
+.nu__fixed-column {
+
+  & div {
+
+    //width:85%;
+    width:70%;
+
+    & p {
+
+      & a {
+
+        &:hover {
+
+        }
+      }
+    }
+    & h2 {
+      font-size:2.75rem;
+      line-height:3.75rem;
+
+    }
+    & img {
+
+    }
+  }
+}
+
+.nu__scroll-column {
+
+    & div.nu__scroll-wrapper {
+
+     //width:83%;
+     width:71%;
+
+     & h3 {
+
+     }
+     & article {
+
+       & h4 {
+
+       }
+       & img {
+
+       }
+       & p {
+
+
+       }
+     }
+   }
+  }
+
+  div.nu__item-wrap {
+    width:auto;
+  }
+
+
+    .nu__scroll-column > div > article > div.nu__accord-item > div.nu__item-wrap > img#nu__lea {
+      margin-left:0;
+    }
+
+}
+
+
+@media only screen and (max-width: 1135px) {
+  .nu__scroll-column > div > article > div.nu__accord-item > > div.nu__item-wrap > div#nu__lea-copy.nu__accord-copy {
+    width:50%;
+  }
+
+
+}
+
+@media only screen and (max-width: 1150px) {
+  body.ian-mclarney {
+    header, footer {
+
+    }
+
+    main {
+
+    }
+  }
+ #nu__dash-wrapper {
+
+   & .nu__vertical-dash {
+
+    }
+  }
+
+  .nu__fixed-column {
+
+    & div {
+
+      & p {
+
+        & a {
+
+          &:hover {
+
+          }
+        }
+      }
+      & h2 {
+
+      }
+      & img {
+
+      }
+    }
+  }
+
+  .nu__scroll-column {
+
+     & > div {
+
+
+       & h3 {
+
+        &:nth-of-type(2){
+
+        }
+       }
+       & > article {
+
+         & > div.nu__accord-item {
+
+           & div.nu__item-wrap {
+
+
+           & > span {
+
+           }
+
+           & > img {
+
+             &#nu__ian-img {
+
+             }
+           }
+           & > div.nu__accord-copy {
+            margin-top:10px;
+            margin-left:0;
+             &:first-of-type {
+              width:100%;
+             }
+             & > small {
+
+             }
+             & > p {
+
+             }
+
+
+           }
+           & hr {
+
+           }
+         }
+           & .nu__accord-hidden {
+
+             & > p {
+
+             }
+
+           }
+
+
+
+
+         }
+
+         & img {
+
+         }
+         & p {
+
+         }
+         & ul {
+
+           & li {
+
+           }
+         }
+       }
+     }
+  }
+}
+
+@media only screen and (max-width: 1105px) {
+
+}
+
+@media only screen and (max-width: 1105px) {
+  .nu__scroll-column > div > article > div.nu__accord-item > div.nu__item-wrap > div#nu__lea-copy.nu__accord-copy {
+    display:block;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .nu__scroll-column > div > article > div.nu__accord-item  div.nu__item-wrap {
+    margin-left:0 !important;
+  }
+
+  .nu__scroll-column > div > article > div.nu__accord-item  .nu__accord-hidden {
+    margin-left:0 !important;
+  }
+
+  .nu__scroll-column > div > article > div.nu__accord-item div.nu__item-wrap > div.nu__accord-copy:first-of-type  {
+    width:40% !important;
+    margin-left:15px;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  .nu__fixed-column {
+    width:100%;
+    position:relative;
+    height:auto;
+    & div {
+      float:none;
+      width:100%;
+      display:block;
+      position:relative;
+      max-width:80%;
+      left:10%;
+      & img {
+        padding-bottom:30px;
+        width:80%;
+      //  display:none;
+      }
+    }
+  }
+
+  .nu__scroll-column {
+    width:100%;
+    & div.nu__scroll-wrapper {
+      margin-left:10%;
+      position:relative;
+      width:80%;
+      max-width:80%;
+    }
+  }
+
+  blockquote {
+    font-size:4.5rem !important;
+    line-height:5.5rem !important;
+  }
+
+  body.ian-mclarney {
+    header, footer {
+
+    }
+
+    main {
+
+    }
+  }
+ #nu__dash-wrapper {
+
+   & .nu__vertical-dash {
+
+    }
+  }
+
+  .nu__fixed-column {
+
+    & div {
+
+      & p {
+
+        & a {
+
+          &:hover {
+
+          }
+        }
+      }
+      & h2 {
+
+      }
+      & img {
+
+      }
+    }
+  }
+
+  .nu__scroll-column {
+
+     & > div {
+      // /width:100%;
+
+       & h3 {
+        line-height:3.75rem;
+        font-size:2.75rem;
+        &:nth-of-type(2){
+
+        }
+       }
+       & > article {
+
+         & > div.nu__accord-item {
+            margin-left:0;
+           & div.nu__item-wrap {
+
+
+           & > span {
+             bottom:15px;
+             font-size:3em;
+           }
+
+           & > img {
+              display:block;
+             &#nu__ian-img {
+
+             }
+           }
+           & > div.nu__accord-copy {
+            margin-top:10px;
+            margin-left:0;
+            display:inline;
+             &:first-of-type {
+              width:100%;
+              margin-left:0;
+             }
+             & > small {
+
+             }
+             & > p {
+
+             }
+
+
+           }
+           & hr {
+
+           }
+         }
+           & .nu__accord-hidden {
+
+             & > p {
+
+             }
+
+           }
+
+
+
+
+         }
+
+         & img {
+
+         }
+         & p {
+
+         }
+         & ul {
+
+           & li {
+
+           }
+         }
+       }
+     }
+  }
+
+  .nu__scroll-column > div > article > div.nu__accord-item > div.nu__item-wrap > div#nu__lea-copy.nu__accord-copy {
+    display:inline-block;
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .nu__scroll-column {
+    & div {
+      max-width:100% !important;
+    }
+  }
+
+  .nu__fixed-column {
+    height:auto;
+    padding-bottom:30px;
+  }
+
+
+  .nu__scroll-column > div > article > div.nu__accord-item .nu__accord-hidden {
+    margin-left:0 !important;
+  }
+
+  .nu__scroll-column > div > article > div.nu__accord-item div.nu__item-wrap > div.nu__accord-copy:first-of-type  {
+    width:100%;
+    margin-left:15px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+
+
+
+  .nu__fixed-column {
+    width:100%;
+    position:fixed;
+    height:auto;
+    z-index:100;
+    background-color: $black;
+    & div {
+      float:none;
+      width:100%;
+      display:block;
+      position:relative;
+      max-width:80%;
+      left:10%;
+      & img {
+        display:none;
+      }
+    }
+  }
+
+  .nu__scroll-column {
+    width:100%;
+    margin-top:180px;
+    & div {
+      margin-left:10%;
+      width:80%;
+      max-width:80%;
+    }
+  }
+
+  blockquote {
+    font-size:3rem !important;
+    line-height:4rem !important;
+    & small {
+      font-size:2rem !important;
+    }
+  }
+
+  body.ian-mclarney {
+    header, footer {
+
+    }
+
+    main {
+
+    }
+  }
+ #nu__dash-wrapper {
+
+   & .nu__vertical-dash {
+
+    }
+  }
+
+  .nu__fixed-column {
+
+    & div {
+
+      & p {
+
+        & a {
+
+          &:hover {
+
+          }
+        }
+      }
+      & h2 {
+        font-size:2.75rem;
+        line-height:3.75rem;
+      }
+      & img {
+
+      }
+    }
+  }
+
+  .nu__scroll-column {
+
+     & > div {
+
+
+       & h3 {
+        line-height:3.75rem;
+        font-size:2.75rem;
+        &:nth-of-type(2){
+
+        }
+       }
+       & > article {
+
+         & > div.nu__accord-item {
+
+           & div.nu__item-wrap {
+            width:100%;
+
+           & > span {
+
+           }
+
+           & > img {
+              height:auto;
+              width:50%;
+             &#nu__ian-img {
+
+             }
+           }
+           & > div.nu__accord-copy {
+            margin-top:10px;
+            margin-left:0;
+             &:first-of-type {
+              width:100% !important;
+              display:block;
+              max-width:100%;
+              margin-left:0;
+             }
+             & > small {
+
+             }
+             & > p {
+
+             }
+
+
+           }
+           & hr {
+
+           }
+         }
+           & .nu__accord-hidden {
+
+             & > p {
+
+             }
+
+           }
+
+
+
+
+         }
+
+         & img {
+
+         }
+         & p {
+
+         }
+         & ul {
+
+           & li {
+
+           }
+         }
+       }
+     }
+  }
+}

@@ -1,0 +1,13 @@
+.wrapper {
+	max-width:$wrapper-width;
+	width:100%;
+	margin:0 auto;
+}
+
+@media only screen and (max-width: 1350px) {
+	.wrapper {
+		max-width:80%;
+		width:80%;
+
+	}
+}
