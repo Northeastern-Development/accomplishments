@@ -81,7 +81,7 @@
 				<section class="nu__earlycareer">
 					<div class="wrapper" style="position:relative;height:100%;">
 						<h2 class="section-header"><span class="nu__span-bold">Early career recognition </span></h2>
-						<p>Northeastern’s 2017&ndash;2018 recipients of national grants and awards recognizing significant contributions to science, engineering, and computer science by junior and senior faculty.</p>
+						<p>Northeastern’s 2017&ndash;2018 recipients of national grants and awards recognizing significant contributions to science, engineering, and computer science by junior faculty.</p>
 						<div class="content">
 							<div>
 								<p>NATIONAL SCIENCE FOUNDATION</p>

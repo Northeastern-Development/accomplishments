@@ -488,11 +488,11 @@ if ($('body').hasClass('page-id-5') || $('body').hasClass('page-id-23') || $('bo
 		easing:'swing', // can be anything
 			step: function() { // called on every step
 					// Update the element's text with rounded-up value:
-					$('.js-count6').text(commaSeparateNumber(Math.round(this.someValue1)));
+					$('.js-count6').text((Math.round(this.someValue1)));
 			},
 			complete: function() {
 				var number = 1469;
-				var num = number.toLocaleString();
+				var num = number.replace(/,/g, "");
 				$('.js-count6').html(num);
 			}
 		});

@@ -191,7 +191,7 @@
 							  </div>
 							  <div class="col" >
 									<h2 class="js-count5">38%</h2>
-									<p>Increase in <span class="nu__span-bold nu__span-red">graduate enrollment</span> at regional campuses since 2013&ndash;2014</p>
+									<p>Increase in <span class="nu__span-bold nu__span-red">graduate enrollment</span> since 2013&ndash;2014</p>
 							  </div>
 							</div>
 
