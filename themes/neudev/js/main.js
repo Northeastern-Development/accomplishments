@@ -141,7 +141,7 @@ if ( $('body').hasClass('page-id-26') ) {
 				$(document).on('touchend click','ul.controls li a',function(e){
 				e.preventDefault();
 
-				var images = Array(0,"../wp-content/themes/neudev/img/research/partnerships1.jpg","../wp-content/themes/neudev/img/research/partnerships2.jpg","../wp-content/themes/neudev/img/research/partnerships3.jpg","../wp-content/themes/neudev/img/research/partnerships4.jpg");
+				var images = Array(0,"../wp-content/themes/neudev/img/research/partnerships1.jpg","../wp-content/themes/neudev/img/research/partnerships2.jpg","../wp-content/themes/neudev/img/research/partnerships3.jpg","../wp-content/themes/neudev/img/research/partnerships4.jpg","../wp-content/themes/neudev/img/research/partnerships5.jpg","../wp-content/themes/neudev/img/research/partnerships6.jpg","../wp-content/themes/neudev/img/research/partnerships7.jpg");
 
 				var selected = $(this).attr("data-id").split("-")[1];
 
@@ -475,19 +475,6 @@ if ($('body').hasClass('page-id-5') || $('body').hasClass('page-id-23') || $('bo
 				var number = 38;
 				var num = number.toLocaleString();
 				$('.js-count5').html(num);
-			}
-		});
-		$({someValue3: 0}).animate({someValue3: 5}, {
-		duration: 1000,
-		easing:'swing', // can be anything
-			step: function() { // called on every step
-					// Update the element's text with rounded-up value:
-					$('.js-counta').text(commaSeparateNumber(Math.round(this.someValue3)));
-			},
-			complete: function() {
-				var number = 5;
-				var num = number.toLocaleString();
-				$('.js-counta').html(num);
 			}
 		});
 	}
