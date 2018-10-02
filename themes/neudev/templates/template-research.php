@@ -90,49 +90,81 @@
 					<div class="wrapper" style="position:relative;height:100%;">
 						<h2 class="section-header"><span class="nu__span-bold">Early career recognition </span></h2>
 						<p>Northeastern’s 2017&ndash;2018 recipients of national grants and awards recognizing significant contributions to science, engineering, and computer science by junior faculty.</p>
-						<div class="content">
-							<div>
-								<p>NATIONAL SCIENCE FOUNDATION</p>
-								<ul>
-									<li><span class="nu__span-bold">David Choffnes, NSF CAREER Award </span><br>College of Computer and Information Science </li>
-									<li><span class="nu__span-bold">Cody Dunne, NSF CRII Award</span><br>College of Computer and Information Science </li>
-									<li><span class="nu__span-bold">Stratis Ioannidis, NSF CAREER Award</span><br>College of Engineering</li>
-									<li><span class="nu__span-bold">Huy Nguyen, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-									<li><span class="nu__span-bold">Ameet Pinto, NSF CAREER Award</span><br>College of Engineering</li>
-									<li><span class="nu__span-bold">Robert Platt, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-									<li><span class="nu__span-bold">Jonathan Ullman, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-									<li><span class="nu__span-bold">Byron Wallace, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-									<li><span class="nu__span-bold">Richard West, NSF CAREER Award</span><br>College of Engineering </li>
-									<li><span class="nu__span-bold">Daniel Wichs, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-									<li><span class="nu__span-bold">Dori Woods, NSF CAREER Award</span><br>College of Science</li>
-								</ul>
-							</div>
-							<div>
-								<p >DEFENSE DEPARTMENT AGENCIES</p>
-								<ul>
-									<li><span class="nu__span-bold">Ehsan Elhamifar, DARPA Young Faculty Award </span><br>College of Computer and Information Science </li>
-									<li><span class="nu__span-bold">Marvin Onabajo, Army Research Office Young Investigator Award </span><br>College of Engineering</li>
-								</ul>
+						<div class="controls js-recognition">
+							<ul>
+								<!-- <li data-id="recognition-1" class="selected">NATIONAL SCIENCE FOUNDATION</li>
+								<li data-id="recognition-2">DEFENSE DEPARTMENT AGENCIES</li>
+								<li data-id="recognition-3">NATIONAL INSTITUTES OF HEALTH</li>
+								<li data-id="recognition-4">INNOVATIVE THINKERS RECOGNIZED</li> -->
+								<li><span data-id="recognition-1" class="selected">NATIONAL SCIENCE FOUNDATION</span></li>
+								<li><span data-id="recognition-2">DEFENSE DEPARTMENT AGENCIES</span></li>
+								<li><span data-id="recognition-3">NATIONAL INSTITUTES OF HEALTH</span></li>
+								<li><span data-id="recognition-4">INNOVATIVE THINKERS RECOGNIZED</span></li>
+							</ul>
 
-								<p style="margin-top:15px">NATIONAL INSTITUTES OF HEALTH</p>
-								<ul >
-									<li><span class="nu__span-bold">Abigail and Ryan Koppes, NIH Trailblazer New/Early Career Investigator Awards</span><br>College of Engineering</li>
-									<li><span class="nu__span-bold">Danielle Levac, NIH Mentored Research Scientist Development Award</span><br>Bouvé College of Health Sciences</li>
-								</ul>
-							</div>
-							<!-- <div>
-								<div>
-									<img class="nu__desktop" src="<?php echo get_stylesheet_directory_uri(); ?>/img/research/early_career_kaushik_chowdhury.png" alt="Kaushik Chowdhury headshot" />
-									<img class="nu__mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/research/early_career_kaushik_chowdhury_mobile.png" alt="Kaushik Chowdhury headshot" />
-									<p><span class="nu__span-bold">Kaushik Chowdhury</span>, associate professor of electrical and computer engineering, was named a winner of <span class="nu__span-bold">the Presidential Early Career Award</span> for Scientists and Engineers.</p>
-								</div>
-								<div>
-									<img class="nu__desktop" src="<?php echo get_stylesheet_directory_uri(); ?>/img/research/early_career_pau_closas.png" alt="Pau Closas headshot" />
-									<img class="nu__mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/research/early_career_pau_closas_mobile.png" alt="Pau Closas headshot" />
-									<p><span class="nu__span-bold">Pau Closas</span>, assistant professor of electrical and computer engineering, earned <span class="nu__span-bold">an Institute of Navigation Early Achievement Award</span>.</p>
-								</div>
-							</div> -->
 						</div>
+						<div class="content js-recognition-content">
+							<div class="content-lists">
+							  <!-- <p>1</p> -->
+							  <ul>
+							    <li><span class="nu__span-bold">David Choffnes, NSF CAREER Award </span><br>College of Computer and Information Science </li>
+							    <li><span class="nu__span-bold">Cody Dunne, NSF CRII Award</span><br>College of Computer and Information Science </li>
+							    <li><span class="nu__span-bold">Stratis Ioannidis, NSF CAREER Award</span><br>College of Engineering</li>
+							    <li><span class="nu__span-bold">Huy Nguyen, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+							    <li><span class="nu__span-bold">Ameet Pinto, NSF CAREER Award</span><br>College of Engineering</li>
+							    <li><span class="nu__span-bold">Robert Platt, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+							  </ul>
+							</div>
+							<div>
+							  <!-- <p>DEFENSE DEPARTMENT AGENCIES</p> -->
+							  <ul>
+							    <li><span class="nu__span-bold">Jonathan Ullman, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+							    <li><span class="nu__span-bold">Byron Wallace, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+							    <li><span class="nu__span-bold">Richard West, NSF CAREER Award</span><br>College of Engineering </li>
+							    <li><span class="nu__span-bold">Daniel Wichs, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+							    <li><span class="nu__span-bold">Dori Woods, NSF CAREER Award</span><br>College of Science</li>
+							    <!-- <li><span class="nu__span-bold">Ehsan Elhamifar, DARPA Young Faculty Award </span><br>College of Computer and Information Science </li>
+							    <li><span class="nu__span-bold">Marvin Onabajo, Army Research Office Young Investigator Award </span><br>College of Engineering</li> -->
+							  </ul>
+
+							  <!-- <p style="margin-top:15px">NATIONAL INSTITUTES OF HEALTH</p>
+							  <ul >
+							    <li><span class="nu__span-bold">Abigail and Ryan Koppes, NIH Trailblazer New/Early Career Investigator Awards</span><br>College of Engineering</li>
+							    <li><span class="nu__span-bold">Danielle Levac, NIH Mentored Research Scientist Development Award</span><br>Bouvé College of Health Sciences</li>
+							  </ul> -->
+							</div>
+							<!-- <div class="content-lists">
+							  <p>1</p>
+							  <ul>
+							    <li><span class="nu__span-bold">David Choffnes, NSF CAREER Award </span><br>College of Computer and Information Science </li>
+							    <li><span class="nu__span-bold">Cody Dunne, NSF CRII Award</span><br>College of Computer and Information Science </li>
+							    <li><span class="nu__span-bold">Stratis Ioannidis, NSF CAREER Award</span><br>College of Engineering</li>
+							    <li><span class="nu__span-bold">Huy Nguyen, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+							    <li><span class="nu__span-bold">Ameet Pinto, NSF CAREER Award</span><br>College of Engineering</li>
+							    <li><span class="nu__span-bold">Robert Platt, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+							    <li><span class="nu__span-bold">Jonathan Ullman, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+							    <li><span class="nu__span-bold">Byron Wallace, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+							    <li><span class="nu__span-bold">Richard West, NSF CAREER Award</span><br>College of Engineering </li>
+							    <li><span class="nu__span-bold">Daniel Wichs, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+							    <li><span class="nu__span-bold">Dori Woods, NSF CAREER Award</span><br>College of Science</li>
+							  </ul>
+							</div>
+							<div>
+							  <p>DEFENSE DEPARTMENT AGENCIES</p>
+							  <ul>
+							    <li><span class="nu__span-bold">Ehsan Elhamifar, DARPA Young Faculty Award </span><br>College of Computer and Information Science </li>
+							    <li><span class="nu__span-bold">Marvin Onabajo, Army Research Office Young Investigator Award </span><br>College of Engineering</li>
+							  </ul>
+
+							  <p style="margin-top:15px">NATIONAL INSTITUTES OF HEALTH</p>
+							  <ul >
+							    <li><span class="nu__span-bold">Abigail and Ryan Koppes, NIH Trailblazer New/Early Career Investigator Awards</span><br>College of Engineering</li>
+							    <li><span class="nu__span-bold">Danielle Levac, NIH Mentored Research Scientist Development Award</span><br>Bouvé College of Health Sciences</li>
+							  </ul>
+							</div> -->
+
+
+						</div><!--end content-->
 					</div>
 				</section>
 

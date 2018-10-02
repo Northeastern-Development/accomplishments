@@ -369,7 +369,16 @@ if ($('body').hasClass('page-id-23') || $('body').hasClass('page-id-26') || $('b
 }
 
 
+$(document).on('touchend click','.js-recognition > ul > li > span',function(e){
+	e.preventDefault();
+	var selectedGroup = $(this).attr('data-id').split("-")[1];
+	$('.js-recognition > ul > li> span').removeClass('selected');//removes active red underline before adding new one to active state
+	$(this).addClass('selected');//adds active state to selected group
+	$("div.js-recognition-content").load("http://accomplishments.edu/wp-content/themes/neudev/_includes/recognition"+selectedGroup+".php");//loads in content thats located in the _includes directory.
+});
 
+
+// <?php require_once(dirname(__FILE__)."/_includes/navigation.php"); ?>
 
 /*HOME OR LEARNING OR RESEARCH OR EMPOWER PAGES*/
 if ($('body').hasClass('page-id-5') || $('body').hasClass('page-id-23') || $('body').hasClass('page-id-26') || $('body').hasClass('page-id-76')) {
