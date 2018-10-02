@@ -1,6 +1,14 @@
-# This is a template .gitignore file for git-managed WordPress projects.## Fact: you don't want WordPress core files, or your server-specific# configuration files etc., in your project's repository. You just don't.
-# As such this is intended to only cover items in the wp-content folder.## Solution: this is intended to only cover items in the wp-content folder
-# and so should appear at the root of the wp-content folder.## See the comments below for more info on how to add exceptions for your# content.
+# This is a template .gitignore file for git-managed WordPress projects.
+#
+# Fact: you don't want WordPress core files, or your server-specific
+# configuration files etc., in your project's repository. You just don't.
+# As such this is intended to only cover items in the wp-content folder.
+#
+# Solution: this is intended to only cover items in the wp-content folder
+# and so should appear at the root of the wp-content folder.
+#
+# See the comments below for more info on how to add exceptions for your
+# content.
 
 
 
@@ -8,7 +16,8 @@
 /*
 
 
-# don't ignore the following specific files/folders!.gitignore
+# don't ignore the following specific files/folders
+!.gitignore
 
 
 # don't ignore the plugins directories
@@ -18,3 +27,44 @@
 
 # Ignore everything in the "themes" directory, except our custom theme
 !themes/neudev/
+plugins/wordfence/css/activity-report-widget.1538422087.css
+plugins/wordfence/css/diff.1538422087.css
+plugins/wordfence/css/dt_table.1538422087.css
+plugins/wordfence/css/fullLog.1538422087.css
+plugins/wordfence/css/iptraf.1538422087.css
+plugins/wordfence/css/jquery-ui-timepicker-addon.1538422087.css
+plugins/wordfence/css/jquery-ui.min.1538422087.css
+plugins/wordfence/css/jquery-ui.structure.min.1538422087.css
+plugins/wordfence/css/jquery-ui.theme.min.1538422087.css
+plugins/wordfence/css/main.1538422087.css
+plugins/wordfence/css/phpinfo.1538422087.css
+plugins/wordfence/css/wf-adminbar.1538422087.css
+plugins/wordfence/css/wf-colorbox.1538422087.css
+plugins/wordfence/css/wf-font-awesome.1538422087.css
+plugins/wordfence/css/wf-ionicons.1538422087.css
+plugins/wordfence/css/wf-onboarding.1538422087.css
+plugins/wordfence/css/wf-roboto-font.1538422087.css
+plugins/wordfence/css/wfselect2.min.1538422087.css
+plugins/wordfence/css/wordfenceBox.1538422087.css
+plugins/wordfence/js/admin.1538422087.js
+plugins/wordfence/js/admin.ajaxWatcher.1538422087.js
+plugins/wordfence/js/admin.liveTraffic.1538422087.js
+plugins/wordfence/js/Chart.bundle.min.1538422087.js
+plugins/wordfence/js/date.1538422087.js
+plugins/wordfence/js/jquery-ui-timepicker-addon.1538422087.js
+plugins/wordfence/js/jquery.colorbox-min.1538422087.js
+plugins/wordfence/js/jquery.colorbox.1538422087.js
+plugins/wordfence/js/jquery.dataTables.min.1538422087.js
+plugins/wordfence/js/jquery.qrcode.min.1538422087.js
+plugins/wordfence/js/jquery.tmpl.min.1538422087.js
+plugins/wordfence/js/jquery.tools.min.1538422087.js
+plugins/wordfence/js/knockout-3.3.0.1538422087.js
+plugins/wordfence/js/perf.1538422087.js
+plugins/wordfence/js/wfdashboard.1538422087.js
+plugins/wordfence/js/wfdropdown.1538422087.js
+plugins/wordfence/js/wfglobal.1538422087.js
+plugins/wordfence/js/wfpopover.1538422087.js
+plugins/wordfence/js/wfselect2.min.1538422087.js
+plugins/wordfence/models/block/wfRateLimit.php
+plugins/wordfence/vendor/.htaccess
+plugins/wordfence/waf/.htaccess
