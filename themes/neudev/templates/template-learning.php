@@ -193,6 +193,10 @@
 									<h2 class="js-count5">38%</h2>
 									<p>Increase in <span class="nu__span-bold nu__span-red">graduate enrollment</span> since 2013&ndash;2014</p>
 							  </div>
+								<div class="col" >
+									<h2 class="js-counta">5</h2>
+									<p>Campuses: Boston, Bay Area, CA, Seattle, Toronto, and Charlotte, NC</p>
+							  </div>
 							</div>
 
 							<div class="nu__part-col" id="partnership">
@@ -213,6 +217,14 @@
 									<img class="nu__mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/amit.jpg" alt="Amit Shinde">
 									<p>Amit Shinde says analyzing data effectively is critical to his position as a lead engineer for VSP Vision Care in Sacramento, California. Northeastern's Master of Professional Studies in Analytics was just what he needed to become a more creative, confident professional. "The combination of theory and programming knowledge was most valuable to me. I was able to get the complete cycle of data-analysis process in an organization."</p>
 									<!-- <p><a href="<?=home_url()?>/major-league-opportunity">Full Story <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p> -->
+								</div>
+								<div class="nu__part-col-section">
+									<div class="nu__part-header">
+										<h3>New Story TBD</h3>
+									</div>
+									<img class="nu__dt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/amit.jpg" alt="Amit Shinde">
+									<img class="nu__mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/amit.jpg" alt="Amit Shinde">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas nibh sed blandit viverra. Maecenas venenatis ligula tristique quam tempus dapibus. Suspendisse bibendum accumsan ex, a euismod dui accumsan non. Fusce laoreet sem et enim condimentum, ut ornare massa semper. Nam lacinia ligula at efficitur lobortis. Proin ac mauris eu nisl ultrices efficitur. Mauris mollis est a posuere mollis. Sed ac tincidunt diam, at interdum nulla. Aliquam. </p>
 								</div>
 							</div>
 						</div>
@@ -267,6 +279,11 @@
 								<div class="nu__stat-block">
 									<h2>17,890</h2>
 									<p>Number of students participating in at least one of 416 <span class="nu__span-bold">student organizations</span>, 2017&ndash;2018</p>
+								</div>
+								<div class="nu__stat-block">
+									<p>2018</p>
+									<h2>We're #1</h2>
+									<p>The mens hockey team <span class="nu__span-bold">defeated Boston University Terriers 5&ndash;2</span> on February 12 to claim <span class="nu__span-bold">Northeastern's first</span> mens Beanpot championship since 1988.</p>
 								</div>
 
 					    </div>

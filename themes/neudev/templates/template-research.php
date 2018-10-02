@@ -49,7 +49,10 @@
 							<li><a href="#" title="Challenging a climate strategy " data-id="partnerships-1" class="activeoption">Challenging a climate strategy </a></li>
 							<li><a href="#" title="Study finds flood threat" data-id="partnerships-2">Study finds flood threat</a></li>
 							<li><a href="#" title="Mobile security gap found " data-id="partnerships-3">Mobile security gap found </a></li>
-							<li><a href="#" title="Kostas Research Institute chosen for Army technology hub   " data-id="partnerships-4">Kostas Research Institute  </a></li>
+							<li><a href="#" title="Kostas Research Institute chosen for Army technology hub" data-id="partnerships-4">Kostas Research Institute</a></li>
+							<li><a href="#" title="Expanding collaborative security reserach" data-id="partnerships-5">Expanding collaborative security reserach</a></li>
+							<li><a href="#" title="Launching coastal sustainability network" data-id="partnerships-6">Launching coastal sustainability network</a></li>
+							<li><a href="#" title="Scientists pioneer epidemic models" data-id="partnerships-7">Scientists pioneer epidemic models</a></li>
 						</ul>
 
 						<div class="content">
@@ -58,7 +61,12 @@
 							<p id="p-2">A new study by Samuel Muñoz of the CSI and colleagues from Woods Hole Oceanographic Institute, the University of Alabama, and Southern Illinois University showed that human activity is increasing the risk of catastrophic floods. The researchers found that the probability of a 100-year flood occurring in the Mississippi River system has increased 20 percent in the past 500 years, mostly because of river engineering and other human activities. Their research lends support to a movement to de-engineer rivers back to something closer to their natural states. </p>
 							<p id="p-3">A team of researchers from Northeastern and the University of California, Santa Barbara, found that apps on mobile phones can secretly record screenshots of users’ activities and send them to third parties. The study, led by David Choffnes and Christo Wilson of the Cybersecurity and Privacy Institute, noted that because screenshots may include personal information like passwords, a phone’s privacy window could be exploited for profit. In all, 9,000 of the 17,000 apps the team analyzed had the potential to take screenshots. </p>
 							<p id="p-4">In April, the U.S. Army Research Laboratory announced a location for its new, northeast regional hub: the Kostas Research Institute for Homeland Security at Northeastern’s Innovation Campus in Burlington, Massachusetts. ARL researchers will work with faculty and other academic and industry partners to improve warfighter safety by speeding the transfer of technologies from the lab to the battlefield, according to Senior Vice Provost for Research David Luzzi.</p>
+							<p id="p-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper quis ligula quis consectetur. Sed diam magna, molestie vel luctus at, varius eu est. Sed at molestie sapien. Sed at turpis eget risus congue cursus. Integer ullamcorper turpis sed varius vulputate. In nec semper augue, ut malesuada risus. Mauris lectus risus, pulvinar at est eget, semper tempor mauris. Donec ac efficitur risus, in dapibus nulla. Morbi efficitur molestie sapien, id.</p>
+							<p id="p-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper quis ligula quis consectetur. Sed diam magna, molestie vel luctus at, varius eu est. Sed at molestie sapien. Sed at turpis eget risus congue cursus. Integer ullamcorper turpis sed varius vulputate. In nec semper augue, ut malesuada risus. Mauris lectus risus, pulvinar at est eget, semper tempor mauris. Donec ac efficitur risus, in dapibus nulla. Morbi efficitur molestie sapien, id.</p>
+							<p id="p-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper quis ligula quis consectetur. Sed diam magna, molestie vel luctus at, varius eu est. Sed at molestie sapien. Sed at turpis eget risus congue cursus. Integer ullamcorper turpis sed varius vulputate. In nec semper augue, ut malesuada risus. Mauris lectus risus, pulvinar at est eget, semper tempor mauris. Donec ac efficitur risus, in dapibus nulla. Morbi efficitur molestie sapien, id.</p>
 						</div>
+
+
 
 					</div>
 				</section>

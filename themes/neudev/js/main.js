@@ -477,6 +477,19 @@ if ($('body').hasClass('page-id-5') || $('body').hasClass('page-id-23') || $('bo
 				$('.js-count5').html(num);
 			}
 		});
+		$({someValue3: 0}).animate({someValue3: 5}, {
+		duration: 1000,
+		easing:'swing', // can be anything
+			step: function() { // called on every step
+					// Update the element's text with rounded-up value:
+					$('.js-counta').text(commaSeparateNumber(Math.round(this.someValue3)));
+			},
+			complete: function() {
+				var number = 5;
+				var num = number.toLocaleString();
+				$('.js-counta').html(num);
+			}
+		});
 	}
 
 
