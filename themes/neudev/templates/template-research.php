@@ -104,35 +104,7 @@
 
 						</div>
 						<div class="content js-recognition-content">
-							<div class="content-lists">
-							  <!-- <p>1</p> -->
-							  <ul>
-							    <li><span class="nu__span-bold">David Choffnes, NSF CAREER Award </span><br>College of Computer and Information Science </li>
-							    <li><span class="nu__span-bold">Cody Dunne, NSF CRII Award</span><br>College of Computer and Information Science </li>
-							    <li><span class="nu__span-bold">Stratis Ioannidis, NSF CAREER Award</span><br>College of Engineering</li>
-							    <li><span class="nu__span-bold">Huy Nguyen, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-							    <li><span class="nu__span-bold">Ameet Pinto, NSF CAREER Award</span><br>College of Engineering</li>
-							    <li><span class="nu__span-bold">Robert Platt, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-							  </ul>
-							</div>
-							<div>
-							  <!-- <p>DEFENSE DEPARTMENT AGENCIES</p> -->
-							  <ul>
-							    <li><span class="nu__span-bold">Jonathan Ullman, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-							    <li><span class="nu__span-bold">Byron Wallace, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-							    <li><span class="nu__span-bold">Richard West, NSF CAREER Award</span><br>College of Engineering </li>
-							    <li><span class="nu__span-bold">Daniel Wichs, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-							    <li><span class="nu__span-bold">Dori Woods, NSF CAREER Award</span><br>College of Science</li>
-							    <!-- <li><span class="nu__span-bold">Ehsan Elhamifar, DARPA Young Faculty Award </span><br>College of Computer and Information Science </li>
-							    <li><span class="nu__span-bold">Marvin Onabajo, Army Research Office Young Investigator Award </span><br>College of Engineering</li> -->
-							  </ul>
-
-							  <!-- <p style="margin-top:15px">NATIONAL INSTITUTES OF HEALTH</p>
-							  <ul >
-							    <li><span class="nu__span-bold">Abigail and Ryan Koppes, NIH Trailblazer New/Early Career Investigator Awards</span><br>College of Engineering</li>
-							    <li><span class="nu__span-bold">Danielle Levac, NIH Mentored Research Scientist Development Award</span><br>Bouvé College of Health Sciences</li>
-							  </ul> -->
-							</div>
+							<?php echo readfile("http://accomplishments.edu/wp-content/themes/neudev/_includes/recognition1.php");?>
 							<!-- <div class="content-lists">
 							  <p>1</p>
 							  <ul>

@@ -413,10 +413,6 @@ section.nu__earlycareer {
           font-size: 1.4rem;
           font-weight: 300;
           margin:0 1.33% 0 0;
-          
-          // & > span {
-          //
-          // }
           &:last-child {
             margin:0;
           }
@@ -454,11 +450,14 @@ section.nu__earlycareer {
               line-height:2.8rem;
               font-weight: 300;
               color: rgba(255,255,255, 1.0);
-              margin: 0 0 10px 0;
-              // & > span{
-              //   font-weight: bolder;
-              //   color: rgba(225, 225, 225, 1.0);
-              // }
+              // margin: 0 0 10px 0;
+              margin: 0 0 60px 0;
+              & > img {
+                width:100px;
+                height:100px;
+                float:left;
+                margin-right:15px;
+              }
             }
           }
         }
@@ -502,11 +501,14 @@ section.nu__earlycareer {
               line-height:2.8rem;
               font-weight: 300;
               color: rgba(255,255,255, 1.0);
-              margin: 0 0 10px 0;
-              // & > span{
-              //   font-weight: bolder;
-              //   color: rgba(225, 225, 225, 1.0);
-              // }
+              // margin: 0 0 10px 0;
+              margin: 0 0 60px 0;
+              & > img {
+                width:100px;
+                height:100px;
+                float:left;
+                margin-right:15px;
+              }
             }
           }
         }
