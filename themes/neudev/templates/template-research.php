@@ -104,7 +104,8 @@
 
 						</div>
 						<div class="content js-recognition-content">
-							<?php echo readfile("http://accomplishments.edu/wp-content/themes/neudev/_includes/recognition1.php");?>
+						
+							<?php include(locate_template('_includes/recognition1.php')); ?>
 							<!-- <div class="content-lists">
 							  <p>1</p>
 							  <ul>
