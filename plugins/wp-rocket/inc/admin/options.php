@@ -1,4 +1,6 @@
 <?php
+use WP_Rocket\Logger;
+
 defined( 'ABSPATH' ) || die( 'Cheatin&#8217; uh?' );
 
 /**
@@ -80,7 +82,7 @@ function rocket_after_save_options( $oldvalue, $value ) {
 	}
 
 	// Update CloudFlare settings.
-	if ( ! empty( $_POST ) && isset( $oldvalue['cloudflare_auto_settings'], $value['cloudflare_auto_settings'] ) && (int) $oldvalue['cloudflare_auto_settings'] !== (int) $value['cloudflare_auto_settings'] ) {
+	if ( ! empty( $_POST ) && ! empty( $value['do_cloudflare'] ) && isset( $oldvalue['cloudflare_auto_settings'], $value['cloudflare_auto_settings'] ) && (int) $oldvalue['cloudflare_auto_settings'] !== (int) $value['cloudflare_auto_settings'] ) {
 		$cf_old_settings = explode( ',', $value['cloudflare_old_settings'] );
 
 		// Set Cache Level to Aggressive.
@@ -224,23 +226,6 @@ function rocket_pre_main_option( $newvalue, $oldvalue ) {
 		|| ( isset( $oldvalue['cdn'] ) && ! isset( $newvalue['cdn'] ) || ! isset( $oldvalue['cdn'] ) && isset( $newvalue['cdn'] ) )
 	) {
 		$newvalue['minify_js_key'] = create_rocket_uniqid();
-	}
-
-	// Update CloudFlare zone ID if CloudFlare domain was changed.
-	if ( isset( $newvalue['cloudflare_domain'], $oldvalue['cloudflare_domain'] ) && $newvalue['cloudflare_domain'] !== $oldvalue['cloudflare_domain'] && 0 < (int) get_rocket_option( 'do_cloudflare' ) ) {
-		$cf_instance = get_rocket_cloudflare_api_instance();
-		if ( ! is_wp_error( $cf_instance ) ) {
-			try {
-				$zone_instance = new Cloudflare\Zone( $cf_instance );
-				$zone          = $zone_instance->zones( $newvalue['cloudflare_domain'] );
-
-				if ( isset( $zone->result[0]->id ) ) {
-					$newvalue['cloudflare_zone_id'] = $zone->result[0]->id;
-				}
-			} catch ( Exception $e ) {
-				// do nothing.
-			}
-		}
 	}
 
 	// Save old CloudFlare settings.

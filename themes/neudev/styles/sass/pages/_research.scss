@@ -369,6 +369,7 @@ section.nu__researchstrategy {
 }
 
 
+
 section.nu__earlycareer {
   background-color: rgba(0,0,0, 1.0);
   background: url(../../img/research/early_career_bg.jpg); background-size: cover; background-position: center center;
@@ -427,7 +428,7 @@ section.nu__earlycareer {
 
     & > div.content{
       clear: both;
-      overflow: hidden;
+      // overflow: hidden;
       margin: 0 0 50px 0;
 
       & > div{
@@ -513,10 +514,14 @@ section.nu__earlycareer {
           }
         }
       }
+
     }
 
   }
 }
+
+
+
 
 
 
@@ -555,10 +560,14 @@ section.slider {
     // }
     & > p{
       display: none;
-      width: 55%;
-      margin: 30px 0 0 100px;
-      font-size: 2rem;
-      line-height: 3.2rem;
+      // width: 55%;
+      width:44%;
+      // margin: 30px 0 0 100px;
+      margin: 30px 0 0 0;
+      // font-size: 2rem;
+      // line-height: 3.2rem;
+      font-size:1.6rem;
+      line-height:2.8rem;
       font-weight: 300;
       color: $black;
       &:nth-of-type(1){
@@ -901,6 +910,127 @@ section.nu__facultyinnovation{
 
 
 
+div.talkingheadss{
+  min-height: 400px;
+  clear: both;
+  margin: 150px 0 0 0;
+  border-top: solid rgba(255,255,255,1.0) 4px;
+  // background: rgba(0,0,0,0.9);
+  & > div.theheadss{
+    //width: 50vw;
+    width:100%;
+  //margin: (-1 * (((70vw - 12vw) / 5) / 2)) 1vw 0 1vw;
+    margin:-100px auto 100px 20px;
+    height: auto;
+    overflow: hidden;
+    & > div{
+      height: 150px;
+      float: left;
+      // width: ((70vw - 15.5vw) / 5);
+      // height: ((70vw - 15.5vw) / 5);
+      width:200px;
+      height:200px;
+      // margin: 0 2vw 50px 0;
+      margin: 0 53px 50px 0;
+      border-radius: 50%;
+      background: rgba(255,255,255,1.0);
+      border: solid rgba(255,255,255,1.0) 0.15vw;
+      overflow: hidden;
+      & > span{
+        background: rgba(0,0,0,0.7);
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      &:last-child{
+        margin: 0 0 50px 0;
+      }
+      &.talkingheads{
+        border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+        & > span{
+          background: rgba(0,0,0,0.0);
+        }
+      }
+      &:hover{
+        border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+        cursor: pointer;
+        & > span{
+          background: rgba(0,0,0,0.0);
+        }
+      }
+    }
+  }
+  & > div.chooseatalkingheads{
+    clear: both;
+    display: table;
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    & > div{
+      display: table-cell;
+
+      &:nth-of-type(1),
+      &:nth-of-type(3){
+        width: 150px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 8rem;
+        color: rgba(255,255,255,1.0);
+        &:hover{
+          cursor: pointer;
+          color: rgba(204, 0, 0, 1.0);
+        }
+      }
+      &:nth-of-type(2){
+        & > div{
+          display: none;
+          color: rgba(255,255,255, 1.0);
+          // vertical-align:middle;
+          // height:200px;
+          // & > img {
+          //   width:40%;
+          //   margin-right:30px;
+          //   float:left;
+          //   border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+          //
+          // }
+          & > h4{
+            color: rgba(204, 0, 0, 1.0);
+            font-size: 1.6rem;
+            line-height:2.8rem;
+            font-weight: 700;
+            // width:60%;
+            // margin:0 0 0 35%;
+          }
+          & > h5{
+            font-size: 1.6rem;
+            margin: 0 0 20px 0;
+            font-weight: 300;
+            // width:60%;
+            // margin:0 0 0 35%;
+          }
+          & > p{
+            font-size: 2rem;
+            line-height:3.2rem;
+            font-weight: 300;
+            // width:60%;
+            // text-align:left;
+            // margin:30px 30px 100px 35%;
+          }
+          &:first-child{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
 section.collage {
   & .nu__full-container{
     & .nu__row {
@@ -984,7 +1114,124 @@ section.collage {
 
 
 
+@media only screen and (max-width: 1370px){
+  div.talkingheadss{
+    min-height: 400px;
+    clear: both;
+    margin: 150px 0 0 0;
+    border-top: solid rgba(255,255,255,1.0) 4px;
+    // background: rgba(0,0,0,0.9);
+    & > div.theheadss{
+      //width: 50vw;
+      width:100%;
+      margin: (-1 * (((65vw - 12vw) / 5) / 2)) 1vw 0 1vw;
+      //margin:-100px auto 100px 20px;
+      height: auto;
+      overflow: hidden;
+      & > div{
+        height: 150px;
+        float: left;
+        width: ((65vw - 12vw) / 5);
+        height: ((65vw - 12vw) / 5);
+        // width:200px;
+        // height:200px;
+        // margin: 0 2vw 50px 0;
+        margin: 0 5.8vw 50px 0;
+        border-radius: 50%;
+        background: rgba(255,255,255,1.0);
+        border: solid rgba(255,255,255,1.0) 0.15vw;
+        overflow: hidden;
+        & > span{
+          background: rgba(0,0,0,0.7);
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+        &:last-child{
+          margin: 0 0 50px 0;
+        }
+        &.talkingheads{
+          border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+          & > span{
+            background: rgba(0,0,0,0.0);
+          }
+        }
+        &:hover{
+          border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+          cursor: pointer;
+          & > span{
+            background: rgba(0,0,0,0.0);
+          }
+        }
+      }
+    }
+    & > div.chooseatalkingheads{
+      clear: both;
+      display: table;
+      height: 200px;
+      width: 100%;
+      margin: 0;
+      & > div{
+        display: table-cell;
 
+        &:nth-of-type(1),
+        &:nth-of-type(3){
+          width: 150px;
+          vertical-align: middle;
+          text-align: center;
+          font-size: 8rem;
+          color: rgba(255,255,255,1.0);
+          &:hover{
+            cursor: pointer;
+            color: rgba(204, 0, 0, 1.0);
+          }
+        }
+        &:nth-of-type(2){
+          & > div{
+            display: none;
+            color: rgba(255,255,255, 1.0);
+            // vertical-align:middle;
+            // height:200px;
+            // & > img {
+            //   width:40%;
+            //   margin-right:30px;
+            //   float:left;
+            //   border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+            //
+            // }
+            & > h4{
+              color: rgba(204, 0, 0, 1.0);
+              font-size: 1.6rem;
+              line-height:2.8rem;
+              font-weight: 700;
+              // width:60%;
+              // margin:0 0 0 35%;
+            }
+            & > h5{
+              font-size: 1.6rem;
+              margin: 0 0 20px 0;
+              font-weight: 300;
+              // width:60%;
+              // margin:0 0 0 35%;
+            }
+            & > p{
+              font-size: 2rem;
+              line-height:3.2rem;
+              font-weight: 300;
+              // width:60%;
+              // text-align:left;
+              // margin:30px 30px 100px 35%;
+            }
+            &:first-child{
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
 
 
 
@@ -1108,7 +1355,42 @@ section.collage {
     }
   }
 
-
+  section.nu__facultypartnerships {
+    & .wrapper {
+      & > ul{
+        flex-wrap: wrap;
+        border: none;
+        border-top: solid rgba(89, 89, 89, 1.0) 1px;
+        border-right: solid rgba(89, 89, 89, 1.0) 1px;
+        border-left: solid rgba(89, 89, 89, 1.0) 1px;
+        & > li{
+          flex: 1;
+          display: block;
+          flex-basis: 50%;
+          margin: 0 0 0 0;
+          border-bottom: solid rgba(89, 89, 89, 1.0) 1px;
+          & > a{
+            display: block;
+            font-size: 1.25rem;
+            line-height: 4rem;
+            &.activeoption{
+              background: $red;
+              &:after,
+              &:before {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      & > div.content{
+        & > p{
+          font-size: 1.5rem;
+          line-height: 2.5rem;
+        }
+      }
+    }
+  }
 
 }
 
@@ -1169,10 +1451,14 @@ section.collage {
   section.slider {
     height: 850px;
     div.title{
-      height: 270px;
+      height: auto;
+      & > h3 {
+        font-size:4rem;
+        line-height:6rem;
+      }
     }
     div.wrapper{
-      height: 430px;
+      height: 513px;
       margin: 0 auto 0 auto;
       overflow: hidden;
       & > h3{
@@ -1181,7 +1467,7 @@ section.collage {
         line-height: 6.5rem;
       }
       & > p{
-        width: 65%;
+        width: 50%;
       }
     }
     div.background{
@@ -1206,31 +1492,31 @@ section.collage {
 
 
 
-  section.nu__facultypartnerships {
-    & .wrapper {
-      & > ul{
-        position: relative;
-        flex-wrap: wrap;
-        & > li{
-          flex: 1;
-          display: block;
-          flex-basis: 0;
-          margin: 0 0 0 0;
-          & > a{
-            display: block;
-            font-size: 1.25rem;
-            line-height: 4rem;
-          }
-        }
-      }
-      & > div.content{
-        & > p{
-          font-size: 1.5rem;
-          line-height: 2.5rem;
-        }
-      }
-    }
-  }
+  // section.nu__facultypartnerships {
+  //   & .wrapper {
+  //     & > ul{
+  //       position: relative;
+  //       flex-wrap: wrap;
+  //       & > li{
+  //         flex: 1;
+  //         display: block;
+  //         flex-basis: 0;
+  //         margin: 0 0 0 0;
+  //         & > a{
+  //           display: block;
+  //           font-size: 1.25rem;
+  //           line-height: 4rem;
+  //         }
+  //       }
+  //     }
+  //     & > div.content{
+  //       & > p{
+  //         font-size: 1.5rem;
+  //         line-height: 2.5rem;
+  //       }
+  //     }
+  //   }
+  // }
 
 
 
@@ -1280,42 +1566,7 @@ section.collage {
       }
     }
 
-    section.nu__facultypartnerships {
-      & .wrapper {
-        & > ul{
-          flex-wrap: wrap;
-          border: none;
-          border-top: solid rgba(89, 89, 89, 1.0) 1px;
-          border-right: solid rgba(89, 89, 89, 1.0) 1px;
-          border-left: solid rgba(89, 89, 89, 1.0) 1px;
-          & > li{
-            flex: 1;
-            display: block;
-            flex-basis: 50%;
-            margin: 0 0 0 0;
-            border-bottom: solid rgba(89, 89, 89, 1.0) 1px;
-            & > a{
-              display: block;
-              font-size: 1.25rem;
-              line-height: 4rem;
-              &.activeoption{
-                background: $red;
-                &:after,
-                &:before {
-                  display: none;
-                }
-              }
-            }
-          }
-        }
-        & > div.content{
-          & > p{
-            font-size: 1.5rem;
-            line-height: 2.5rem;
-          }
-        }
-      }
-    }
+
 
 
 
@@ -1504,6 +1755,7 @@ section.collage {
         margin: 0 auto 50px auto;
       }
       & > div.content{
+
         & > div{
           width: 100%;
           float: none;
@@ -1524,6 +1776,8 @@ section.collage {
       }
     }
   }
+
+
 
 
 
@@ -1578,6 +1832,95 @@ section.collage {
                   }
                 }
               }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  div.talkingheadss{
+    margin: 100px 0 0 0;
+    border-top: none;
+    & > div.theheadss{
+    padding: 50px 0 0 0;
+      & > div{
+        float: none;
+        display: none;
+        width: ((50vw - 0) / 1);
+        height: ((50vw - 0) / 1);
+        margin: 0 15vw 0 15vw;
+        & > span{
+          background: rgba(0,0,0,0.7);
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+        &:last-child{
+          margin: 0 15vw 0 15vw;
+        }
+        &:first-child{
+          display: block;
+        }
+        &.talkingheads{
+          border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+          & > span{
+            background: rgba(0,0,0,0.0);
+          }
+        }
+        &:hover{
+          border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+          cursor: pointer;
+          & > span{
+            background: rgba(0,0,0,0.0);
+          }
+        }
+      }
+    }
+    & > div.chooseatalkingheads{
+      margin: 50px 0 0 0;
+      height: 200px;
+      width: 100%;
+      & > div{
+        display: table-cell;
+
+        &:nth-of-type(1),
+        &:nth-of-type(3){
+          width: 100px;
+          font-size: 7rem;
+          &:hover{
+            cursor: pointer;
+            color: rgba(204, 0, 0, 1.0);
+          }
+        }
+        &:nth-of-type(2){
+          & > div{
+          display: none;
+            & > h4{
+              color: rgba(204, 0, 0, 1.0);
+              font-size: 1.6rem;
+              line-height:2.8rem;
+              font-weight: 700;
+              // width:60%;
+              // margin:0 0 0 35%;
+            }
+            & > h5{
+              font-size: 1.6rem;
+              margin: 0 0 20px 0;
+              font-weight: 300;
+              // width:60%;
+              // margin:0 0 0 35%;
+            }
+            & > p{
+              font-size: 2rem;
+              line-height:3.2rem;
+              font-weight: 300;
+              // width:60%;
+              // text-align:left;
+              // margin:30px 30px 100px 35%;
+            }
+            &:first-child{
+              display: block;
             }
           }
         }

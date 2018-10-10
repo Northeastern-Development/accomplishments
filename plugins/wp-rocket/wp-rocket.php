@@ -3,24 +3,25 @@
  * Plugin Name: WP Rocket
  * Plugin URI: https://wp-rocket.me
  * Description: The best WordPress performance plugin.
- * Version: 3.0.4
+ * Version: 3.1.4
  * Code Name: Dagobah
  * Author: WP Media
- * Contributors: Jonathan Buttigieg, Julio Potier, Remy Perona
  * Author URI: http://wp-media.me
  * Licence: GPLv2 or later
  *
  * Text Domain: rocket
  * Domain Path: languages
  *
- * Copyright 2013-2017 WP Rocket
+ * Copyright 2013-2018 WP Rocket
  * */
 
 defined( 'ABSPATH' ) || die( 'Cheatin&#8217; uh?' );
 
 // Rocket defines.
-define( 'WP_ROCKET_VERSION'             , '3.0.4' );
-define( 'WP_ROCKET_PRIVATE_KEY'         , 'e85f4fe6d04d77a2b5e7e7b2b27fa718');
+define( 'WP_ROCKET_VERSION'             , '3.1.4' );
+define( 'WP_ROCKET_WP_VERSION'          , '4.7' );
+define( 'WP_ROCKET_PHP_VERSION'         , '5.4' );
+define( 'WP_ROCKET_PRIVATE_KEY'         , '0311c04ea611b316a287dafff27efdf3');
 define( 'WP_ROCKET_SLUG'                , 'wp_rocket_settings' );
 define( 'WP_ROCKET_WEB_MAIN'            , 'https://wp-rocket.me/');
 define( 'WP_ROCKET_WEB_API'             , WP_ROCKET_WEB_MAIN . 'api/wp-rocket/' );
@@ -64,7 +65,7 @@ if ( ! defined( 'CHMOD_WP_ROCKET_CACHE_DIRS' ) ) {
 	define( 'CHMOD_WP_ROCKET_CACHE_DIRS', 0755 );
 }
 if ( ! defined( 'WP_ROCKET_LASTVERSION' ) ) {
-	define( 'WP_ROCKET_LASTVERSION', '2.11.7' );
+	define( 'WP_ROCKET_LASTVERSION', '3.0.5.1' );
 }
 
 require WP_ROCKET_INC_PATH . 'compat.php';
@@ -96,8 +97,8 @@ $wp_rocket_requirement_checks = new WP_Rocket_Requirements_Check( array(
 	'plugin_file'         => WP_ROCKET_FILE,
 	'plugin_version'      => WP_ROCKET_VERSION,
 	'plugin_last_version' => WP_ROCKET_LASTVERSION,
-	'wp_version'          => '4.2',
-	'php_version'         => '5.4',
+	'wp_version'          => WP_ROCKET_WP_VERSION,
+	'php_version'         => WP_ROCKET_PHP_VERSION,
 ) );
 
 if ( $wp_rocket_requirement_checks->check() ) {

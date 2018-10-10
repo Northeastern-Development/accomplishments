@@ -52,7 +52,7 @@
 							<li><a href="#" title="Kostas Research Institute chosen for Army technology hub" data-id="partnerships-4">Kostas Research Institute</a></li>
 							<li><a href="#" title="Expanding collaborative security reserach" data-id="partnerships-5">Expanding collaborative security reserach</a></li>
 							<li><a href="#" title="Launching coastal sustainability network" data-id="partnerships-6">Launching coastal sustainability network</a></li>
-							<li><a href="#" title="Scientists pioneer epidemic models" data-id="partnerships-7">Scientists pioneer epidemic models</a></li>
+							<!-- <li><a href="#" title="Scientists pioneer epidemic models" data-id="partnerships-7">Scientists pioneer epidemic models</a></li> -->
 						</ul>
 
 						<div class="content">
@@ -104,41 +104,15 @@
 
 						</div>
 						<div class="content js-recognition-content">
-						
-							<?php include(locate_template('_includes/recognition1.php')); ?>
-							<!-- <div class="content-lists">
-							  <p>1</p>
-							  <ul>
-							    <li><span class="nu__span-bold">David Choffnes, NSF CAREER Award </span><br>College of Computer and Information Science </li>
-							    <li><span class="nu__span-bold">Cody Dunne, NSF CRII Award</span><br>College of Computer and Information Science </li>
-							    <li><span class="nu__span-bold">Stratis Ioannidis, NSF CAREER Award</span><br>College of Engineering</li>
-							    <li><span class="nu__span-bold">Huy Nguyen, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-							    <li><span class="nu__span-bold">Ameet Pinto, NSF CAREER Award</span><br>College of Engineering</li>
-							    <li><span class="nu__span-bold">Robert Platt, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-							    <li><span class="nu__span-bold">Jonathan Ullman, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-							    <li><span class="nu__span-bold">Byron Wallace, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-							    <li><span class="nu__span-bold">Richard West, NSF CAREER Award</span><br>College of Engineering </li>
-							    <li><span class="nu__span-bold">Daniel Wichs, NSF CAREER Award</span><br>College of Computer and Information Science</li>
-							    <li><span class="nu__span-bold">Dori Woods, NSF CAREER Award</span><br>College of Science</li>
-							  </ul>
-							</div>
-							<div>
-							  <p>DEFENSE DEPARTMENT AGENCIES</p>
-							  <ul>
-							    <li><span class="nu__span-bold">Ehsan Elhamifar, DARPA Young Faculty Award </span><br>College of Computer and Information Science </li>
-							    <li><span class="nu__span-bold">Marvin Onabajo, Army Research Office Young Investigator Award </span><br>College of Engineering</li>
-							  </ul>
 
-							  <p style="margin-top:15px">NATIONAL INSTITUTES OF HEALTH</p>
-							  <ul >
-							    <li><span class="nu__span-bold">Abigail and Ryan Koppes, NIH Trailblazer New/Early Career Investigator Awards</span><br>College of Engineering</li>
-							    <li><span class="nu__span-bold">Danielle Levac, NIH Mentored Research Scientist Development Award</span><br>Bouvé College of Health Sciences</li>
-							  </ul>
-							</div> -->
+							<?php include(locate_template('_includes/recognition4.php')); ?>
 
 
 						</div><!--end content-->
+
 					</div>
+
+
 				</section>
 
 
@@ -151,6 +125,7 @@
 					</div>
 					<div class="background">
 				    <div>
+
 				    </div>
 						<div id="bgimage" style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/research/slide1.jpg); background-size: cover; background-position: center center;"></div>
 				  </div>

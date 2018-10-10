@@ -113,7 +113,7 @@
 								<div>
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/empower/lifelongconnections.png" alt="lifelong connections collage image" />
 									<p>Alumni forge <span class="nu__span-bold">lifelong connections</span></p>
-									<a href="alumni" title="Click here to read stories">Read Stories</a>
+									<a href="alumni-stories" title="Click here to read stories">Read Stories</a>
 								</div>
 							</div>
 						</div>
@@ -137,24 +137,49 @@
 									<h2>43</h2>
 									<p>Global communities, plus programs in Argentina, Barcelona, Geneva, Melbourne, Pakistan, Rome, Tokyo, and Vietnam</p>
 								</div>
+								<div class="nu__stat-block">
+									<h2>00</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in sem in augue consequat.</p>
+								</div>
 					    </div>
 					    <div class="column center">
 								<div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/empower/brazil.jpg); background-size: cover; background-position: center center;"></div>
 								<h2>Opening Doors in Latin America</h2>
 								<p>New alumni communities took root in Brazil and Colombia. Enthusiasm among alumni in Latin America is growing in light of deep engagement with Northeastern’s D’Amore-McKim School of Business, the FAS Center for Global Business, the Center for Family Business, and entrepreneurship university-wide.</p>
+								<div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/empower/brazil.jpg); background-size: cover; background-position: center center;"></div>
 					    </div>
 					    <div class="column right">
 								<h2>Seeding STEM Careers</h2>
 								<p>In November, the Office of Alumni Relations’ Circuits Program hosted a panel on women in STEM in partnership with Women Who Empower, a group of Northeastern alumni, students, and other professionals. Three alumnae—Allison Ventura, CIS’15, senior software engineer at Hubspot; Azita Razzaghi, BHS’88, PhD’91, head of safety and pharmacovigilance at Verastem Inc.; and Christina Kach, E’09, MS’16, associate consultant for Liberty Mutual Insurance—shared their experiences in male-dominated STEM industries, offered advice for navigating workplace dynamics, and told stories about educators who helped them discover STEM. More than 600 people took part in the live-streamed event.</p>
 								<div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/empower/stem.jpg); background-size: cover; background-position: center center;"></div>
+								<h2>Uniting Like Minds</h2>
+								<p>The Northeastern University Civil Engineering Alumni Organization celebrated 40 years of keeping engineering graduates connected. More than 100 participants honored 2018 Outstanding Alumnus Houssam “Sam” Sleiman, E’83, ME’85, director of capital programs and environmental affairs for the Massachusetts Port Authority. The event raised $20,000 for Northeastern’s Department of Civil Engineering.</p>
 							</div>
 
 
 
 
+
 						</div><!--end nu__row-->
+
 					</div>
 				</section><!--end section-->
+
+
+
+				<section class="nu__alumni" id="nualumnistories">
+
+					<div class="wrapper" style="position:relative;height:100%;">
+						<h2 class="section-header">Alumni Stories</h2>
+						<div class="content">
+							<div>
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/empower/lifelongconnections.png" alt="lifelong connections collage image" />
+								<a href="alumni" title="Click here to read stories">View all Stories</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
 
 
 

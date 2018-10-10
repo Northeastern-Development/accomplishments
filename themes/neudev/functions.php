@@ -269,7 +269,12 @@ function nudev_styles(){
       wp_enqueue_style('titcombstyle'); // Enqueue it!
     }
 
-    if ( is_page( '51' ) ) {//alumni
+    if ( is_page( '51' ) ) {//alumni stories
+      wp_register_style('alumnistyle', get_template_directory_uri() . '/styles/css/alumni.css', array(), '1.0', 'all');
+      wp_enqueue_style('alumnistyle'); // Enqueue it!
+    }
+
+    if ( is_page( '83' ) ) {//alumni 
       wp_register_style('alumnistyle', get_template_directory_uri() . '/styles/css/alumni.css', array(), '1.0', 'all');
       wp_enqueue_style('alumnistyle'); // Enqueue it!
     }

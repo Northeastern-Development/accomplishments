@@ -9,10 +9,10 @@ defined( 'ABSPATH' ) || die( 'Cheatin&#8217; uh?' );
 
 // Your license KEY.
 if ( ! defined( 'WP_ROCKET_KEY' ) ) {
-	define( 'WP_ROCKET_KEY', '69f4fb6d');
+	define( 'WP_ROCKET_KEY', 'ad4ef254');
 }
 
 // Your email, the one you used for the purchase.
 if ( ! defined( 'WP_ROCKET_EMAIL' ) ) {
-	define( 'WP_ROCKET_EMAIL', 'trentgaffney@gmail.com' );
+	define( 'WP_ROCKET_EMAIL', 'nudev@northeastern.edu' );
 }

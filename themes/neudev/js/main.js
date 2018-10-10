@@ -172,6 +172,7 @@ if ( $('body').hasClass('page-id-26') ) {
 			//$(document).on('touchend click','.theheads div',function(){
 			$(".theheads div").on('click',function(){
 				var selected = $(this).attr("data-id");
+				console.log(selected);
 				var active = "";
 				$(".theheads div").each(function(i) {
 					if($(this).hasClass("talkinghead")){
@@ -230,6 +231,80 @@ if ( $('body').hasClass('page-id-26') ) {
 
 				$(".chooseatalkinghead div[id="+active+"]").fadeOut(250,function(){
 					$(".chooseatalkinghead div[id="+selected+"]").fadeIn(250);
+				});
+			});
+
+
+
+
+
+
+			// this is the click event to change the faulty bios in the research/innovation section
+			$('section.nu__earlycareer').on('touchend click','.theheadss div',function(){
+			//$(".theheadss div").on('click',function(){
+				var selected = $(this).attr("data-id");
+				var active = "";
+
+				$(".theheadss div").each(function(i) {
+					if($(this).hasClass("talkingheads")){
+						active = $(this).attr("data-id");
+					}
+				});
+				$( ".theheadss div[data-id="+active+"]" ).removeClass("talkingheads");
+				$(this).addClass("talkingheads");
+				$(".chooseatalkingheads div[id="+active+"]").fadeOut(250,function(){
+					$(".chooseatalkingheads div[id="+selected+"]").fadeIn(250);
+				});
+			});
+
+
+			// this will handle clicking on the next and previous arrows for the resaerch/innovation section
+			$('section.nu__earlycareer').on('touchend click','.chooseatalkingheads div.prev, .chooseatalkingheads div.next',function(){
+			//$(".chooseatalkingheads div.prev, .chooseatalkingheads div.next").on('click',function(){
+				var dir = "+"
+				if($(this).hasClass("prev")){
+					dir = "-";
+				}
+
+				//console.log(dir);
+
+				var active = "";
+				$(".theheadss div").each(function(i) {
+					if($(this).hasClass("talkingheads")){
+						active = $(this).attr("data-id");
+					}
+				});
+
+				//console.log(active);
+
+				if(dir === "+"){
+					if(active != "talkingheads-5"){	// not at the end, keep going
+						var split = (parseInt(active.split("-")[1]) + 1);
+						selected = "talkingheads-"+split;
+					}else{	// jump back to the beginning
+						selected = "talkingheads-1";
+					}
+				}else{
+					if(active != "talkingheads-1"){	// not at the end, keep going
+						var split = (parseInt(active.split("-")[1]) - 1);
+						selected = "talkingheads-"+split;
+					}else{	// jump back to the beginning
+						selected = "talkingheads-5";
+					}
+				}
+
+
+				$(".theheadss div[data-id="+active+"]").removeClass("talkingheads");
+				$(".theheadss div[data-id="+selected+"]").addClass("talkingheads");
+
+				if($(window).width() < 800){
+					$(".theheadss div[data-id="+active+"]").fadeOut(250,function(){
+						$(".theheadss div[data-id="+selected+"]").fadeIn(250);
+					});
+				}
+
+				$(".chooseatalkingheads div[id="+active+"]").fadeOut(250,function(){
+					$(".chooseatalkingheads div[id="+selected+"]").fadeIn(250);
 				});
 			});
 
@@ -371,10 +446,16 @@ if ($('body').hasClass('page-id-23') || $('body').hasClass('page-id-26') || $('b
 
 $(document).on('touchend click','.js-recognition > ul > li > span',function(e){
 	e.preventDefault();
+
+
 	var selectedGroup = $(this).attr('data-id').split("-")[1];
 	$('.js-recognition > ul > li> span').removeClass('selected');//removes active red underline before adding new one to active state
 	$(this).addClass('selected');//adds active state to selected group
-	$("div.js-recognition-content").load("http://accomplishments.edu/wp-content/themes/neudev/_includes/recognition"+selectedGroup+".php");//loads in content thats located in the _includes directory.
+	$.get("http://accomplishments.edu/wp-content/themes/neudev/_includes/recognition"+selectedGroup+".php", function(data){
+    //console.log("Data: " + data + "\nStatus: " + status);
+		$( "div.js-recognition-content" ).html( data );
+  });
+	//$("div.js-recognition-content").load("http://accomplishments.edu/wp-content/themes/neudev/_includes/recognition"+selectedGroup+".php");//loads in content thats located in the _includes directory.
 });
 
 
@@ -805,31 +886,31 @@ $('a.js-back-page[href*=\\#]').on(' touchend click',function(e) {
 
 
 		/*Remove the lines below once you are done testing*/
-		// var wi = $(window).width();
-		// $("p.testp").text('Screen width is currently: ' + wi + 'px.');
-		//
-		// $(window).resize(function() {
-		//
-		//
-		// 	/*Remove the lines below once you are done testing*/
-		// 	var wi = $(window).width();
-		//
-		// 	if (wi <= 576){
-		// 			$("p.testp").text('Screen width is less than or equal to 576px. Width is currently: ' + wi + 'px.');
-		// 			}
-		// 	else if (wi <= 680){
-		// 			$("p.testp").text('Screen width is between 577px and 680px. Width is currently: ' + wi + 'px.');
-		// 			}
-		// 	else if (wi <= 1024){
-		// 			$("p.testp").text('Screen width is between 681px and 1024px. Width is currently: ' + wi + 'px.');
-		// 			}
-		// 	else if (wi <= 1500){
-		// 			$("p.testp").text('Screen width is between 1025px and 1499px. Width is currently: ' + wi + 'px.');
-		// 			}
-		// 	else {
-		// 			$("p.testp").text('Screen width is greater than 1500px. Width is currently: ' + wi + 'px.');
-		// 			}
-		// });
+		var wi = $(window).width();
+		$("p.testp").text('Screen width is currently: ' + wi + 'px.');
+
+		$(window).resize(function() {
+
+
+			/*Remove the lines below once you are done testing*/
+			var wi = $(window).width();
+
+			if (wi <= 576){
+					$("p.testp").text('Screen width is less than or equal to 576px. Width is currently: ' + wi + 'px.');
+					}
+			else if (wi <= 680){
+					$("p.testp").text('Screen width is between 577px and 680px. Width is currently: ' + wi + 'px.');
+					}
+			else if (wi <= 1024){
+					$("p.testp").text('Screen width is between 681px and 1024px. Width is currently: ' + wi + 'px.');
+					}
+			else if (wi <= 1500){
+					$("p.testp").text('Screen width is between 1025px and 1499px. Width is currently: ' + wi + 'px.');
+					}
+			else {
+					$("p.testp").text('Screen width is greater than 1500px. Width is currently: ' + wi + 'px.');
+					}
+		});
 
 	});
 

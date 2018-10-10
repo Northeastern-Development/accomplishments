@@ -249,8 +249,10 @@ section.nu__givingback{
                   }
                 }
               }
+
             }
           }
+
           & > p{
             width: 80%;
             margin: 30px 30px 0 30px;
@@ -443,6 +445,48 @@ section.collage {
           width:40%;
       }
 
+    }
+  }
+}
+
+
+
+section.nu__alumni {
+  background-color: rgba(255,255,255,1.0);
+  background: url(../../img/empower/mapbg.jpg); background-size: cover; background-position: center center;
+  & .wrapper {
+    & h2 {
+      color: rgba(255,255,255,1.0);
+      margin: 30px auto 30px auto;
+      width: 60%;
+    }
+    & > div.content{
+      margin: 150px 0 100px 0;
+        & > div{
+          & > a{
+            background: rgba(255, 255, 255, 1.0);
+            display: block;
+            width: 30%;
+            line-height: 2rem;
+            padding: 10px 20px 10px 20px;
+            margin: 0 20% 0 20%;
+            font-size:2rem;
+            text-transform: uppercase;
+            color: rgba(0,0,0,1.0);
+            text-align:center;
+            margin:60px auto;
+            &:hover{
+              background:rgba(255, 255, 255, .8);
+            }
+          }
+          &:first-child{
+            & > img{
+              width: 90%;
+              margin: -40px 5% 0 5%;
+
+            }
+          }
+        }
     }
   }
 }
@@ -870,6 +914,44 @@ section.collage {
       }
     }
 
+  }
+
+  section.nu__alumni {
+    background:none;
+    background-color: rgba(0,0,0,1.0);
+    & .wrapper {
+      & h2 {
+        color: rgba(255,255,255,1.0);
+        margin: 30px auto 30px auto;
+        width: 100%;
+      }
+      & > div.content{
+
+          & > div{
+            & > a{
+              width: 100%;
+              line-height: 2rem;
+              padding: 10px 0 10px 0;
+              margin: 0;
+              font-size:2rem;
+              text-transform: uppercase;
+              color: rgba(0,0,0,1.0);
+              text-align:center;
+              margin:60px auto;
+              &:hover{
+                background:rgba(255, 255, 255, .8);
+              }
+            }
+            &:first-child{
+              & > img{
+                width: 90%;
+                margin: -40px 5% 0 5%;
+
+              }
+            }
+          }
+      }
+    }
   }
 
 
