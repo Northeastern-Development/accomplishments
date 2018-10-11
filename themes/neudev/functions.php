@@ -234,6 +234,8 @@ function nudev_styles(){
       wp_enqueue_style('learningstyle'); // Enqueue it!
     }
 
+
+
     if ( is_page( '26' ) ) {//research
       wp_register_style('researchstyle', get_template_directory_uri() . '/styles/css/research.css', array(), '1.0', 'all');
       wp_enqueue_style('researchstyle'); // Enqueue it!
@@ -252,6 +254,11 @@ function nudev_styles(){
     if ( is_page( '38' ) ) {//profiles
       wp_register_style('profilestyle', get_template_directory_uri() . '/styles/css/profiles.css', array(), '1.0', 'all');
       wp_enqueue_style('profilestyle'); // Enqueue it!
+    }
+
+    if ( is_page( '86' ) ) {//resources
+      wp_register_style('resourcesstyle', get_template_directory_uri() . '/styles/css/profiles.css', array(), '1.0', 'all');
+      wp_enqueue_style('resourcesstyle'); // Enqueue it!
     }
 
     if ( is_page( '42' ) ) {//entrepreneurs
@@ -274,7 +281,7 @@ function nudev_styles(){
       wp_enqueue_style('alumnistyle'); // Enqueue it!
     }
 
-    if ( is_page( '83' ) ) {//alumni 
+    if ( is_page( '83' ) ) {//alumni
       wp_register_style('alumnistyle', get_template_directory_uri() . '/styles/css/alumni.css', array(), '1.0', 'all');
       wp_enqueue_style('alumnistyle'); // Enqueue it!
     }

@@ -70,6 +70,25 @@
 
 
 
+				<section class="resources" id="resources">
+					<div class="wrapper">
+						<h2 class="section-header"><span class="nu__span-bold">Transforming experience</span></h2>
+						<div class="nu__fifty">
+							<figure>
+								<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/academic_honors_collage.png" alt="academic honors collage">
+								<figcaption><span class="nu__span-bold">Meet some of our most talented</span> undergraduates </figcaption>
+							</figure>
+							<a href="<?=home_url()?>/resources" class="nu__button" role="button">view all resources</a>
+						</div>
+						<div class="nu__fifty">
+							<p>Faculty and students are beta-testing a new approach to experiential education: Self-Authored Integrated Learning, or SAIL. Developed at Northeastern and grounded in research, SAIL offers a framework for extracting meaning, not just from coursework and co-op, but from everyday experiences—on the playing field, during late-night dorm debates, and with new friends in Beijing.</p>
+							<p>SAIL enables students to master skills and abilities along five dimensions: intellectual agility; social consciousness and commitment; global mindset; professional and personal effectiveness; and well-being. Critically, it also helps them transfer knowledge gained in one context to any new situation—the key to adapting to a swiftly changing world.</p>
+						</div>
+					</div>
+				</section><!--end section-->
+
+
+
 
 				<!-- <section class="videos">
 					<div class="nu__full-container">
@@ -254,7 +273,6 @@
 								<h2 class="js-count7">45</h2>
 								<p>External awards for academic excellence in 2017&ndash;2018 won by Northeastern students and recent graduates, including 16 awards supporting global study and leadership</p>
 							</div>
-
 						</div>
 					</div>
 				</section><!--end section-->

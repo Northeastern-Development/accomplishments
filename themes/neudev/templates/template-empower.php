@@ -138,15 +138,19 @@
 									<p>Global communities, plus programs in Argentina, Barcelona, Geneva, Melbourne, Pakistan, Rome, Tokyo, and Vietnam</p>
 								</div>
 								<div class="nu__stat-block">
-									<h2>00</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in sem in augue consequat.</p>
+									<h2>255,000+</h2>
+									<p>alumni live in 179 countries</p>
+								</div>
+								<div class="nu__stat-block">
+									<h2>378</h2>
+									<p>events brought alumni together from around the world</p>
 								</div>
 					    </div>
 					    <div class="column center">
 								<div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/empower/brazil.jpg); background-size: cover; background-position: center center;"></div>
 								<h2>Opening Doors in Latin America</h2>
 								<p>New alumni communities took root in Brazil and Colombia. Enthusiasm among alumni in Latin America is growing in light of deep engagement with Northeastern’s D’Amore-McKim School of Business, the FAS Center for Global Business, the Center for Family Business, and entrepreneurship university-wide.</p>
-								<div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/empower/brazil.jpg); background-size: cover; background-position: center center;"></div>
+								<div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/empower/nuceao.jpg); background-size: cover; background-position: center center;"></div>
 					    </div>
 					    <div class="column right">
 								<h2>Seeding STEM Careers</h2>

@@ -21,7 +21,7 @@
 
 						<div class="nu__fixed-column" style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/alumni/global_network_lifelong_connections_bg.png); background-size: cover; background-position: center center;">
 							<div>
-								<p><a class="js-back-page" href="<?=home_url()?>/pride-and-support#alumnistories"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Back</a></p>
+								<p><a class="js-back-page" href="<?=home_url()?>/pride-and-support/#alumnistories"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Back</a></p>
 								<h2>Alumni forge <span class="nu__span-bold">lifelong connections</span> </h2>
 								<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/empower/lifelongconnections.png" alt="global network lifelong connections">
 							</div>
@@ -113,7 +113,7 @@
 									</figure>
 									<p>Ice hockey fans united to create the first endowed coaching fund at Northeastern, the Fernie Flaman Endowed Men’s Hockey Coach Fund. Men’s ice hockey coach Jim Madigan, DMSB’86, is the first beneficiary. The late, legendary Flaman coached for 19 seasons, achieving 255 victories, a Northeastern coaching record.</p>
 								</article>
-								<a class="js-back-page nu__mobile-back" href="<?=home_url()?>/pride-and-support#alumnistories"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Back</a>
+								<a class="js-back-page nu__mobile-back" href="<?=home_url()?>/pride-and-support/#alumnistories"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Back</a>
 							</div>
 						</div><!--end nu__scroll-column-->
 					</div><!--end nu__full-container-->
