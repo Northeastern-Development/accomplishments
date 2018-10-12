@@ -451,7 +451,7 @@ $(document).on('touchend click','.js-recognition > ul > li > span',function(e){
 	var selectedGroup = $(this).attr('data-id').split("-")[1];
 	$('.js-recognition > ul > li> span').removeClass('selected');//removes active red underline before adding new one to active state
 	$(this).addClass('selected');//adds active state to selected group
-	$.get("http://accomplishments.edu/wp-content/themes/neudev/_includes/recognition"+selectedGroup+".php", function(data){
+	$.get("../wp-content/themes/neudev/_includes/recognition"+selectedGroup+".php", function(data){
     //console.log("Data: " + data + "\nStatus: " + status);
 		$( "div.js-recognition-content" ).html( data );
   });

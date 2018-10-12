@@ -105,7 +105,7 @@
 						</div>
 						<div class="content js-recognition-content">
 
-							<?php include(locate_template('_includes/recognition4.php')); ?>
+							<?php include(locate_template('_includes/recognition1.php')); ?>
 
 
 						</div><!--end content-->

@@ -286,6 +286,11 @@ function nudev_styles(){
       wp_enqueue_style('alumnistyle'); // Enqueue it!
     }
 
+    if ( is_page( '84' ) ) {//alumni
+      wp_register_style('alumnistyle', get_template_directory_uri() . '/styles/css/alumni.css', array(), '1.0', 'all');
+      wp_enqueue_style('alumnistyle'); // Enqueue it!
+    }
+
     if ( is_page( '54' ) ) {//ge story
       wp_register_style('storystyle', get_template_directory_uri() . '/styles/css/stories.css', array(), '1.0', 'all');
       wp_enqueue_style('storystyle'); // Enqueue it!

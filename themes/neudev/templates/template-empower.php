@@ -137,10 +137,15 @@
 									<h2>43</h2>
 									<p>Global communities, plus programs in Argentina, Barcelona, Geneva, Melbourne, Pakistan, Rome, Tokyo, and Vietnam</p>
 								</div>
-								<div class="nu__stat-block">
+								<!-- <div class="nu__stat-block">
 									<h2>255,000+</h2>
 									<p>alumni live in 179 countries</p>
+								</div> -->
+								<div class="nu__stat-block">
+									<h2>255K</h2>
+									<p>alumni live in 179 countries</p>
 								</div>
+
 								<div class="nu__stat-block">
 									<h2>378</h2>
 									<p>events brought alumni together from around the world</p>
