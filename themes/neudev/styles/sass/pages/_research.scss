@@ -908,41 +908,7 @@ section.nu__facultyinnovation{
 
 
 
-div.talkingheads-img {
-  float:left;
-  width:38%;
-  height:350px;
-  min-height:300px;
-  border: solid rgba(204, 0, 0, 1.0) 0.15vw;
-}
 
-div.talkingheads-content {
-  float:right;
-  width:60%;
-  & > h4{
-    color: rgba(255, 255, 255, 1.0);
-    font-size: 1.6rem;
-    line-height:2.8rem;
-    font-weight: 700;
-    text-align:left;
-    margin-left:30px;
-  }
-  & > h5{
-    font-size: 1.6rem;
-    margin: 0 0 20px 0;
-    font-weight: 300;
-    text-align:left;
-    margin-left:30px;
-    margin-bottom:30px;
-  }
-  & > p{
-    font-size: 2rem;
-    line-height:3.2rem;
-    font-weight: 300;
-    text-align:left !important;
-    width:90% !important;
-  }
-}
 
 
 div.talkingheadss{
@@ -1062,7 +1028,41 @@ div.talkingheadss{
 }
 
 
+div.talkingheads-img {
+  float:left;
+  width:38%;
+  height:350px;
+  min-height:300px;
+  border: solid rgba(204, 0, 0, 1.0) 0.15vw;
+}
 
+div.talkingheads-content {
+  float:right;
+  width:60%;
+  & > h4{
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 1.6rem;
+    line-height:2.8rem;
+    font-weight: 700;
+    text-align:left;
+    margin-left:30px;
+  }
+  & > h5{
+    font-size: 1.6rem;
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    text-align:left;
+    margin-left:30px;
+    margin-bottom:30px;
+  }
+  & > p{
+    font-size: 2rem;
+    line-height:3.2rem;
+    font-weight: 300;
+    text-align:left !important;
+    width:90% !important;
+  }
+}
 
 
 
@@ -1483,6 +1483,9 @@ section.collage {
 
 
 
+
+
+
   section.slider {
     height: 850px;
     div.title{
@@ -1569,6 +1572,39 @@ section.collage {
             width:100%;
         }
       }
+    }
+  }
+
+  div.talkingheads-img {
+    display:none;
+  }
+
+  div.talkingheads-content {
+    float:none;
+    width:100%;
+    margin-top:60px;
+    & > h4{
+      color: rgba(255, 255, 255, 1.0);
+      font-size: 1.6rem;
+      line-height:2.8rem;
+      font-weight: 700;
+      text-align:left;
+      margin-left:0px;
+    }
+    & > h5{
+      font-size: 1.6rem;
+      margin: 0 0 20px 0;
+      font-weight: 300;
+      text-align:left;
+      margin-left:0px;
+      margin-bottom:30px;
+    }
+    & > p{
+      font-size: 2rem;
+      line-height:3.2rem;
+      font-weight: 300;
+      text-align:left !important;
+      width:100% !important;
     }
   }
 
@@ -2089,6 +2125,29 @@ section.collage {
 
 }
 
+
+@media only screen and (max-width: 720px){
+  section.nu__earlycareer {
+    & > .wrapper {
+      & > div.controls {
+        margin-bottom:60px;
+        & > ul {
+          display:block;
+          & > li {
+            margin-bottom:30px;
+            text-align:center;
+            &:last-child {
+              margin-bottom:0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
 @media only screen and (max-width: 600px){
 
   section.hero {
@@ -2175,6 +2234,41 @@ section.collage {
     }
   }
 
+  div.talkingheadss{
+    & > div.theheadss {
+      margin-left:5vw;
+    }
+    & > div.chooseatalkingheads{
+      & > div{
+        &:nth-of-type(1),
+        &:nth-of-type(3){
+          width: 50px;
+          font-size: 6rem;
+        }
+      }
+    }
+  }
+
+  div.talkingheads-content {
+
+
+    & > p{
+
+      width:auto !important;
+    }
+  }
+
+  section.nu__earlycareer .wrapper > div.content > div:nth-of-type(2) > ul > li:last-child {
+    padding-bottom:30px;
+  }
+
+  section.nu__earlycareer {
+    & > .wrapper {
+      width:90%;
+      max-width:90%;
+    }
+  }
+
 
 
   section.slider{
@@ -2210,7 +2304,20 @@ section.collage {
     }
   }
 
-
+  section.nu__facultyinnovation {
+    & > .wrapper {
+      & > div.content {
+        & > div.facstats {
+          & > div {
+            width:100%;
+            &:first-child {
+              margin-bottom:30px;
+            }
+          }
+        }
+      }
+    }
+  }
 
 
 }

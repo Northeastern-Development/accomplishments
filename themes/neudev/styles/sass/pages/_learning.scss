@@ -299,50 +299,43 @@ section.resources {
   background:$black;
   padding-bottom:140px;
   & > div.wrapper {
-     @include wrapper;
+     // @include wrapper;
      & > h2.section-header {
         margin:30px 0 auto;
         padding-bottom:50px;
         font-weight:300;
         font-size:5.6rem;
         color:$white;
-        //letter-spacing: 2px;
         line-height: 7.2rem;
      }
      & > div.nu__fifty {
-       width:50%;
+       width:48%;
        float:left;
        text-align:center;
-         & > figure {
-           & > img {
-             width:inherit;
-           }
+       & > figure {
+         & > img {
+           width:inherit;
          }
-         & > .nu__button {
-           max-width:50%;
-           width:100%;
-           margin-top:20px;
-         }
-     }
-     & > div.nu__fifty {
-       width:50%;
-       float:left;
-
-
-
-         & > p {
-            color:$white;
-            font-size:2rem;
-            line-height:3.2rem;
-            text-align:left;
-            font-weight:300;
-            margin-bottom:60px;
-            &:last-child {
-              margin-bottom:0;
-            }
-         }
-
-
+       }
+       & > .nu__button {
+         max-width:50%;
+         width:100%;
+         margin-top:20px;
+       }
+       & > p {
+          color:$white;
+          font-size:2rem;
+          line-height:3.2rem;
+          text-align:left;
+          font-weight:300;
+          margin-bottom:60px;
+          &:last-child {
+            margin-bottom:0;
+          }
+       }
+       &:last-child {
+         margin-left:4%;
+       }
      }
   }
 }
@@ -1314,6 +1307,40 @@ section.collage {
     }
   }
 
+  section.resources {
+
+    & > div.wrapper {
+       // @include wrapper;
+       & > h2.section-header {
+
+       }
+       & > div.nu__fifty {
+         width:100%;
+         float:none;
+         margin:30px 0 auto;
+         & > figure {
+           & > img {
+             width:70%;
+             display:block;
+             margin:0 auto;
+           }
+         }
+         & > .nu__button {
+
+         }
+         & > p {
+
+            &:last-child {
+
+            }
+         }
+         &:last-child {
+
+         }
+       }
+    }
+  }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1465,6 +1492,19 @@ section.collage {
 
 
 @media only screen and (max-width: 900px) {
+
+  section.resources {
+
+    & > div.wrapper {
+       // @include wrapper;
+       & > h2.section-header {
+         font-size:4.5rem;
+         line-height:5.5rem;
+       }
+       
+    }
+  }
+
   .section-header {
     font-size:4.5rem;
     line-height:5.5rem;
