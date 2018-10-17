@@ -75,79 +75,17 @@
 						<h2 class="section-header"><span class="nu__span-bold">Transforming experience</span></h2>
 						<div class="nu__fifty">
 							<figure>
-								<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/academic_honors_collage.png" alt="academic honors collage">
+								<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/mosaic.png" alt="academic honors collage">
 								<figcaption><span class="nu__span-bold">Meet some of our most talented</span> undergraduates </figcaption>
 							</figure>
 							<a href="<?=home_url()?>/resources" class="nu__button" role="button">view all resources</a>
 						</div>
 						<div class="nu__fifty">
-							<p>Faculty and students are beta-testing a new approach to experiential education: Self-Authored Integrated Learning, or SAIL. Developed at Northeastern and grounded in research, SAIL offers a framework for extracting meaning, not just from coursework and co-op, but from everyday experiences—on the playing field, during late-night dorm debates, and with new friends in Beijing.</p>
-							<p>SAIL enables students to master skills and abilities along five dimensions: intellectual agility; social consciousness and commitment; global mindset; professional and personal effectiveness; and well-being. Critically, it also helps them transfer knowledge gained in one context to any new situation—the key to adapting to a swiftly changing world.</p>
+							<p>Faculty and students are beta&ndash;testing a new approach to experiential education: Self&ndash;Authored Integrated Learning, or SAIL. Developed at Northeastern and grounded in research, SAIL offers a framework for extracting meaning, not just from coursework and co&ndash;op, but from everyday experiences—on the playing field, during late&ndash;night dorm debates, and with new friends in Beijing.</p>
+							<p>SAIL enables students to master skills and abilities along five dimensions: intellectual agility; social consciousness and commitment; global mindset; professional and personal effectiveness; and well&ndash;being. Critically, it also helps them transfer knowledge gained in one context to any new situation—the key to adapting to a swiftly changing world.</p>
 						</div>
 					</div>
 				</section><!--end section-->
-
-
-
-
-				<!-- <section class="videos">
-					<div class="nu__full-container">
-						<div class="nu__vid-header">
-							<h4>Transformative  co-op experiences</h4>
-						</div>
-						<div class="nu__thirds-vid js-video">
-							<div class="nu__vid-frame ">
-								<a  href="https://www.youtube.com/watch?v=FZeBktiy3KE">
-									<figure>
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/coop_sap.jpg" alt="co-op at sap">
-									</figure>
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="-347 149 104 104" enable-background="new -347 149 104 104"><style>.st0{filter:url(#filter-1);} .st1{fill:none;stroke:#ffffff;stroke-width:4;} .st2{fill:#ffffff;}</style><filter width="142.5%" height="142.5%" id="filter-1" x="-21.2%" y="-21.2%" filterUnits="objectBoundingBox"><feOffset result="shadowOffsetOuter1" in="SourceAlpha"/><feGaussianBlur stdDeviation="5" result="shadowBlurOuter1" in="shadowOffsetOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" result="shadowMatrixOuter1" in="shadowBlurOuter1"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter><g transform="translate(12 12)" class="st0"><circle class="st1" cx="-307.2" cy="188.8" r="39.8"/><path class="st2" d="M-314.1 175.8l15.6 12.7-15.6 13.8"/></g></svg>
-									<div>
-										<ul>
-											<li>Co-op at SAP</li>
-											<li>Laura Martz, DMSB’19, marketing and interactive media  </li>
-										</ul>
-									</div>
-								</a>
-							</div>
-						</div>
-
-						<div class="nu__thirds-vid js-video">
-							<div class="nu__vid-frame ">
-								<a  href="https://www.youtube.com/watch?v=41Usr3I1TqM">
-									<figure>
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/coop_flocabulary.jpg" alt="co-op at flocabulary">
-									</figure>
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="-347 149 104 104" enable-background="new -347 149 104 104"><style>.st0{filter:url(#filter-1);} .st1{fill:none;stroke:#ffffff;stroke-width:4;} .st2{fill:#ffffff;}</style><filter width="142.5%" height="142.5%" id="filter-1" x="-21.2%" y="-21.2%" filterUnits="objectBoundingBox"><feOffset result="shadowOffsetOuter1" in="SourceAlpha"/><feGaussianBlur stdDeviation="5" result="shadowBlurOuter1" in="shadowOffsetOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" result="shadowMatrixOuter1" in="shadowBlurOuter1"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter><g transform="translate(12 12)" class="st0"><circle class="st1" cx="-307.2" cy="188.8" r="39.8"/><path class="st2" d="M-314.1 175.8l15.6 12.7-15.6 13.8"/></g></svg>
-									<div>
-										<ul>
-											<li>Co-op at Flocabulary</li>
-											<li>Ryan Fleischer, AMD’19, design; Emily Hassell, SSH’19, English; Elena Burstein-LaCourt, AMD’19, studio art  </li>
-										</ul>
-									</div>
-								</a>
-							</div>
-						</div>
-
-						<div class="nu__thirds-vid js-video">
-							<div class="nu__vid-frame ">
-								<a  href="https://www.youtube.com/watch?v=G6kr5GOryb8">
-									<figure>
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/coop_flocabulary_nickelodeon.jpg" alt="co-op at nickelodeon">
-									</figure>
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="-347 149 104 104" enable-background="new -347 149 104 104"><style>.st0{filter:url(#filter-1);} .st1{fill:none;stroke:#ffffff;stroke-width:4;} .st2{fill:#ffffff;}</style><filter width="142.5%" height="142.5%" id="filter-1" x="-21.2%" y="-21.2%" filterUnits="objectBoundingBox"><feOffset result="shadowOffsetOuter1" in="SourceAlpha"/><feGaussianBlur stdDeviation="5" result="shadowBlurOuter1" in="shadowOffsetOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" result="shadowMatrixOuter1" in="shadowBlurOuter1"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter><g transform="translate(12 12)" class="st0"><circle class="st1" cx="-307.2" cy="188.8" r="39.8"/><path class="st2" d="M-314.1 175.8l15.6 12.7-15.6 13.8"/></g></svg>
-									<div>
-										<ul>
-											<li>Co-op at Nickelodeon</li>
-											<li>Melissa Rorech, AMD’18, music composition and technology </li>
-										</ul>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</section> -->
-
 
 
 
@@ -163,8 +101,6 @@
 					<div class="wrapper">
 
 						<p id="slider__copy-1">"The most attractive part for me was being able to see what it takes to start and run a business. There are so many startups here and so many people who are very ambitious. I can’t tell you how many times I’ve already been asked 'What are you working on?'"<br /><br /><span class="nu__span-bold">Alexy Santos, DMSB’20</span></p>
-
-						<!-- <p id="slider__copy-1">"<span class="nu__span-bold">The refugees’ experiences</span> traveling to and living in Greece could have easily turned anyone sour, but here they were, laughing and smiling with us as we communicated through translators and hand gestures. It was an <span class="nu__span-bold">eye-opening</span> and <span class="nu__span-bold">heart-filling experience</span>."<br /><br /><span class="nu__span-bold">Paxtyn Merten</span>, AMD’20</p> -->
 
 						<p id="slider__copy-2">"Cuba is an island full of paradoxes. It has an innate beauty and its people have an open mindedness that is unmatched, but there is also a lot of internal conflict and we heard some heart&ndash;wrenching stories."<br /><br /><span class="nu__span-bold">Alejandro Serrano, AMD’20</span></p>
 
@@ -233,8 +169,8 @@
 										<h3>Mastering data</h3>
 									</div>
 									<img class="nu__dt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/amit.jpg" alt="Amit Shinde">
-									<img class="nu__mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/amit.jpg" alt="Amit Shinde">
-									<p>Amit Shinde says analyzing data effectively is critical to his position as a lead engineer for VSP Vision Care in Sacramento, California. Northeastern's Master of Professional Studies in Analytics was just what he needed to become a more creative, confident professional. "The combination of theory and programming knowledge was most valuable to me. I was able to get the complete cycle of data-analysis process in an organization."</p>
+									<img class="nu__mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/amit-mobile.jpg" alt="Amit Shinde">
+									<p>Amit Shinde says analyzing data effectively is critical to his position as a lead engineer for VSP Vision Care in Sacramento, California. Northeastern's Master of Professional Studies in Analytics was just what he needed to become a more creative, confident professional. "The combination of theory and programming knowledge was most valuable to me. I was able to get the complete cycle of data&ndash;analysis process in an organization."</p>
 									<!-- <p><a href="<?=home_url()?>/major-league-opportunity">Full Story <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p> -->
 								</div>
 								<div class="nu__part-col-section">

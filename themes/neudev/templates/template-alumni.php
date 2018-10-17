@@ -38,7 +38,7 @@
 									<p>James Pallotta, MBA’81, and his family gave $10 million to Northeastern for innovation initiatives they are planning in consultation with university President Joseph E. Aoun. Pallotta, who founded the investment firm the Raptor Group and owns a controlling interest in the Italian soccer team A.S. Roma, wants to propel Northeastern’s students to the forefront of innovation.</p>
 								</article>
 
-								<h3>Supporting PhD student-researchers</h3>
+								<h3>Supporting PhD student&ndash;researchers</h3>
 								<article>
 									<figure>
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/alumni/sami.jpg" alt="Sami Alsaif">
@@ -57,7 +57,7 @@
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/alumni/coders.jpg" alt="scholarships">
 										<!-- <figcaption>Photo courtesy of Hayley Meng</figcaption> -->
 									</figure>
-									<p>More than $3.2 million in gifts for scholarships in Northeastern’s master’s degree program in computer science, Align, came from anonymous donors, as well as corporations that include Dell, Providence St. Joseph Health, and Wayfair. The scholarships will enable non-computer science majors to reinvent their careers and find success in the high-demand field of coding.</p>
+									<p>More than $3.2 million in gifts for scholarships in Northeastern’s master’s degree program in computer science, Align, came from anonymous donors, as well as corporations that include Dell, Providence St. Joseph Health, and Wayfair. The scholarships will enable non&ndash;computer science majors to reinvent their careers and find success in the high&ndash;demand field of coding.</p>
 								</article>
 
 								<h3>Sustaining the seafood supply</h3>
@@ -84,7 +84,7 @@
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/alumni/arnold.jpg" alt="Arnold Foundation">
 										<!-- <figcaption>Photo courtesy of Seema Brodie</figcaption> -->
 									</figure>
-									<p>The Arnold Foundation awarded nearly $250,000 to Anthony Braga, director of the School of Criminology and Criminal Justice, to enhance procedural justice in “hot spots policing,” which focuses on high-crime urban areas. Braga’s work in reducing violence in disadvantaged neighborhoods has earned national recognition.</p>
+									<p>The Arnold Foundation awarded nearly $250,000 to Anthony Braga, director of the School of Criminology and Criminal Justice, to enhance procedural justice in "hot spots policing," which focuses on high&ndash;crime urban areas. Braga’s work in reducing violence in disadvantaged neighborhoods has earned national recognition.</p>
 								</article>
 
 								<h3>Advancing study of the humanities</h3>
@@ -102,7 +102,7 @@
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/alumni/sheila.jpg" alt="Sheila">
 										<!-- <figcaption>Photo courtesy of Michael Peabody</figcaption> -->
 									</figure>
-									<p>University Distinguished Professor Sheila M. Puffer has been blazing trails in international business and entrepreneurship, particularly in Russia, for three decades. Her recent bequest to endow the Sheila M. Puffer Research Professorship of International Business in the D’Amore-McKim School of Business is a gift to students in perpetuity.</p>
+									<p>University Distinguished Professor Sheila M. Puffer has been blazing trails in international business and entrepreneurship, particularly in Russia, for three decades. Her recent bequest to endow the Sheila M. Puffer Research Professorship of International Business in the D’Amore&ndash;McKim School of Business is a gift to students in perpetuity.</p>
 								</article>
 
 								<h3>Championing coaching excellence</h3>
@@ -111,7 +111,7 @@
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/alumni/flaman.jpg" alt="Jim Madigan, DMSB’86">
 										<!-- <figcaption>Photo courtesy of Michael Peabody</figcaption> -->
 									</figure>
-									<p>Ice hockey fans united to create the first endowed coaching fund at Northeastern, the Fernie Flaman Endowed Men’s Hockey Coach Fund. Men’s ice hockey coach Jim Madigan, DMSB’86, is the first beneficiary. The late, legendary Flaman coached for 19 seasons, achieving 255 victories, a Northeastern coaching record.</p>
+									<p>Ice hockey fans united to create the first endowed coaching fund at Northeastern, the Fernie Flaman Endowed Men’s Hockey Coach Fund. Men's ice hockey coach Jim Madigan, DMSB'86, is the first beneficiary. The late, legendary Flaman coached for 19 seasons, achieving 255 victories, a Northeastern coaching record.</p>
 								</article>
 								<a class="js-back-page nu__mobile-back" href="<?=home_url()?>/pride-and-support/#alumnistories"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Back</a>
 							</div>

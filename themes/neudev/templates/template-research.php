@@ -57,13 +57,13 @@
 
 						<div class="content">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/research/partnerships1.jpg" alt="rotator image" />
-							<p id="p-1">GRI associate director Jennie Stephens and Peter Frumhoff, the chief climate scientist and director of science and policy at the Union of Concerned Scientists, are challenging the idea of climate engineering as an ideal solution to climate change. Stephens and Frumhoff noted in a joint paper that there is inadequate international governance to oversee such large-scale efforts to manipulate global temperatures. Optimizing the climate in one part of the world could harm another region, leading to geopolitical strife, they said.</p>
-							<p id="p-2">A new study by Samuel Muñoz of the CSI and colleagues from Woods Hole Oceanographic Institute, the University of Alabama, and Southern Illinois University showed that human activity is increasing the risk of catastrophic floods. The researchers found that the probability of a 100-year flood occurring in the Mississippi River system has increased 20 percent in the past 500 years, mostly because of river engineering and other human activities. Their research lends support to a movement to de-engineer rivers back to something closer to their natural states. </p>
+							<p id="p-1">GRI associate director Jennie Stephens and Peter Frumhoff, the chief climate scientist and director of science and policy at the Union of Concerned Scientists, are challenging the idea of climate engineering as an ideal solution to climate change. Stephens and Frumhoff noted in a joint paper that there is inadequate international governance to oversee such large&ndash;scale efforts to manipulate global temperatures. Optimizing the climate in one part of the world could harm another region, leading to geopolitical strife, they said.</p>
+							<p id="p-2">A new study by Samuel Muñoz of the CSI and colleagues from Woods Hole Oceanographic Institute, the University of Alabama, and Southern Illinois University showed that human activity is increasing the risk of catastrophic floods. The researchers found that the probability of a 100&ndash;year flood occurring in the Mississippi River system has increased 20 percent in the past 500 years, mostly because of river engineering and other human activities. Their research lends support to a movement to de&ndash;engineer rivers back to something closer to their natural states. </p>
 							<p id="p-3">A team of researchers from Northeastern and the University of California, Santa Barbara, found that apps on mobile phones can secretly record screenshots of users’ activities and send them to third parties. The study, led by David Choffnes and Christo Wilson of the Cybersecurity and Privacy Institute, noted that because screenshots may include personal information like passwords, a phone’s privacy window could be exploited for profit. In all, 9,000 of the 17,000 apps the team analyzed had the potential to take screenshots. </p>
 							<p id="p-4">In April, the U.S. Army Research Laboratory announced a location for its new, northeast regional hub: the Kostas Research Institute for Homeland Security at Northeastern’s Innovation Campus in Burlington, Massachusetts. ARL researchers will work with faculty and other academic and industry partners to improve warfighter safety by speeding the transfer of technologies from the lab to the battlefield, according to Senior Vice Provost for Research David Luzzi.</p>
-							<p id="p-5">Northeastern broke ground on new facilities to advance the mission of the Innovation Campus in Burlington, Massachusetts: partnering with industry and government researchers to develop technologies vital to national security, intelligence, and defense. The expansion includes the Unmanned Aircraft and Ground Systems Lab, where researchers will develop autonomous drone and ground technologies; and a 104,000-square-foot building that will house classrooms, convening spaces, and research laboratories. </p>
-							<p id="p-6">The university is spearheading the Coastal Universities Coalition, a consortium of more than a dozen of the world’s leading universities focused on solving the shared challenges of coastal sustainability, such as sea-level rise. The CUC’s network of thought leaders and researchers from around the world will identify societal challenges unique to coastal communities and advance the development of solutions through research collaborations, public policy recommendations, and coordinated advocacy for increased federal funding. The coalition members include research leaders in the field, such as the University of California, Santa Barbara, the University of Miami, and the University of Washington.</p>
-							<p id="p-7">Researchers from the NSI collaborated with 16 international teams and agencies on a groundbreaking epidemic modeling study, the RAPIDD Ebola challenge. Northeastern’s team, led by NSI director Alessandro Vespignani, the Sternberg Distinguished Professor of Physics, Computer Science, and Health Sciences, used its highly detailed model based on the 2014–2015 West African Ebola epidemic to provide the other teams with synthetic data, recreating the shifting conditions of a real emergency. Those teams then sought to develop models to forecast the evolution of the simulated epidemic. The study, published in March 2018 in the journal Epidemics, yielded findings that will improve the predictive modeling of disease outbreaks, like the West Africa crisis that killed more than 11,000.</p>
+							<p id="p-5">Northeastern broke ground on new facilities to advance the mission of the Innovation Campus in Burlington, Massachusetts: partnering with industry and government researchers to develop technologies vital to national security, intelligence, and defense. The expansion includes the Unmanned Aircraft and Ground Systems Lab, where researchers will develop autonomous drone and ground technologies; and a 104,000&ndash;square&ndash;foot building that will house classrooms, convening spaces, and research laboratories. </p>
+							<p id="p-6">Northeastern is spearheading the Coastal Universities Coalition, a consortium of more than a dozen of the world’s leading universities focused on solving the shared challenges of coastal sustainability. The CUC’s research network will identify societal challenges unique to coastal communities and advance the development of solutions through research collaborations, public policy recommendations, and coordinated advocacy for increased federal funding. The coalition members include other leaders in the field, such as the University of Miami and the University of Washington.</p>
+							<p id="p-7">NSI researchers collaborated with 16 international teams on a groundbreaking epidemic modeling study, the RAPIDD Ebola challenge. Northeastern’s team, led by NSI director Alessandro Vespignani, the Sternberg Distinguished Professor of Physics, Computer Science, and Health Sciences, used its model based on the 2014 West African Ebola epidemic to recreate crisis&ndash;level conditions. The other teams then sought to develop models forecasting the evolution of the simulated epidemic. The study, published in the journal <i>Epidemics</i>, yielded findings that will improve the predictive modeling of future outbreaks.</p>
 						</div>
 
 
@@ -130,9 +130,9 @@
 						<div id="bgimage" style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/research/slide1.jpg); background-size: cover; background-position: center center;"></div>
 				  </div>
 					<div class="wrapper">
-						<p id="slider__copy-1">"During my experiential fellowship in the Office of Opinion Research at the U.S. State Department, I analyzed public opinion data from the Middle East and South Asia and wrote analyses that put complex political issues into context for senior policymakers. This experience strengthened my analytic skills and helped me frame my own dissertation research to be as policy-relevant as possible."<br /><br /><span class="nu__span-bold">Dylan Maguire</span><br /><span style="font-size: 1.75rem;">doctoral candidate, political science</span></p>
-						<p id="slider__copy-2">"At Microsoft Research, I explored how intelligent conversational agents can support information workers’ emotional well-being and improve their task management and productivity. My mentors and I developed and evaluated a software program that assisted users in scheduling tasks, reflecting on their work, minimizing distractions, and remembering to take breaks. My experience reinforced my interest in designing conversational agents and advanced my dissertation work."<br /><br /><span class="nu__span-bold">Evelyne Kimani</span><br> <span style="font-size: 1.75rem;">doctoral student, computer and information science</span></p>
-						<p id="slider__copy-3">"At GSK, I work on DNA-encoded library technology, which makes it possible to screen billions of chemical compounds for potential use as pharmaceuticals. I focus on designing and synthesizing large libraries of compounds that target a wide range of enzymes and receptors. Joining Professor Michael Pollastri’s group at Northeastern allows me to learn drug discovery and medicinal chemistry in ways that can be used for screening projects across GSK."<br /><br /><span class="nu__span-bold">Jing Chai</span><br /><span style="font-size: 1.75rem;">doctoral student and GSK scientist</span></p>
+						<p id="slider__copy-1">"During my experiential fellowship in the Office of Opinion Research at the U.S. State Department, I analyzed public opinion data from the Middle East and South Asia and wrote analyses that put complex political issues into context for senior policymakers. This experience strengthened my analytic skills and helped me frame my own dissertation research to be as policy&ndash;relevant as possible."<br /><br /><span class="nu__span-bold">Dylan Maguire</span><br /><span style="font-size: 1.75rem;">doctoral candidate, political science</span></p>
+						<p id="slider__copy-2">"At Microsoft Research, I explored how intelligent conversational agents can support information workers’ emotional well&ndash;being and improve their task management and productivity. My mentors and I developed and evaluated a software program that assisted users in scheduling tasks, reflecting on their work, minimizing distractions, and remembering to take breaks. My experience reinforced my interest in designing conversational agents and advanced my dissertation work."<br /><br /><span class="nu__span-bold">Evelyne Kimani</span><br> <span style="font-size: 1.75rem;">doctoral student, computer and information science</span></p>
+						<p id="slider__copy-3">"At GSK, I work on DNA&ndash;encoded library technology, which makes it possible to screen billions of chemical compounds for potential use as pharmaceuticals. I focus on designing and synthesizing large libraries of compounds that target a wide range of enzymes and receptors. Joining Professor Michael Pollastri’s group at Northeastern allows me to learn drug discovery and medicinal chemistry in ways that can be used for screening projects across GSK."<br /><br /><span class="nu__span-bold">Jing Chai</span><br /><span style="font-size: 1.75rem;">doctoral student and GSK scientist</span></p>
 					</div>
 					<div class="choices">
 						<div class="active" data-id="1">
@@ -149,55 +149,6 @@
 						</div>
 					</div>
 				</section>
-
-
-
-				<!-- <section class="nu__newinstitutes">
-					<div class="nu__randomredbar"></div>
-					<div class="wrapper" style="position:relative;height:100%;">
-						<div class="content">
-							<div>
-								<h3><span class="nu__span-bold">New institutes</span> magnify impact <span class="nu__span-bold">across disciplines</span></h3>
-								<p>Northeastern has launched four institutes to <span class="nu__span-bold">expand the university’s research expertise</span> in homeland security, cybersecurity and privacy, global resilience, and coastal sustainability.</p>
-							</div>
-							<div class="js-video">
-								<a href="https://www.youtube.com/watch?v=kQx7E_YPY4w" title="Click here to watch this video"><div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/research/brodley.jpg); background-size: cover; background-position: center center;">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="-347 149 104 104" enable-background="new -347 149 104 104"><style>.st0{filter:url(#filter-1);} .st1{fill:none;stroke:#ffffff;stroke-width:4;} .st2{fill:#ffffff;}</style><filter width="142.5%" height="142.5%" id="filter-1" x="-21.2%" y="-21.2%" filterUnits="objectBoundingBox"><feOffset result="shadowOffsetOuter1" in="SourceAlpha"/><feGaussianBlur stdDeviation="5" result="shadowBlurOuter1" in="shadowOffsetOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" result="shadowMatrixOuter1" in="shadowBlurOuter1"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter><g transform="translate(12 12)" class="st0"><circle class="st1" cx="-307.2" cy="188.8" r="39.8"/><path class="st2" d="M-314.1 175.8l15.6 12.7-15.6 13.8"/></g></svg>
-									<div>
-										<h4><span class="nu__span-bold">Carla Brodley</span></h4>
-										<p>Dean, College of Computer and Information Science</p>
-									</div>
-								</div></a>
-								<a href="https://www.youtube.com/watch?v=F0IUjaxt5zo" title="Click here to watch this video"><div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/research/luzzi.jpg); background-size: cover; background-position: center center;">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="-347 149 104 104" enable-background="new -347 149 104 104"><style>.st0{filter:url(#filter-1);} .st1{fill:none;stroke:#ffffff;stroke-width:4;} .st2{fill:#ffffff;}</style><filter width="142.5%" height="142.5%" id="filter-1" x="-21.2%" y="-21.2%" filterUnits="objectBoundingBox"><feOffset result="shadowOffsetOuter1" in="SourceAlpha"/><feGaussianBlur stdDeviation="5" result="shadowBlurOuter1" in="shadowOffsetOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" result="shadowMatrixOuter1" in="shadowBlurOuter1"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter><g transform="translate(12 12)" class="st0"><circle class="st1" cx="-307.2" cy="188.8" r="39.8"/><path class="st2" d="M-314.1 175.8l15.6 12.7-15.6 13.8"/></g></svg>
-									<div>
-										<h4><span class="nu__span-bold">David Luzzi</span></h4>
-										<p>Vice Provost for Research Innovation and Development; vice president, Innovation Campus in Burlington, Massachusetts</p>
-									</div>
-								</div></a>
-								<a href="https://www.youtube.com/watch?v=pF0CvSyw4d8" title="Click here to watch this video"><div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/research/flynn.jpg); background-size: cover; background-position: center center;">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="-347 149 104 104" enable-background="new -347 149 104 104"><style>.st0{filter:url(#filter-1);} .st1{fill:none;stroke:#ffffff;stroke-width:4;} .st2{fill:#ffffff;}</style><filter width="142.5%" height="142.5%" id="filter-1" x="-21.2%" y="-21.2%" filterUnits="objectBoundingBox"><feOffset result="shadowOffsetOuter1" in="SourceAlpha"/><feGaussianBlur stdDeviation="5" result="shadowBlurOuter1" in="shadowOffsetOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" result="shadowMatrixOuter1" in="shadowBlurOuter1"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter><g transform="translate(12 12)" class="st0"><circle class="st1" cx="-307.2" cy="188.8" r="39.8"/><path class="st2" d="M-314.1 175.8l15.6 12.7-15.6 13.8"/></g></svg>
-									<div>
-										<h4><span class="nu__span-bold">Stephen Flynn</span></h4>
-										<p>Professor of Political Science; Founding Director, Global Resilience Institute</p>
-									</div>
-								</div></a>
-
-								<a href="https://www.youtube.com/watch?v=zikullEBL4k" title="Click here to watch this video"><div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/research/trussell.jpg); background-size: cover; background-position: center center;">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="-347 149 104 104" enable-background="new -347 149 104 104"><style>.st0{filter:url(#filter-1);} .st1{fill:none;stroke:#ffffff;stroke-width:4;} .st2{fill:#ffffff;}</style><filter width="142.5%" height="142.5%" id="filter-1" x="-21.2%" y="-21.2%" filterUnits="objectBoundingBox"><feOffset result="shadowOffsetOuter1" in="SourceAlpha"/><feGaussianBlur stdDeviation="5" result="shadowBlurOuter1" in="shadowOffsetOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" result="shadowMatrixOuter1" in="shadowBlurOuter1"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter><g transform="translate(12 12)" class="st0"><circle class="st1" cx="-307.2" cy="188.8" r="39.8"/><path class="st2" d="M-314.1 175.8l15.6 12.7-15.6 13.8"/></g></svg>
-									<div>
-										<h4><span class="nu__span-bold">Geoffrey Trussell</span></h4>
-										<p>Professor and Chair, Department of Marine and Environmental Sciences; Director, Coastal Sustainability Institute</p>
-									</div>
-								</div></a>
-
-							</div>
-						</div>
-					</div>
-				</section> -->
-
-
-
 
 				<section class="nu__facultyinnovation js-research2">
 
@@ -240,7 +191,7 @@
 										<div id="talkinghead-2">
 											<h4>Venkat Kuppuswamy </h4>
 											<h5>Assistant Professor of Entrepreneurship and Innovation</h5>
-											<p>Kuppuswamy's research interests fall into two broad areas: the <span class="nu__span-bold">biases and forms of discrimination confronting minority entrepreneurs—</span>particularly on crowd-based platforms like crowdfunding, and the <span class="nu__span-bold">performance consequences of corporate diversification decisions.</span> </p>
+											<p>Kuppuswamy's research interests fall into two broad areas: the <span class="nu__span-bold">biases and forms of discrimination confronting minority entrepreneurs—</span>particularly on crowd&ndash;based platforms like crowdfunding, and the <span class="nu__span-bold">performance consequences of corporate diversification decisions.</span> </p>
 										</div>
 										<div id="talkinghead-3">
 											<h4>Psyche Loui</h4>
@@ -255,17 +206,17 @@
 										<div id="talkinghead-5">
 											<h4>Hillary Robinson</h4>
 											<h5>Associate Professor of Law and Sociology</h5>
-											<p>Robinson’s research concerns the <span class="nu__span-bold">interaction between technological change and legal decision-making</span> in the construction of social order, particularly as legal institutions engage in decision-making about technological things and practices </span>.</p>
+											<p>Robinson’s research concerns the <span class="nu__span-bold">interaction between technological change and legal decision&ndash;making</span> in the construction of social order, particularly as legal institutions engage in decision&ndash;making about technological things and practices </span>.</p>
 										</div>
 										<div id="talkinghead-6">
 											<h4>Hao Sun</h4>
 											<h5>Assistant Professor of Civil and Environmental Engineering</h5>
-											<p>Hao Sun's research uses <span class="nu__span-bold">analytics and machine learning</span> combined with internet-of-things enabled sensors to track the resilience, sustainability, and safety of buildings. The overall aim of this interdisciplinary work is to develop <span class="nu__span-bold">intelligent infrastructure systems and buildings</span>, enhance the resilience and sustainability of our living communities, and make our structures safer.</p>
+											<p>Hao Sun's research uses <span class="nu__span-bold">analytics and machine learning</span> combined with internet&ndash;of&ndash;things enabled sensors to track the resilience, sustainability, and safety of buildings. The overall aim of this interdisciplinary work is to develop <span class="nu__span-bold">intelligent infrastructure systems and buildings</span>, enhance the resilience and sustainability of our living communities, and make our structures safer.</p>
 										</div>
 										<div id="talkinghead-7">
-											<h4>Susan Whitfield-Gabrieli</h4>
+											<h4>Susan Whitfield&ndash;Gabrieli</h4>
 											<h5>Professor of Psychology </h5>
-											<p>Whitfield-Gabrieli seeks to understand the <span class="nu__span-bold">brain basis of psychiatric disorders—</span>such as schizophrenia and attention deficit-hyperactivity disorder—and to promote translation of this knowledge into clinical practice. </p>
+											<p>Whitfield&ndash;Gabrieli seeks to understand the <span class="nu__span-bold">brain basis of psychiatric disorders—</span>such as schizophrenia and attention deficit&ndash;hyperactivity disorder—and to promote translation of this knowledge into clinical practice. </p>
 										</div>
 									</div>
 									<div class="next" title="Click here to jump to the next item">&rsaquo;</div>
