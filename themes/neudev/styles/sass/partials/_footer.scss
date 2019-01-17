@@ -90,8 +90,12 @@
    }
  }
 
- body.resources {
-   #nu__global-footer {
-     display:none;
-   }
+ div#nu__global-footer {
+   z-index:10;
  }
+
+ // body.resources {
+ //   #nu__global-footer {
+ //     display:none;
+ //   }
+ // }

@@ -60,9 +60,9 @@
    main {
      margin-top:0;
    }
-   #nu__global-footer {
-     display:none;
-   }
+   // #nu__global-footer {
+   //   display:none;
+   // }
  }
 
  body.page-id-83 {
@@ -72,9 +72,9 @@
    main {
      margin-top:0;
    }
-   #nu__global-footer {
-     display:none;
-   }
+   // #nu__global-footer {
+   //   display:none;
+   // }
  }
  body.page-id-84{
    header, footer {
@@ -83,9 +83,9 @@
    main {
      margin-top:0;
    }
-   #nu__global-footer {
-     display:none;
-   }
+   // #nu__global-footer {
+   //   display:none;
+   // }
  }
 #nu__dash-wrapper {
   position:fixed;
@@ -200,6 +200,10 @@
         }
       }
     }
+ }
+
+ .nu__full-container {
+   margin-top:45px;
  }
 
 @import "../partials/longscrollqueries";

@@ -61,7 +61,7 @@
 						<p>Alumni, students, parents, faculty, staff, and friends honored past accomplishments and helped chart Northeastern’s future.</p>
 						<div class="content">
 							<div>
-								
+
 								<div class="js-video-1">
 									<div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/empower/leadership-summit.jpg); background-size: cover; background-position: center center;"><a href="https://www.youtube.com/watch?v=y9RsM_e8sYg" title="Click here to watch"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-347 149 104 104" enable-background="new -347 149 104 104"><style>.st0{filter:url(#filter-1);} .st1{fill:none;stroke:#ffffff;stroke-width:4;} .st2{fill:#ffffff;}</style><filter width="142.5%" height="142.5%" id="filter-1" x="-21.2%" y="-21.2%" filterUnits="objectBoundingBox"><feOffset result="shadowOffsetOuter1" in="SourceAlpha"/><feGaussianBlur stdDeviation="5" result="shadowBlurOuter1" in="shadowOffsetOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" result="shadowMatrixOuter1" in="shadowBlurOuter1"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter><g transform="translate(12 12)" class="st0"><circle class="st1" cx="-307.2" cy="188.8" r="39.8"/><path class="st2" d="M-314.1 175.8l15.6 12.7-15.6 13.8"/></g></svg></a></div>
 									<p>Participants from more than 35 countries convened in Paris for Northeastern’s first Global Leadership Summit.</p>
@@ -89,7 +89,7 @@
 				<section class="globalnetwork js-empower2" id="alumnistories">
 
 					<div class="wrapper" style="position:relative;height:100%;">
-						<h2 class="section-header">High&ndash;impact gifts for students, faculty, and research</h2>
+						<h2 class="section-header">High-impact gifts for students, faculty, and research</h2>
 						<div class="content">
 							<div class="facstats">
 								<div>
@@ -122,7 +122,7 @@
 								<h2>Connected for life</h2>
 								<div class="nu__stat-block">
 									<h2>378</h2>
-									<p>Alumni events, of which 47 were virtual and live&ndash;streamed</p>
+									<p>Alumni events, of which 47 were virtual and live-streamed</p>
 								</div>
 								<div class="nu__stat-block">
 									<h2>43</h2>
@@ -144,15 +144,15 @@
 					    </div>
 					    <div class="column center">
 								<div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/empower/brazil.jpg); background-size: cover; background-position: center center;"></div>
-								<h2>Opening Doors in Latin America</h2>
-								<p>New alumni communities took root in Brazil and Colombia. Enthusiasm among alumni in Latin America is growing in light of deep engagement with Northeastern’s D’Amore&ndash;McKim School of Business, the FAS Center for Global Business, the Center for Family Business, and entrepreneurship university&ndash;wide.</p>
+								<h2>Opening doors in Latin America</h2>
+								<p>New alumni communities took root in Brazil and Colombia. Enthusiasm among alumni in Latin America is growing in light of deep engagement with Northeastern’s D’Amore–McKim School of Business, the FAS Center for Global Business, the Center for Family Business, and entrepreneurship throughout the university.</p>
 								<div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/empower/nuceao.jpg); background-size: cover; background-position: center center;"></div>
 					    </div>
 					    <div class="column right">
-								<h2>Seeding STEM Careers</h2>
-								<p>In November, the Office of Alumni Relations’ Circuits Program hosted a panel on women in STEM in partnership with Women Who Empower, a group of Northeastern alumni, students, and other professionals. Three alumnae—Allison Ventura, CIS’15, senior software engineer at Hubspot; Azita Razzaghi, BHS’88, PhD’91, head of safety and pharmacovigilance at Verastem Inc.; and Christina Kach, E’09, MS’16, associate consultant for Liberty Mutual Insurance—shared their experiences in male&ndash;dominated STEM industries, offered advice for navigating workplace dynamics, and told stories about educators who helped them discover STEM. More than 600 people took part in the live&ndash;streamed event.</p>
+								<h2>Seeding STEM careers</h2>
+								<p>In November, the Office of Alumni Relations’ Circuits Program hosted a panel on women in STEM in partnership with Women Who Empower, a group of Northeastern alumni, students, and other professionals. Three alumnae—Allison Ventura, CIS’15, senior software engineer at Hubspot; Azita Razzaghi, BHS’88, PhD’91, head of safety and pharmacovigilance at Verastem Inc.; and Christina Kach, E’09, MS’16, associate consultant for Liberty Mutual Insurance—shared their experiences in male-dominated STEM industries, offered advice for navigating workplace dynamics, and told stories about educators who helped them discover STEM. More than 600 people took part in the live-streamed event.</p>
 								<div style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/empower/stem.jpg); background-size: cover; background-position: center center;"></div>
-								<h2>Uniting Like Minds</h2>
+								<h2>Uniting like minds</h2>
 								<p>The Northeastern University Civil Engineering Alumni Organization celebrated 40 years of keeping engineering graduates connected. More than 100 participants honored 2018 Outstanding Alumnus Houssam “Sam” Sleiman, E’83, ME’85, director of capital programs and environmental affairs for the Massachusetts Port Authority. The event raised $20,000 for Northeastern’s Department of Civil Engineering.</p>
 							</div>
 
@@ -170,7 +170,7 @@
 				<section class="nu__alumni" id="nualumnistories">
 
 					<div class="wrapper" style="position:relative;height:100%;">
-						<h2 class="section-header">Alumni Stories</h2>
+						<h2 class="section-header">Alumni stories</h2>
 						<div class="content">
 							<div>
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/empower/p-and-s-mosaic.png" alt="lifelong connections collage image" />

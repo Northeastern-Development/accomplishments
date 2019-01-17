@@ -13,7 +13,7 @@
     <div>
 
       <ul>
-        <li><img src="http://fpoimg.com/50x50?text=Person" alt="Jonathan Ullman"><span class="nu__span-bold">Jonathan Ullman, NSF CAREER Award</span><br>College of Computer and Information Science</li>
+        <li><img src="../wp-content/themes/neudev/img/research/ullman.jpg" alt="Jonathan Ullman"><span class="nu__span-bold">Jonathan Ullman, NSF CAREER Award</span><br>College of Computer and Information Science</li>
         <li><img src="../wp-content/themes/neudev/img/research/wallace.jpg" alt="Byron Wallace"><span class="nu__span-bold">Byron Wallace, NSF CAREER Award</span><br>College of Computer and Information Science</li>
         <li><img src="../wp-content/themes/neudev/img/research/west.jpg" alt="Richard West"><span class="nu__span-bold">Richard West, NSF CAREER Award</span><br>College of Engineering </li>
         <li><img src="../wp-content/themes/neudev/img/research/wichs.jpg" alt="Daniel Wichs"><span class="nu__span-bold">Daniel Wichs, NSF CAREER Award</span><br>College of Computer and Information Science</li>

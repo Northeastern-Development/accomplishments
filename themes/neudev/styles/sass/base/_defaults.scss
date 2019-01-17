@@ -44,16 +44,17 @@ figure {
 // }
 
 main {
-  margin-top:$headerHeight;
+  margin-top:$headerHeight + 45;
 	// flex: 1;
 	overflow:hidden;
+	& img {
+		max-width:100%;
+		width:100%;
+		vertical-align:bottom;
+	}
 }
 
-img {
-	max-width:100%;
-	width:100%;
-	vertical-align:bottom;
-}
+
 
 a {
 	outline:none;

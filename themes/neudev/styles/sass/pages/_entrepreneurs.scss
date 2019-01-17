@@ -63,12 +63,12 @@
    }
  }
 
-body.entrepreneurs {
-   & #nu__global-footer {
-     display:none;
-   }
- }
- 
+// body.entrepreneurs {
+//    & #nu__global-footer {
+//      display:none;
+//    }
+//  }
+
 #nu__dash-wrapper {
   position:fixed;
   right:0;
@@ -147,6 +147,10 @@ body.entrepreneurs {
         }
       }
     }
+ }
+
+ .nu__full-container {
+   margin-top:45px;
  }
 
 @import "../partials/longscrollqueries";

@@ -36,11 +36,11 @@
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGQLLJ"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
-		
-		<p class="testp" style="position:fixed;background:#000;color:#fff;top:100px;left:0;font-weight:bold;font-size:20px;z-index:99999999;"></p>
+
+		<!-- <p class="testp" style="position:fixed;background:#000;color:#fff;top:100px;left:0;font-weight:bold;font-size:20px;z-index:99999999;"></p> -->
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<?php if(function_exists("NUML_globalheader")){NUML_globalheader();} ?><header class="header clear" role="banner">
 				<div id="header">
 					<?php require_once(dirname(__FILE__)."/_includes/navigation.php"); ?>
 				</div>

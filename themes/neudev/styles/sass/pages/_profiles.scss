@@ -63,12 +63,12 @@
    }
  }
 
- body.profiles {
-   & #nu__global-footer {
-     display:none;
-   }
- }
- 
+ // body.profiles {
+ //   & #nu__global-footer {
+ //     display:none;
+ //   }
+ // }
+
 #nu__dash-wrapper {
   position:fixed;
   right:0;
@@ -152,6 +152,16 @@
       }
     }
  }
+ .nu__full-container {
+   margin-top:45px;
+ }
+
+ body.resources {
+   .nu__full-container {
+     margin-top:0;
+   }
+ }
+
 @import "../partials/longscrollqueries";
 
 

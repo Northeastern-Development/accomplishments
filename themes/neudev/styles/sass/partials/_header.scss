@@ -11,7 +11,7 @@ header {
   height: $headerHeight;
   left: 0;
   position: fixed;
-  top: 0;
+  top: 45px;
   width: 100vw;
   z-index: 1000;
   & > div#header{

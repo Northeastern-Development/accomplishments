@@ -58,11 +58,11 @@
 						  </div>
 						  <div class="col">
 								<h2 class="js-count2">11,188</h2>
-								<p><span class="nu__span-red nu__span-bold">Co&ndash;op placements</span> in 2017&ndash;2018, up from 6,301 in 2006&ndash;2007</p>
+								<p><span class="nu__span-red nu__span-bold">Co-op placements</span> in 2017&ndash;2018, up from 6,301 in 2006&ndash;2007</p>
 						  </div>
 						  <div class="col">
 								<h2 class="js-count3">2,943</h2>
-								<p><span class="nu__span-red nu__span-bold">Co&ndash;op employers</span> in the U.S. and globally, 2017&ndash;2018</p>
+								<p><span class="nu__span-red nu__span-bold">Co-op employers</span> in the U.S. and globally, 2017&ndash;2018</p>
 						  </div>
 						</div>
 					</div>
@@ -81,8 +81,8 @@
 							<a href="<?=home_url()?>/resources" class="nu__button" role="button">view all resources</a>
 						</div>
 						<div class="nu__fifty">
-							<p>Faculty and students are beta&ndash;testing a new approach to experiential education: Self&ndash;Authored Integrated Learning, or SAIL. Developed at Northeastern and grounded in research, SAIL offers a framework for extracting meaning, not just from coursework and co&ndash;op, but from everyday experiences—on the playing field, during late&ndash;night dorm debates, and with new friends in Beijing.</p>
-							<p>SAIL enables students to master skills and abilities along five dimensions: intellectual agility; social consciousness and commitment; global mindset; professional and personal effectiveness; and well&ndash;being. Critically, it also helps them transfer knowledge gained in one context to any new situation—the key to adapting to a swiftly changing world.</p>
+							<p>Faculty and students are beta-testing a new approach to experiential education: Self-Authored Integrated Learning, or SAIL. Developed at Northeastern and grounded in research, SAIL offers a framework for extracting meaning, not just from coursework and co-op, but from everyday experiences—on the playing field, during late-night dorm debates, and with new friends in Beijing.</p>
+							<p>SAIL enables students to master skills and abilities along five dimensions: intellectual agility; social consciousness and commitment; global mindset; professional and personal effectiveness; and well-being. Critically, it also helps them transfer knowledge gained in one context to any new situation—the key to adapting to a swiftly changing world.</p>
 						</div>
 					</div>
 				</section><!--end section-->
@@ -102,13 +102,13 @@
 
 						<p id="slider__copy-1">"The most attractive part for me was being able to see what it takes to start and run a business. There are so many startups here and so many people who are very ambitious. I can’t tell you how many times I’ve already been asked 'What are you working on?'"<br /><br /><span class="nu__span-bold">Alexy Santos, DMSB’20</span></p>
 
-						<p id="slider__copy-2">"Cuba is an island full of paradoxes. It has an innate beauty and its people have an open mindedness that is unmatched, but there is also a lot of internal conflict and we heard some heart&ndash;wrenching stories."<br /><br /><span class="nu__span-bold">Alejandro Serrano, AMD’20</span></p>
+						<p id="slider__copy-2">"Cuba is an island full of paradoxes. It has an innate beauty and its people have an open mindedness that is unmatched, but there is also a lot of internal conflict and we heard some heart-wrenching stories."<br /><br /><span class="nu__span-bold">Alejandro Serrano, AMD’20</span></p>
 
-						<p id="slider__copy-3">"At Massachusetts General Hospital, I'm working on a self&ndash;designed research project and a rewarding moment came when I finally got the results I wanted after weeks of work. That feeling is why I always want to do research."<br /><br /><span class="nu__span-bold">Kritika Singh, E’20</span> </p>
+						<p id="slider__copy-3">"At Massachusetts General Hospital, I'm working on a self-designed research project and a rewarding moment came when I finally got the results I wanted after weeks of work. That feeling is why I always want to do research."<br /><br /><span class="nu__span-bold">Kritika Singh, E’20</span> </p>
 
 						<p id="slider__copy-4">"During my past year and a half in Berlin, I grew tremendously as a person. In particular, I worked on a product design team at a startup. When I return to campus, I'll have a better sense of what I want from my classes and professional experiences."<br /><br /><span class="nu__span-bold">Sharon Chan, AMD’19</span></p>
 
-						<p id="slider__copy-5">"Service&ndash;learning is one of the most fulfilling things you can do at Northeastern. It's my favorite form of experiential learning&mdash;a way to give back to the Boston community and grow as a person and make amazing friends. In the S&ndash;L program, everyone loves their service, and each other."<br /><br /><span class="nu__span-bold">Cassandra Barrett, S/SSH’21</span></p>
+						<p id="slider__copy-5">"Service-learning is one of the most fulfilling things you can do at Northeastern. It's my favorite form of experiential learning&mdash;a way to give back to the Boston community and grow as a person and make amazing friends. In the S-L program, everyone loves their service, and each other."<br /><br /><span class="nu__span-bold">Cassandra Barrett, S/SSH’21</span></p>
 
 					</div>
 					<div class="choices">
@@ -129,7 +129,7 @@
 							<p>Bringing Berlin back to Boston</p>
 						</div>
 						<div data-id="5">
-							<h3>SERVICE&ndash;LEARNING</h3>
+							<h3>SERVICE-LEARNING</h3>
 							<p>Growing by giving back </p>
 						</div>
 					</div>
@@ -161,7 +161,7 @@
 									</div>
 									<img class="nu__dt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/partnership_ge.jpg" alt="Accelerating GE workers">
 									<img class="nu__mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/partnership_ge_mobile.jpg" alt="Accelerating GE workers">
-									<p>Northeastern is delivering customized learning to employees of Wellington Management and the Hoffmann Group in Germany through programs in data analytics and the internet of things, respectively. In its preferred partners programs, Northeastern has served 47 members of the Boston Ballet and enrolled 26 players from Major League Baseball.</p>
+									<p>Northeastern is delivering customized learning to employees of Wellington Management and the Hoffmann Group in Germany through programs in data analytics and the internet of things, respectively. In its preferred-partners programs, Northeastern has served 47 members of the Boston Ballet and enrolled 26 players from Major League Baseball.</p>
 									<!-- <p><a href="<?=home_url()?>/accelerating-ge-workers">Full Story <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p> -->
 								</div>
 								<div class="nu__part-col-section">
@@ -170,17 +170,17 @@
 									</div>
 									<img class="nu__dt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/amit.jpg" alt="Amit Shinde">
 									<img class="nu__mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/amit-mobile.jpg" alt="Amit Shinde">
-									<p>Amit Shinde says analyzing data effectively is critical to his position as a lead engineer for VSP Vision Care in Sacramento, California. Northeastern's Master of Professional Studies in Analytics was just what he needed to become a more creative, confident professional. "The combination of theory and programming knowledge was most valuable to me. I was able to get the complete cycle of data&ndash;analysis process in an organization."</p>
+									<p>Amit Shinde says analyzing data effectively is critical to his position as a lead engineer for VSP Vision Care in Sacramento, California. Northeastern's Master of Professional Studies in Analytics was just what he needed to become a more creative, confident professional. "The combination of theory and programming knowledge was most valuable to me. I was able to get the complete cycle of data-analysis process in an organization."</p>
 									<!-- <p><a href="<?=home_url()?>/major-league-opportunity">Full Story <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p> -->
 								</div>
-								<div class="nu__part-col-section">
+								<!-- <div class="nu__part-col-section">
 									<div class="nu__part-header">
 										<h3>New Story TBD</h3>
 									</div>
 									<img class="nu__dt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/amit.jpg" alt="Amit Shinde">
 									<img class="nu__mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/learning/amit.jpg" alt="Amit Shinde">
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas nibh sed blandit viverra. Maecenas venenatis ligula tristique quam tempus dapibus. Suspendisse bibendum accumsan ex, a euismod dui accumsan non. Fusce laoreet sem et enim condimentum, ut ornare massa semper. Nam lacinia ligula at efficitur lobortis. Proin ac mauris eu nisl ultrices efficitur. Mauris mollis est a posuere mollis. Sed ac tincidunt diam, at interdum nulla. Aliquam. </p>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -203,7 +203,7 @@
 						<div class="nu__fifty">
 							<div class="nu__stat-block">
 								<h2 class="js-count6">1469</h2>
-								<p>Mean two&ndash;part <span class="nu__span-bold">SAT score</span> for fall 2018 enrolled freshmen</p>
+								<p>Mean two-part <span class="nu__span-bold">SAT score</span> for fall 2018 enrolled freshmen</p>
 							</div>
 							<div class="nu__stat-block">
 								<h2 class="js-count7">45</h2>
@@ -235,9 +235,8 @@
 									<p>Number of students participating in at least one of 416 <span class="nu__span-bold">student organizations</span>, 2017&ndash;2018</p>
 								</div>
 								<div class="nu__stat-block">
-									<p>2018</p>
 									<h2>We're #1</h2>
-									<p>The mens hockey team <span class="nu__span-bold">defeated Boston University Terriers 5&ndash;2</span> on February 12 to claim <span class="nu__span-bold">Northeastern's first</span> mens Beanpot championship since 1988.</p>
+									<p>The mens hockey team <span class="nu__span-bold">defeated Boston University Terriers 5-2</span> on February 12, 2018 to claim <span class="nu__span-bold">Northeastern's first</span> mens Beanpot championship since 1988.</p>
 								</div>
 
 					    </div>

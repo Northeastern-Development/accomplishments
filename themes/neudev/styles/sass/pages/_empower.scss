@@ -315,7 +315,7 @@ section.globalnetwork {
             font-size: 2rem;
             line-height:3.8rem;
             width: 60%;
-            margin: 0 auto 50px auto;
+            margin:5vw auto 50px auto;
             color: rgba(255,255,255, 1.0);
             font-weight: 300;
           }
@@ -481,9 +481,8 @@ section.nu__alumni {
           }
           &:first-child{
             & > img{
-              width: 90%;
-              margin: -40px 5% 0 5%;
-
+              width: 70%;
+              margin: -40px 15% 0 15%;
             }
           }
         }
@@ -919,7 +918,7 @@ section.nu__alumni {
   section.nu__alumni {
     background:none;
     background-color: rgba(0,0,0,1.0);
-    
+
     & .wrapper {
       & h2 {
         color: rgba(255,255,255,1.0);

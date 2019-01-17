@@ -14,8 +14,8 @@
 				<div class="nu__full-container">
 					<div class="nu__full-hero">
 						<div class="wrapper nu__hero-text">
-							<h1>The Power of Our Network</h1>
-							<h2>Northeastern is transforming the face of higher education.</h2>
+							<h1>Institutional Accomplishment 2018</h1>
+							<h2>The Power of Our Network</h2>
 						</div>
 					</div>
 				</div>

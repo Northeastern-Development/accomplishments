@@ -58,23 +58,29 @@
 
  }
 
+ body.home {
+   div#nu__global-footer {
+     border-top:1px solid rgba(151, 151, 151, 1.0);
+   }
+ }
+
  // body.home {
  //   & footer {
  //     display:none;
  //   }
  // }
 
- body.home {
-   & #nu__global-footer {
-     display:none;
-   }
- }
-
- body.alumni-stories {
-   & #nu__global-footer {
-     display:none !important;
-   }
- }
+ // body.home {
+ //   & #nu__global-footer {
+ //     display:none;
+ //   }
+ // }
+ //
+ // body.alumni-stories {
+ //   & #nu__global-footer {
+ //     display:none !important;
+ //   }
+ // }
 
 
  .js-count1h {
